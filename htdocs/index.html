@@ -37,8 +37,12 @@
       /* Load Newsletter */
     $("li").click(function() {
         /* Load the file from the src attribute of the li into the Newsletter tab */
+        $("#newsletter_title")[0].innerHTML = this.getAttribute("title");
+        $("#newsletter_date")[0].innerHTML = this.getAttribute("date");
+   
         $("#newsletter_body").load("/newsletters/" + this.getAttribute("src"));
-				$("#newsletter").show();
+    
+     		$("#newsletter").show();
 				$("#archive").hide();
     });
 		});
@@ -211,9 +215,10 @@
 		<div class="newsletter-top-container"> 
 			<div class="header AtlasTypewriter-Regular-Web">NEWSLETTER</div>
 			<div class="title">
-				The Covid-19 Issue<br/>
-				<span class="white">May 2020</span>
-			</div>		
+				<span id="newsletter_title">The Covid-19 Issue<br/></span>
+			  <spn class="white" id="newsletter_date">
+          May 2020</span>
+      </div>
 	    <div class="newsletter-top-right"> 
 	    </div> 														
 		</div> 															
@@ -279,10 +284,10 @@
 		</div>
 		<div class="archive-bottom-container">
 			<ul>
-			  <li src="sep2020.html">The (home) school issue, <span class="opacity">September 2020</span></li>
-			  <li src="aug2020.html">The summer issue, <span class="opacity">August 2020</span></li>
-			  <li src="jul2020.html">The Issues in America, <span class="opacity">July 2020</span></li>
-			  <li>The covid issue, <span class="opacity">June 2020s</span></li>
+			  <li src="sep2020.html" title="The (home) school issue" date="September 2020">The (home) school issue, <span class="opacity">September 2020</span></li>
+			  <li src="aug2020.html" title="The summer issue" date="August 2020">The summer issue, <span class="opacity">August 2020</span></li>
+			  <li src="jul2020.html" title="The Issues in America" date="July 2020">The Issues in America, <span class="opacity">July 2020</span></li>
+			  <li src="jun2020.html">The covid issue, <span class="opacity">June 2020s</span></li>
 			  <li>Donec vitae purus, <span class="opacity">May 2020</span></li>
 			  <li>Proin tristique ornare, <span class="opacity">April 2020</span></li>
 			  <li>Orci varius natoque penatibus, <span class="opacity">March 2020</span></li>
