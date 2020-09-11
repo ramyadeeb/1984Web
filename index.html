@@ -11,7 +11,7 @@
 	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 	<script> 
 		var winW = $(window).width();
-		
+
 		$(document).ready(function() {
 			/* EXTRA WIDE CENTERING */
 			if(winW > 1360){
@@ -33,8 +33,14 @@
 			$(".archive-top-right").click(function() {
 				$("#newsletter").show();
 				$("#archive").hide();
-			}); 
-		});	
+		  });
+      /* Load Newsletter */
+    $("li").click(function() {
+        /* Load the file from the src attribute of the li into the Newsletter tab */
+        $("#newsletter_body").load(this.getAttribute("src"));
+				$("#newsletter").show();
+    });
+		});
 		$(window).resize(function() {
 			var winW 	= $(window).width();
 			/* EXTRA WIDE CENTERING */
@@ -201,66 +207,67 @@
 		</div>
 	</div>
 	<div id="newsletter">
-		<div class="newsletter-top-container"> 					<!-- OLD: class="container" -->
+		<div class="newsletter-top-container"> 
 			<div class="header AtlasTypewriter-Regular-Web">NEWSLETTER</div>
 			<div class="title">
 				The Covid-19 Issue<br/>
 				<span class="white">May 2020</span>
 			</div>		
-	    <div class="newsletter-top-right"> 								<!-- From 4.6 -->
-				<!-- <div class="vertical-archive">ARCHIVF</div> 			 From 4.6 -->
-	    </div> 															<!-- From 4.6 -->		
-		</div> 															<!-- From 4.6 -->
-		<div class="newsletter-bottom-container"> 						<!-- From 4.6 -->
+	    <div class="newsletter-top-right"> 
+	    </div> 														
+		</div> 															
+		<div class="newsletter-bottom-container"> 
 			<div class="news-intro border-top">
-				<div class="text">
-					As the TikTok drama unfolds, it's easy to write off the Trump administration's threat to shut off the video app as yet another episode in the US-China saga. But a deeper look reveals a broader trend. In June, following a border skirmish with next-door China, India retaliated in part by shutting off TikTok along with 58 other Chinese apps. And in July Slack decided to pursue antitrust action against Microsoft over the bundling of its Teams product not in the US, home to both companies, but rather in the European Union where regulators look more harshly on tech giants.
-				</div>
-			</div>
-			<div class="news-item border-top" id="one">
-				<div>
-					<div class="number">1.</div><h1 class="AtlasTypewriter-Regular-Web">India, Jio, and the Four Internets <span class="opacity">– stratechery.com</span></h1>
-				</div>
-				<div class="text">
-					This thoughtful piece from Stratechery articulates the emergence of the four operating models for the internet and the pros and cons for each. The worry is not the US shutting off TikTok, a "response in kind" to China's 23 years of walled off internet. Rather it is the increased splintering in the non-China Internet, particularly the emergence of a European model that is "the worst of all possible outcomes”.
-					<img src="https://media.npr.org/assets/img/2014/01/23/jobs-6a428e3467ddbc01d6d7ec8534d79016b8e0edb2-s800-c85.jpg" class="follow" id="img-one" height="200px"/>
-				</div>
-			</div>
-			<div class="news-item border-top" id="two">
-				<div id="name">
-					<div class="number">2.</div><h1 class="AtlasTypewriter-Regular-Web">The TikTok war <span class="opacity">– apple.com</span></h1>
-				</div>
-				<div class="text">
-					This thoughtful piece from Stratechery articulates the emergence of the four operating models for the internet and the pros and cons for each. The worry is not the US shutting off TikTok, a "response in kind" to China's 23 years of walled off internet. Rather it is the increased splintering in the non-China Internet, particularly the emergence of a European model that is "the worst of all possible outcomes”.
-					<img src="https://cdn.cultofmac.com/wp-content/uploads/2012/09/stevej1.jpg" class="follow" id="img-two" height="200px"/>
-				</div>
-			</div>
-			<div class="news-item border-top" id="three">
-				<div id="name">
-					<div class="number">3.</div><h1 class="AtlasTypewriter-Regular-Web">Fusce eu malesuada est <span class="opacity">– work.co</span></h1>
-				</div>
-				<div class="text">
-					Nam nulla lectus, maximus sed dignissim sed, consequat nec augue. Fusce eu malesuada est, nec molestie quam. Donec at mi quis lectus maximus facilisis quis at neque. Nulla tempus diam sed ullamcorper vehicula. Sed vitae luctus metus. Morbi euismod lectus sem, at pulvinar erat scelerisque vel. Fusce vehicula, orci a rhoncus luctus, ligula dui varius enim, ac feugiat est ex a velit. Mauris a varius orci. Praesent eu mi dui. Nam hendrerit purus libero, id sodales lacus vulputate quis.
-					<img src="https://api.time.com/wp-content/uploads/2011/10/1110171300191.jpg" class="follow" id="img-three" height="200px"/>
-				</div>
-			</div>
-			<div class="news-item border-top" id="four">
-				<div id="name">
-					<div class="number">4.</div><h1 class="AtlasTypewriter-Regular-Web">Nullam ut sagittis <span class="opacity">– reuters.com</span></h1>
-				</div>
-				<div class="text">
-					Integer quis augue fringilla, finibus nibh non, sagittis lorem. Phasellus ullamcorper consectetur sapien, vehicula sagittis purus bibendum nec. Sed consequat eros ac euismod tristique. Nulla tellus leo, fermentum a nibh quis, suscipit auctor urna. Nullam ut sagittis eros, eget posuere magna. Nullam eros libero, rhoncus quis eros eget, vehicula commodo justo.
-					<img src="https://techcrunch.com/wp-content/uploads/2014/11/fg_menuez_001-e1508806005836.jpg" class="follow" id="img-four" height="200px"/>
-				</div>
-			</div>
-			<div class="news-item border-top" id="five">
-				<div id="name">
-					<div class="number">5.</div><h1 class="AtlasTypewriter-Regular-Web">Donec bibendum turpis eget <span class="opacity">– nymag.com</span></h1>
-				</div>
-				<div class="text">
-					In arcu quam, molestie at vestibulum quis, lobortis vel nisi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec bibendum turpis eget lobortis porta. Curabitur porttitor felis vel dui tristique volutpat. Phasellus ullamcorper semper nibh, vel aliquam lectus sodales et. Integer rutrum at odio volutpat pellentesque.
-					<img src="https://pyxis.nymag.com/v1/imgs/ce6/1f7/32552b811a3a2a25d2a9b2611d59332277-04-steve-jobs.rsquare.w700.jpg" class="follow" id="img-five" height="200px"/>
-				</div>
+				<div id="newsletter_body">
+          <div class="text">
+					  As the TikTok drama unfolds, it's easy to write off the Trump administration's threat to shut off the video app as yet another episode in the US-China saga. But a deeper look reveals a broader trend. In June, following a border skirmish with next-door China, India retaliated in part by shutting off TikTok along with 58 other Chinese apps. And in July Slack decided to pursue antitrust action against Microsoft over the bundling of its Teams product not in the US, home to both companies, but rather in the European Union where regulators look more harshly on tech giants.
+				  </div>
+			  </div>
+			  <div class="news-item border-top" id="one">
+				  <div>
+					  <div class="number">1.</div><h1 class="AtlasTypewriter-Regular-Web">India, Jio, and the Four Internets <span class="opacity">– stratechery.com</span></h1>
+				  </div>
+				  <div class="text">
+					  This thoughtful piece from Stratechery articulates the emergence of the four operating models for the internet and the pros and cons for each. The worry is not the US shutting off TikTok, a "response in kind" to China's 23 years of walled off internet. Rather it is the increased splintering in the non-China Internet, particularly the emergence of a European model that is "the worst of all possible outcomes”.
+					  <img src="https://media.npr.org/assets/img/2014/01/23/jobs-6a428e3467ddbc01d6d7ec8534d79016b8e0edb2-s800-c85.jpg" class="follow" id="img-one" height="200px"/>
+				  </div>
+			  </div>
+			  <div class="news-item border-top" id="two">
+				  <div id="name">
+					  <div class="number">2.</div><h1 class="AtlasTypewriter-Regular-Web">The TikTok war <span class="opacity"> - apple.com</span></h1>                        
+				  </div>
+				  <div class="text">
+					  This thoughtful piece from Stratechery articulates the emergence of the four operating models for the internet and the pros and cons for each. The worry is not the US shutting off TikTok, a "response in kind" to China's 23 years of walled off internet. Rather it is the increased splintering in the non-China Internet, particularly the emergence of a European model that is "the worst of all possible outcomes”.
+					  <img src="https://cdn.cultofmac.com/wp-content/uploads/2012/09/stevej1.jpg" class="follow" id="img-two" height="200px"/>
+				  </div>
+			  </div>
+			  <div class="news-item border-top" id="three">
+				  <div id="name">
+					  <div class="number">3.</div><h1 class="AtlasTypewriter-Regular-Web">Fusce eu malesuada est <span class="opacity">– work.co</span></h1>
+				  </div>
+				  <div class="text">
+					  Nam nulla lectus, maximus sed dignissim sed, consequat nec augue. Fusce eu malesuada est, nec molestie quam. Donec at mi quis lectus maximus facilisis quis at neque. Nulla tempus diam sed ullamcorper vehicula. Sed vitae luctus metus. Morbi euismod lectus sem, at pulvinar erat scelerisque vel. Fusce vehicula, orci a rhoncus luctus, ligula dui varius enim, ac feugiat est ex a velit. Mauris a varius orci. Praesent eu mi dui. Nam hendrerit purus libero, id sodales lacus vulputate quis.
+					  <img src="https://api.time.com/wp-content/uploads/2011/10/1110171300191.jpg" class="follow" id="img-three" height="200px"/>
+				  </div>
+			  </div>
+			  <div class="news-item border-top" id="four">
+				  <div id="name">
+					  <div class="number">4.</div><h1 class="AtlasTypewriter-Regular-Web">Nullam ut sagittis <span class="opacity">– reuters.com</span></h1>
+				  </div>
+				  <div class="text">
+					  Integer quis augue fringilla, finibus nibh non, sagittis lorem. Phasellus ullamcorper consectetur sapien, vehicula sagittis purus bibendum nec. Sed consequat eros ac euismod tristique. Nulla tellus leo, fermentum a nibh quis, suscipit auctor urna. Nullam ut sagittis eros, eget posuere magna. Nullam eros libero, rhoncus quis eros eget, vehicula commodo justo.
+					  <img src="https://techcrunch.com/wp-content/uploads/2014/11/fg_menuez_001-e1508806005836.jpg" class="follow" id="img-four" height="200px"/>
+				  </div>
+			  </div>
+			  <div class="news-item border-top" id="five">
+				  <div id="name">
+					  <div class="number">5.</div><h1 class="AtlasTypewriter-Regular-Web">Donec bibendum turpis eget <span class="opacity">– nymag.com</span></h1>
+				  </div>
+				  <div class="text">
+					  In arcu quam, molestie at vestibulum quis, lobortis vel nisi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec bibendum turpis eget lobortis porta. Curabitur porttitor felis vel dui tristique volutpat. Phasellus ullamcorper semper nibh, vel aliquam lectus sodales et. Integer rutrum at odio volutpat pellentesque.
+					  <img src="https://pyxis.nymag.com/v1/imgs/ce6/1f7/32552b811a3a2a25d2a9b2611d59332277-04-steve-jobs.rsquare.w700.jpg" class="follow" id="img-five" height="200px"/>
+				  </div>
+        </div>
 			</div>
 		</div>
 	</div>
@@ -271,9 +278,9 @@
 		</div>
 		<div class="archive-bottom-container">
 			<ul>
-			  <li>The (home) school issue, <span class="opacity">September 2020</span></li>
-			  <li>The summer issue, <span class="opacity">August 2020</span></li>
-			  <li>The Issues in America, <span class="opacity">July 2020</span></li>
+			  <li src="sep2020.html">The (home) school issue, <span class="opacity">September 2020</span></li>
+			  <li src="aug2020.html">The summer issue, <span class="opacity">August 2020</span></li>
+			  <li src="jul2020.html">The Issues in America, <span class="opacity">July 2020</span></li>
 			  <li>The covid issue, <span class="opacity">June 2020s</span></li>
 			  <li>Donec vitae purus, <span class="opacity">May 2020</span></li>
 			  <li>Proin tristique ornare, <span class="opacity">April 2020</span></li>
