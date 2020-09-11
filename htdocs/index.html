@@ -37,7 +37,7 @@
       /* Load Newsletter */
     $("li").click(function() {
         /* Load the file from the src attribute of the li into the Newsletter tab */
-        $("#newsletter_body").load(this.getAttribute("src"));
+        $("#newsletter_body").load("/newsletters/" + this.getAttribute("src"));
 				$("#newsletter").show();
     });
 		});
