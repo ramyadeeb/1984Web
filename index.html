@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<link rel="stylesheet" type="text/css" href="font/1709-PNZNKV.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>1984 Ventures</title>
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script> 
+		var winW = $(window).width();
+		
+		$(document).ready(function() {
+			/* EXTRA WIDE CENTERING */
+			if(winW > 1360){
+				$("#philosophy").css("left", (winW/2) - 240 + "px");
+				$("#portfolio").css("left", (winW/2) - 420 + "px");
+				$("#newsletter").css("left", (winW/2) - 600 + "px");
+				$("#archive").css("left", (winW/2) - 640 + "px");
+			} else {
+				$("#philosophy").css("left", "");
+				$("#portfolio").css("left", "");
+				$("#newsletter").css("left", "");
+				$("#archive").css("left", "");
+			}
+			/* ARCHIVE TOGGLE */
+			$(".newsletter-top-right").click(function() {
+				$("#newsletter").hide();
+				$("#archive").show();
+			});
+			$(".archive-top-right").click(function() {
+				$("#newsletter").show();
+				$("#archive").hide();
+			}); 
+		});	
+		$(window).resize(function() {
+			var winW 	= $(window).width();
+			/* EXTRA WIDE CENTERING */
+			if(winW > 1360){
+				$("#philosophy").css("left", (winW/2) - 240 + "px");
+				$("#portfolio").css("left", (winW/2) - 420 + "px");
+				$("#newsletter").css("left", (winW/2) - 600 + "px");
+				$("#archive").css("left", (winW/2) - 640 + "px");
+			} else {
+				$("#philosophy").css("left", "");
+				$("#portfolio").css("left", "");
+				$("#newsletter").css("left", "");
+				$("#archive").css("left", "");
+			}
+			/* ARCHIVE TOGGLE */
+			if(winW > 1200){
+				$("#newsletter").show();
+				$("#archive").show();
+			}
+		});
+	</script>
+</head>
+<body class="AtlasTypewriter-Light-Web">
+	<div id="logo"></div>	
+	<div id="philosophy">
+		<div class="container">
+			<div class="header AtlasTypewriter-Regular-Web">PHILOSOPHY</div>
+			<div class="title white">
+				No buzzwords. No hype. We invest in businesses using technology to solve real world problems.
+			</div>
+			<div class="text">
+				We focus on early-seed rounds. It’s what we know and love and where we provide the most value. 
+				We help our companies with fundraising, recruiting, founder therapy and everything in between.
+				We invest in teams, markets, and products. In that order.
+			</div>
+			<div id="pillarContainer">
+				<div class="pillars">
+					<p>01</p>
+					Teams. Who question everything, move extraordinarily fast and won’t stop until they’ve built a business that changes how the world works.
+				</div>
+				<div class="pillars MID">
+					<p>02</p>
+					Markets. Antiquated, unsexy and ripe for disruption.
+				</div>
+				<div class="pillars">
+					<p>03</p>
+					Products. Something people want. The rest will follow.
+				</div>
+			</div>
+			<div id="teamContainer">
+				<div id="teamInvest">
+					<div class="header AtlasTypewriter-Regular-Web"  id="investHeader">INVESTMENT TEAM</div>
+					<!---------------------------->
+					<!------ RAMY RAMY RAMY ------>
+					<!---------------------------->
+					<div class="SVGcontainer"><div id="ramySVG"></div></div>
+					<div class="nameJob">
+						<p>Ramy Adeeb</p>
+						<p class="job">General Partner</p>
+					</div>
+					<div class="bio">
+						An entrepreneur and investor, Ramy is founder and CEO of Snip.it (Acquired by Yahoo, where he served as a product executive) and one of the earliest engineers at Tellme Networks (Acquired by Microsoft). Ramy started his investing career at Khosla Venture where he worked on a number of investments including Groupme (acquired by Skype), Square (NASDAQ:SQ), and Storify (acquired by LiveFyre). He holds a BA and MS in Computer Science from Harvard and an MBA from Stanford.
+					</div>
+					<!--------------------------->
+					<!---- AARON AARON AARON ---->
+					<!--------------------------->
+					<div class="SVGcontainer"><div id="aaronSVG"></div></div>
+					<div class="nameJob">
+						<p>Aaron Michel</p>
+						<p class="job">Partner</p>
+					</div>
+					<div class="bio">
+						Named to venture capital’s 40 Under 40 by VC Journal in 2020, Aaron is the co-founder of PathSource, an edtech startup that rose to be the top career app in the App Store until its acquisition in 2017. Aaron also created the online game Fantasy Politics for the 2012 election. Inducted into the annual Innovation Rockstar list by the Boston Business Journal, Aaron has written for Entrepreneur Magazine, Fast Company and a range of business outlets. He holds an MBA from Harvard Business School and an MPA from Harvard Kennedy School of Government.
+					</div>
+					<!---------------------------->
+					<!--- FARZAD FARZAD FARZAD --->
+					<!---------------------------->
+					<div class="SVGcontainer"><div id="farzadSVG"></div></div>
+					<div class="nameJob">
+						<p>Farzad Soleimani</p>
+						<p class="job">Partner</p>
+					</div>
+					<div class="bio">
+						A VC by day and an ER physician by night, Farzad has over 15 years of experience at the intersection of healthcare and entrepreneurship. He is the founder of eTherapi, a pioneering telemedicine company, and the founding co-director of the Texas Medical Center Biodesign Innovation Program. Farzad started his investing career at Mohr Davidow Ventures, completed his residency training at Baylor and earned his MBA, MD, MS, and BS from Stanford University. He is on faculty at Baylor Medical School, Rice Business School, and Rice Bioengineering Department.
+					</div>
+				</div>
+				<div id="teamPartners">
+					<div class="header AtlasTypewriter-Regular-Web" id="partnersHeader">VENTURE PARTNERS</div>
+					<div class="nameJob">
+						<p>Drew Uher</p>
+						<p class="job">Founder and CEO at Homelight</p>
+					</div>
+					<div class="nameJob">
+						<p>Greg Pal</p>
+						<p class="job">Founder and CBO at Automat.ai and VP at Nuance</p>
+					</div>
+					<div class="nameJob">
+						<p>Jennifer Pollock</p>
+						<p class="job">Head of content Marketing at Square</p>
+					</div>
+					<div class="nameJob">
+						<p>Kyle Oppenheim</p>
+						<p class="job">VP of Engineering at Groupon and Director of eng at Facebook</p>
+					</div>
+					<div class="nameJobLast">
+						<p>Daniele Codega</p>
+						<p class="job">Partner at Work & Co. Previously Head of Design at Reuters, Creative Director at HuffPost</p>
+					</div>
+					<div class="header AtlasTypewriter-Regular-Web" id="advisorsHeader">SENIOR ADVISORS</div>
+					<div class="nameJob">
+						<p>Andy Rachleff</p>
+						<p class="job">Founder of Benchmark Capital</p>
+					</div>
+					<div class="nameJob">
+						<p>Michael Smith</p>
+						<p class="job">Dean of the Faculty of Arts and Sciences at Harvard</p>
+					</div>
+					<div class="nameJob">
+						<p>Jim Messina</p>
+						<p class="job">Chief of staff for operations under President Obama</p>
+					</div>
+					<div class="nameJob">
+						<p>Mohammed Mansour</p>
+						<p class="job">Chairman of Mansour Group, a global conglomerate and GM's largest distributor globally</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="portfolio">
+		<div class="container">
+			<div class="header AtlasTypewriter-Regular-Web">PORTFOLIO</div>
+			<div class="title">
+				Since 2017, we have partnered early and at every stage of startups with a focus on consumer, and enterprise.
+			</div>
+			<div id="filters">
+				<label class="filter-label"><input type="radio" name="radio" checked="checked" id="all"><span class="first checkmark"></span>All</label>	  
+				<label class="filter-label"><input type="radio" name="radio" id="consumer"><span class="checkmark"></span>Consumer</label>	  
+				<label class="filter-label"><input type="radio" name="radio" id="enterprise"><span class="checkmark"></span>Enterprise</label>
+				<label class="filter-label"><input type="radio" name="radio" id="seriesA"><span class="checkmark"></span>Series A</label>
+				<label class="filter-label"><input type="radio" name="radio" id="fund1"><span class="checkmark"></span>Fund I</label>
+				<label class="filter-label"><input type="radio" name="radio" id="fund2" class="test"><span class="checkmark"></span>Fund II</label>
+			</div>
+			<ul>
+			  <li class="filter-all filter-consumer filter-seriesA filter-fund1">Company A, <span class="opacity">Donec vitae purus at nibh vehicula malesuada</span></li>
+			  <li class="filter-all filter-enterprise filter-seriesA filter-fund2">Company B, <span class="opacity">Proin tristique ornare velit id pharetra</span></li>
+			  <li class="filter-all filter-consumer filter-fund1">Company C, <span class="opacity">Orci varius natoque penatibus et magnis dis parturient montes</span></li>
+			  <li class="filter-all filter-consumer filter-seriesA filter-fund2">Company D, <span class="opacity">Donec vitae purus at nibh vehicula malesuada</span></li>
+			  <li class="filter-all filter-enterprise filter-seriesA filter-fund1">Company E, <span class="opacity">Proin tristique ornare velit id pharetra</span></li>
+			  <li class="filter-all filter-consumer filter-seriesA filter-fund2">Company F, <span class="opacity">Orci varius natoque et magnis dis parturient</span></li>
+			  <li class="filter-all filter-enterprise filter-seriesA filter-fund2">Company G, <span class="opacity">Donec vitae purus at nibh vehicula malesuada</span></li>
+			  <li class="filter-all filter-enterprise filter-fund1">Company H, <span class="opacity">Proin tristique ornare velit id pharetra</span></li>
+			  <li class="filter-all filter-consumer filter-fund2">Company I, <span class="opacity">Orci varius natoque penatibus et magnis dis parturient montes</span></li>
+			  <li class="filter-all filter-consumer filter-seriesA filter-fund1">Company J, <span class="opacity">Donec vitae purus at nibh vehicula malesuada</span></li>
+			  <li class="filter-all filter-enterprise filter-seriesA filter-fund1">Company K, <span class="opacity">Proin tristique ornare velit id pharetra</span></li>
+			  <li class="filter-all filter-enterprise filter-seriesA filter-fund2">Company L, <span class="opacity">Orci varius natoque penatibus et magnis dis</span></li>
+			  <li class="filter-all filter-enterprise filter-fund1">Company M, <span class="opacity">Donec vitae purus at nibh vehicula malesuada</span></li>
+			  <li class="filter-all filter-consumer filter-fund2">Company N, <span class="opacity">Proin tristique ornare velit id pharetra</span></li>
+			  <li class="filter-all filter-enterprise filter-fund1">Company O, <span class="opacity">Orci varius natoque penatibus et magnis dis parturient montes</span></li>
+			  <li class="filter-all filter-enterprise filter-seriesA filter-fund1">Company P, <span class="opacity">Donec vitae purus at nibh vehicula malesuada</span></li>
+			  <li class="filter-all filter-enterprise filter-seriesA filter-fund2">Company Q, <span class="opacity">Proin tristique ornare velit id pharetra</span></li>
+			  <li class="filter-all filter-enterprise filter-seriesA filter-fund1">Company R, <span class="opacity">Orci varius natoque penatibus et magnis dis</span></li>
+			</ul>
+		</div>
+	</div>
+	<div id="newsletter">
+		<div class="newsletter-top-container"> 					<!-- OLD: class="container" -->
+			<div class="header AtlasTypewriter-Regular-Web">NEWSLETTER</div>
+			<div class="title">
+				The Covid-19 Issue<br/>
+				<span class="white">May 2020</span>
+			</div>		
+	    <div class="newsletter-top-right"> 								<!-- From 4.6 -->
+				<!-- <div class="vertical-archive">ARCHIVF</div> 			 From 4.6 -->
+	    </div> 															<!-- From 4.6 -->		
+		</div> 															<!-- From 4.6 -->
+		<div class="newsletter-bottom-container"> 						<!-- From 4.6 -->
+			<div class="news-intro border-top">
+				<div class="text">
+					As the TikTok drama unfolds, it's easy to write off the Trump administration's threat to shut off the video app as yet another episode in the US-China saga. But a deeper look reveals a broader trend. In June, following a border skirmish with next-door China, India retaliated in part by shutting off TikTok along with 58 other Chinese apps. And in July Slack decided to pursue antitrust action against Microsoft over the bundling of its Teams product not in the US, home to both companies, but rather in the European Union where regulators look more harshly on tech giants.
+				</div>
+			</div>
+			<div class="news-item border-top" id="one">
+				<div>
+					<div class="number">1.</div><h1 class="AtlasTypewriter-Regular-Web">India, Jio, and the Four Internets <span class="opacity">– stratechery.com</span></h1>
+				</div>
+				<div class="text">
+					This thoughtful piece from Stratechery articulates the emergence of the four operating models for the internet and the pros and cons for each. The worry is not the US shutting off TikTok, a "response in kind" to China's 23 years of walled off internet. Rather it is the increased splintering in the non-China Internet, particularly the emergence of a European model that is "the worst of all possible outcomes”.
+					<img src="https://media.npr.org/assets/img/2014/01/23/jobs-6a428e3467ddbc01d6d7ec8534d79016b8e0edb2-s800-c85.jpg" class="follow" id="img-one" height="200px"/>
+				</div>
+			</div>
+			<div class="news-item border-top" id="two">
+				<div id="name">
+					<div class="number">2.</div><h1 class="AtlasTypewriter-Regular-Web">The TikTok war <span class="opacity">– apple.com</span></h1>
+				</div>
+				<div class="text">
+					This thoughtful piece from Stratechery articulates the emergence of the four operating models for the internet and the pros and cons for each. The worry is not the US shutting off TikTok, a "response in kind" to China's 23 years of walled off internet. Rather it is the increased splintering in the non-China Internet, particularly the emergence of a European model that is "the worst of all possible outcomes”.
+					<img src="https://cdn.cultofmac.com/wp-content/uploads/2012/09/stevej1.jpg" class="follow" id="img-two" height="200px"/>
+				</div>
+			</div>
+			<div class="news-item border-top" id="three">
+				<div id="name">
+					<div class="number">3.</div><h1 class="AtlasTypewriter-Regular-Web">Fusce eu malesuada est <span class="opacity">– work.co</span></h1>
+				</div>
+				<div class="text">
+					Nam nulla lectus, maximus sed dignissim sed, consequat nec augue. Fusce eu malesuada est, nec molestie quam. Donec at mi quis lectus maximus facilisis quis at neque. Nulla tempus diam sed ullamcorper vehicula. Sed vitae luctus metus. Morbi euismod lectus sem, at pulvinar erat scelerisque vel. Fusce vehicula, orci a rhoncus luctus, ligula dui varius enim, ac feugiat est ex a velit. Mauris a varius orci. Praesent eu mi dui. Nam hendrerit purus libero, id sodales lacus vulputate quis.
+					<img src="https://api.time.com/wp-content/uploads/2011/10/1110171300191.jpg" class="follow" id="img-three" height="200px"/>
+				</div>
+			</div>
+			<div class="news-item border-top" id="four">
+				<div id="name">
+					<div class="number">4.</div><h1 class="AtlasTypewriter-Regular-Web">Nullam ut sagittis <span class="opacity">– reuters.com</span></h1>
+				</div>
+				<div class="text">
+					Integer quis augue fringilla, finibus nibh non, sagittis lorem. Phasellus ullamcorper consectetur sapien, vehicula sagittis purus bibendum nec. Sed consequat eros ac euismod tristique. Nulla tellus leo, fermentum a nibh quis, suscipit auctor urna. Nullam ut sagittis eros, eget posuere magna. Nullam eros libero, rhoncus quis eros eget, vehicula commodo justo.
+					<img src="https://techcrunch.com/wp-content/uploads/2014/11/fg_menuez_001-e1508806005836.jpg" class="follow" id="img-four" height="200px"/>
+				</div>
+			</div>
+			<div class="news-item border-top" id="five">
+				<div id="name">
+					<div class="number">5.</div><h1 class="AtlasTypewriter-Regular-Web">Donec bibendum turpis eget <span class="opacity">– nymag.com</span></h1>
+				</div>
+				<div class="text">
+					In arcu quam, molestie at vestibulum quis, lobortis vel nisi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec bibendum turpis eget lobortis porta. Curabitur porttitor felis vel dui tristique volutpat. Phasellus ullamcorper semper nibh, vel aliquam lectus sodales et. Integer rutrum at odio volutpat pellentesque.
+					<img src="https://pyxis.nymag.com/v1/imgs/ce6/1f7/32552b811a3a2a25d2a9b2611d59332277-04-steve-jobs.rsquare.w700.jpg" class="follow" id="img-five" height="200px"/>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="archive">
+		<div class="archive-top-container">
+			<div class="header AtlasTypewriter-Regular-Web">ARCHIVE</div>
+			<div class="archive-top-right"></div>
+		</div>
+		<div class="archive-bottom-container">
+			<ul>
+			  <li>The (home) school issue, <span class="opacity">September 2020</span></li>
+			  <li>The summer issue, <span class="opacity">August 2020</span></li>
+			  <li>The Issues in America, <span class="opacity">July 2020</span></li>
+			  <li>The covid issue, <span class="opacity">June 2020s</span></li>
+			  <li>Donec vitae purus, <span class="opacity">May 2020</span></li>
+			  <li>Proin tristique ornare, <span class="opacity">April 2020</span></li>
+			  <li>Orci varius natoque penatibus, <span class="opacity">March 2020</span></li>
+			  <li>Donec vitae purus, <span class="opacity">February 2020</span></li>
+			  <li>Magnis dis parturient, <span class="opacity">January 2020</span></li>
+			  <li>Orci varius natoque penatibus, <span class="opacity">December 2019</span></li>
+			  <li>Magnis dis parturient, <span class="opacity">November 2019</span></li>
+			  <li>Donec vitae purus, <span class="opacity">October 2019</span></li>
+			  <li>Proin tristique ornare, <span class="opacity">September 2019</span></li>
+			  <li>Orci varius natoque penatibus, <span class="opacity">August 2019</span></li>
+			  <li>Proin tristique ornare, <span class="opacity">July 2019</span></li>
+			</ul>
+		</div>
+	</div>
+	
+	<script>
+		/*/////////////////////////////////////////*/
+		/*//////////   Z-INDEX CONTROL   //////////*/
+		/*/////////////////////////////////////////*/
+		var zzz = 0;
+		var zzzN = 4;
+		$("#philosophy").hover(function() {
+			zzz = zzz+10;
+			$(this).css('z-index', zzz);
+			$("#archive").css('z-index', zzzN-1);
+		});
+		$("#portfolio").hover(function() {
+			zzz = zzz+10;
+			$(this).css('z-index', zzz);
+			$("#archive").css('z-index', zzzN-1);
+		});
+		$("#newsletter").hover(function() {
+			zzz = zzz+10;
+			$(this).css('z-index', zzz);
+			$("#archive").css('z-index', zzz-1);
+			zzzN = zzz
+		});
+		$("#archive").hover(function() {
+			$(this).css('z-index', zzz+2);
+			$("#newsletter").css('z-index', zzz);
+		});
+		
+		
+		/*/////////////////////////////////////////*/
+		/*/////////   PORTFOLIO FILTERS   /////////*/
+		/*/////////////////////////////////////////*/
+		$("#all").click(function() {
+			if ($(this).is(':checked')) {
+				$(".filter-consumer").show();
+				$(".filter-enterprise").show();
+				$(".filter-seriesA").show();
+				$(".filter-fund1").show();
+				$(".filter-fund2").show();
+			}
+		});
+		$("#consumer").click(function() {
+			if ($(this).is(':checked')) {
+				$(".filter-enterprise").hide();
+				$(".filter-seriesA").hide();
+				$(".filter-fund1").hide();
+				$(".filter-fund2").hide();
+				$(".filter-consumer").show();
+			}
+		});
+		$("#enterprise").click(function() {
+			if ($(this).is(':checked')) {
+				$(".filter-consumer").hide();
+				$(".filter-seriesA").hide();
+				$(".filter-fund1").hide();
+				$(".filter-fund2").hide();
+				$(".filter-enterprise").show();
+			}
+		});
+		$("#seriesA").click(function() {
+			if ($(this).is(':checked')) {
+				$(".filter-consumer").hide();
+				$(".filter-enterprise").hide();
+				$(".filter-fund1").hide();
+				$(".filter-fund2").hide();
+				$(".filter-seriesA").show();
+			}
+		});
+		$("#fund1").click(function() {
+			if ($(this).is(':checked')) {
+				$(".filter-consumer").hide();
+				$(".filter-enterprise").hide();
+				$(".filter-seriesA").hide();
+				$(".filter-fund2").hide();
+				$(".filter-fund1").show();
+			}
+		});
+		$("#fund2").click(function() {					/*	$("#fund2").click(function() {			*/
+			if ($(this).is(':checked')) {				/*		if ($(this).is(':checked')) {		*/
+				$(".filter-consumer").hide();			/*			$(".filter-fund2").show();		*/
+				$(".filter-enterprise").hide();			/*		} else {							*/
+				$(".filter-seriesA").hide();			/*			$(".filter-fund2").hide();		*/
+				$(".filter-fund1").hide();				/*		}									*/
+				$(".filter-fund2").show();				/*	});										*/
+			}
+		});
+		
+		
+		/*/////////////////////////////////////////*/
+		/*/////////   NEWSLETTER IMAGES   /////////*/
+		/*/////////////////////////////////////////*/
+		$("#one").mouseover(function(e){
+			$("#one").mousemove(function(e){
+				$("#img-one").show();
+				$(".follow").css({'top': e.clientY + 16, 'left': e.clientX + 16});
+			 }); 
+		});
+		$("#one").mouseout(function(e){
+			$("#img-one").hide();
+			$(".follow").css({'top': e.clientY + 16, 'left': e.clientX + 16});
+		});
+		
+		$("#two").mouseover(function(e){
+			$("#two").mousemove(function(e){
+				$("#img-two").show();
+				$(".follow").css({'top': e.clientY + 16, 'left': e.clientX + 16});
+			 }); 
+		});
+		$("#two").mouseout(function(e){
+			$("#img-two").hide();
+			$(".follow").css({'top': e.clientY + 16, 'left': e.clientX + 16});
+		});
+		
+		$("#three").mouseover(function(e){
+			$("#three").mousemove(function(e){
+				$("#img-three").show();
+				$(".follow").css({'top': e.clientY + 16, 'left': e.clientX + 16});
+			 }); 
+		});
+		$("#three").mouseout(function(e){
+			$("#img-three").hide();
+			$(".follow").css({'top': e.clientY + 16, 'left': e.clientX + 16});
+		});
+		
+		$("#four").mouseover(function(e){
+			$("#four").mousemove(function(e){
+				$("#img-four").show();
+				$(".follow").css({'top': e.clientY + 16, 'left': e.clientX + 16});
+			 }); 
+		});
+		$("#four").mouseout(function(e){
+			$("#img-four").hide();
+			$(".follow").css({'top': e.clientY + 16, 'left': e.clientX + 16});
+		});
+		
+		$("#five").mouseover(function(e){
+			$("#five").mousemove(function(e){
+				$("#img-five").show();
+				$(".follow").css({'top': e.clientY + 16, 'left': e.clientX + 16});
+			 }); 
+		});
+		$("#five").mouseout(function(e){
+			$("#img-five").hide();
+			$(".follow").css({'top': e.clientY + 16, 'left': e.clientX + 16});
+		});
+	</script>
+</body>
+</html>
