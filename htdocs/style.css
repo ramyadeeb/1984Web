@@ -15,10 +15,10 @@ body{
 }
 #logo{width:50px;height:80px;background:url("assets/logoV.svg") no-repeat top left;position:absolute;top:40px;left:40px;}
 #wrapper{position:absolute;display:block;width:1580px;}
-#philosophy{background:#3D4CE0;width:880px;position:absolute;z-index:1;top:40px;left:440px;}
-#portfolio{background:#BFD3ED;width:840px;position:absolute;z-index:2;top:120px;left:280px;}
-#newsletter{/*background:#EB6649;*/width:800px;position:absolute;z-index:4;top:360px;left:80px;}
-#archive{/*background:#C5543B*/;width:720px;position:absolute;z-index:3;top:280px;left:40px;}
+#philosophy{background:#3D4CE0;width:880px;position:absolute;z-index:4;top:40px;left:440px;}
+#portfolio{background:#BFD3ED;width:840px;position:absolute;z-index:3;top:120px;left:280px;}
+#newsletter{/*background:#EB6649;*/width:800px;position:absolute;z-index:2;top:360px;left:80px;}
+#archive{/*background:#C5543B*/;width:720px;position:absolute;z-index:1;top:280px;left:40px;}
 .container{padding:33px 40px 40px 40px;}
 
 /* From 4.6 */
