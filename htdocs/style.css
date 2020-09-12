@@ -85,8 +85,8 @@ body{
 #philosophy #teamInvest{width:calc((((100% - 80px) / 3) * 2) + 40px);display:inline-block;line-height:24px;vertical-align:top;font-size:12px;}
 #philosophy #teamPartners{width:calc(((100% - 80px) / 3));margin-left:40px;display:inline-block;line-height:24px;vertical-align:top;font-size:12px;}
 #investHeader{margin-bottom:70px;}
-#partnersHeader{margin-bottom:33px;}
-#advisorsHeader{margin:0px 0px 33px 0px;}
+#advisorsHeader{margin-bottom:33px;}
+#partnersHeader{float:left;margin:40px 0px 33px 0px;}
 .nameJob{float:left;display:inline-block;min-width:160px;margin-bottom:24px;color:#FFF;}
 .nameJobLast{float:left;display:inline-block;min-width:160px;margin-bottom:62px;color:#FFF;}
 .nameJob p, .nameJobLast p{margin:0;padding:0;}
