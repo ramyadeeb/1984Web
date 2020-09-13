@@ -15,8 +15,8 @@ body{
 }
 #logo{width:50px;height:80px;background:url("assets/logoV.svg") no-repeat top left;position:absolute;top:40px;left:40px;}
 #wrapper{position:absolute;display:block;width:1580px;}
-#philosophy{background:#3D4CE0;width:880px;position:absolute;z-index:4;top:40px;left:440px;}
-#portfolio{background:#BFD3ED;width:840px;position:absolute;z-index:3;top:120px;left:280px;}
+#philosophy{background:#3D4CE0;width:880px;position:absolute;z-index:4;top:120px;left:280px;}
+#portfolio{background:#BFD3ED;width:840px;position:absolute;z-index:3;top:40px;left:440px;}
 #newsletter{/*background:#EB6649;*/width:800px;position:absolute;z-index:2;top:360px;left:80px;}
 #archive{/*background:#C5543B*/;width:720px;position:absolute;z-index:1;top:280px;left:40px;}
 .container{padding:33px 40px 40px 40px;}
@@ -67,7 +67,7 @@ body{
 	position:absolute;top:0px;right:0px;
 	display:none;
 }
-.archive-top-right:hover;{
+.archive-top-right:hover{
 	background:url("assets/foldNewsBig.svg") no-repeat top right;
 	height:200px;
 	width:120px;
@@ -110,7 +110,7 @@ ul{list-style-type: none;margin:0;padding:0;}
 li{border-bottom:1px solid rgba(39, 31, 35, .2);padding:21px 0px 18px 0px;}
 
 
-ol {padding:20px 0px 0px 0px;}
+ol {padding:0px 0px 0px 0px;}
 
 ol li {
     counter-increment: my-awesome-counter;
@@ -195,26 +195,26 @@ input:checked ~ .checkmark:after {display:block;}
 /*   40px increments, Extra large in js    */
 /*/////////////////////////////////////////*/
 @media only screen and (min-width: 1320px) and (max-width: 1360px) {
-	#philosophy{top:40px;left:400px;}
-	#portfolio{top:120px;left:240px;}
+	#portfolio{top:40px;left:400px;}
+	#philosophy{top:120px;left:240px;}
 	#newsletter{left:80px;}
 	#archive{left:40px;}
 }
 @media only screen and (min-width: 1280px) and (max-width: 1320px) {
-	#philosophy{top:40px;left:360px;}
-	#portfolio{top:120px;left:200px;}
+	#portfolio{top:40px;left:360px;}
+	#philosophy{top:120px;left:200px;}
 	#newsletter{left:80px;}
 	#archive{left:40px;}
 }
 @media only screen and (min-width: 1240px) and (max-width: 1280px) {
-	#philosophy{top:40px;left:320px;}
-	#portfolio{top:120px;left:160px;}
+	#portfolio{top:40px;left:320px;}
+	#philosophy{top:120px;left:160px;}
 	#newsletter{left:80px;}
 	#archive{left:40px;}
 }
 @media only screen and (min-width: 1200px) and (max-width: 1240px) {
-	#philosophy{top:40px;left:280px;}
-	#portfolio{top:120px;left:120px;}
+	#portfolio{top:40px;left:280px;}
+	#philosophy{top:120px;left:120px;}
 	#newsletter{left:80px;}
 	#archive{left:40px;}
 	.newsletter-top-right{display:none;}
@@ -223,8 +223,8 @@ input:checked ~ .checkmark:after {display:block;}
 }
 /* HIDE ARCHIVE */
 @media only screen and (min-width: 1160px) and (max-width: 1200px) {
-	#philosophy{top:40px;left:240px;}
-	#portfolio{top:120px;left:80px;}
+	#portfolio{top:40px;left:240px;}
+	#philosophy{top:120px;left:80px;}
 	#newsletter{top:280px;left:40px;}
 	#archive{display:none;top:280px;left:40px;width:800px;}
 	#logo{width:62px;height:20px;background:url("assets/logoHS.svg") no-repeat top left;top:30px;}
@@ -235,8 +235,8 @@ input:checked ~ .checkmark:after {display:block;}
   ol li::before {content:  "0" counter(my-awesome-counter);padding:6px 30px 0px 0px;}  
 }
 @media only screen and (min-width: 1120px) and (max-width: 1160px) {
-	#philosophy{top:40px;left:200px;}
-	#portfolio{top:120px;left:80px;}
+	#portfolio{top:40px;left:200px;}
+	#philosophy{top:120px;left:80px;}
 	#newsletter{top:240px;left:40px;}
 	#archive{display:none;top:240px;left:40px;width:800px;}
 	#logo{width:62px;height:20px;background:url("assets/logoHS.svg") no-repeat top left;top:30px;}
@@ -247,8 +247,8 @@ input:checked ~ .checkmark:after {display:block;}
   ol li::before {content:  "0" counter(my-awesome-counter);padding:6px 30px 0px 0px;}    
 }
 @media only screen and (min-width: 1080px) and (max-width: 1120px) {
-	#philosophy{top:80px;left:160px;}
-	#portfolio{top:120px;left:80px;}
+	#portfolio{top:80px;left:160px;}
+	#philosophy{top:120px;left:80px;}
 	#newsletter{top:200px;left:40px;}
 	#archive{display:none;top:200px;left:40px;;width:800px;}
 	#logo{width:62px;height:20px;background:url("assets/logoHS.svg") no-repeat top left;top:30px;}
@@ -259,8 +259,8 @@ input:checked ~ .checkmark:after {display:block;}
   ol li::before {content:  "0" counter(my-awesome-counter);padding:6px 30px 0px 0px;}    
 }
 @media only screen and (min-width: 1040px) and (max-width: 1080px){
-	#philosophy{top:80px;left:120px;}
-	#portfolio{top:120px;left:80px;}
+	#portfolio{top:80px;left:120px;}
+	#philosophy{top:120px;left:80px;}
 	#newsletter{top:160px;left:40px;}
 	#archive{display:none;top:160px;left:40px;width:800px;}  
 	#logo{width:62px;height:20px;background:url("assets/logoHS.svg") no-repeat top left;top:30px;}
@@ -271,8 +271,8 @@ input:checked ~ .checkmark:after {display:block;}
   ol li::before {content:  "0" counter(my-awesome-counter);padding:6px 30px 0px 0px;}    
 }
 @media only screen and (min-width: 1000px) and (max-width: 1040px){
-	#philosophy{top:80px;left:80px;}
-	#portfolio{top:120px;left:40px;}
+	#portfolio{top:80px;left:80px;}
+	#philosophy{top:120px;left:40px;}
 	#newsletter{top:160px;left:0px;}
 	#archive{display:none;top:160px;left:0px;width:800px;}
 	#logo{width:62px;height:20px;background:url("assets/logoHS.svg") no-repeat top left;top:30px;}	
@@ -283,8 +283,8 @@ input:checked ~ .checkmark:after {display:block;}
   ol li::before {content:  "0" counter(my-awesome-counter);padding:6px 30px 0px 0px;}    
 }
 @media only screen and (min-width: 700px) and (max-width: 1000px){
-	#philosophy{top:80px;left:80px;width:calc(100% - 80px);}
-	#portfolio{top:120px;left:40px;width:calc(100% - 40px);}
+	#portfolio{top:80px;left:80px;width:calc(100% - 80px);}
+	#philosophy{top:120px;left:40px;width:calc(100% - 40px);}
 	#newsletter{top:160px;left:0px;width:100%}
 	#archive{display:none;top:160px;left:0px;width:100%;}
 	#logo{width:62px;height:20px;background:url("assets/logoHS.svg") no-repeat top left;top:30px;}
@@ -299,8 +299,8 @@ input:checked ~ .checkmark:after {display:block;}
 }
 /*////////// PHILOSOPHY EXCEPTION //////////*/
 @media only screen and (max-width: 700px){
-	#philosophy{top:80px;left:80px;width:calc(100% - 80px);}
-	#portfolio{top:120px;left:40px;width:calc(100% - 40px);}
+	#portfolio{top:80px;left:80px;width:calc(100% - 80px);}
+	#philosophy{top:120px;left:40px;width:calc(100% - 40px);}
 	#newsletter{top:160px;left:0px;width:100%}
 	#archive{display:none;top:160px;left:0px;width:100%;}
 	#logo{width:62px;height:20px;background:url("assets/logoHS.svg") no-repeat top left;top:30px;}

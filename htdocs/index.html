@@ -15,8 +15,8 @@
 		$(document).ready(function() {
 			/* EXTRA WIDE CENTERING */
 			if(winW > 1360){
-				$("#philosophy").css("left", (winW/2) - 240 + "px");
-				$("#portfolio").css("left", (winW/2) - 420 + "px");
+				$("#philosophy").css("left", (winW/2) - 420 + "px");
+				$("#portfolio").css("left", (winW/2) - 240 + "px");
 				$("#newsletter").css("left", (winW/2) - 600 + "px");
 				$("#archive").css("left", (winW/2) - 640 + "px");
 			} else {
@@ -56,8 +56,8 @@
 			var winW 	= $(window).width();
 			/* EXTRA WIDE CENTERING */
 			if(winW > 1360){
-				$("#philosophy").css("left", (winW/2) - 240 + "px");
-				$("#portfolio").css("left", (winW/2) - 420 + "px");
+     		$("#philosophy").css("left", (winW/2) - 420 + "px");
+				$("#portfolio").css("left", (winW/2) - 240 + "px");
 				$("#newsletter").css("left", (winW/2) - 600 + "px");
 				$("#archive").css("left", (winW/2) - 640 + "px");
 			} else {
@@ -187,6 +187,7 @@
 			<div class="title">
 				Since 2017, we have partnered with outstanding entreperneurs shaking up large, antiquated industries.
 			</div>
+      <!--
       <div class="custom-radios">
         <div>
           <input type="radio" id="color-3" name="color" value="color-3">
@@ -206,8 +207,9 @@
           </label>
         </div>
       </div>
-      
-			<div id="filters">
+      -->
+
+   			<div id="filters">
 				<label class="filter-label"><input type="radio" name="radio" checked="checked" id="all"><span class="first checkmark"></span>All</label>
 				<label class="filter-label"><input type="radio" name="radio" id="ecommerce"><span class="checkmark"></span>eCommerce</label>
 				<label class="filter-label"><input type="radio" name="radio" id="supplychain"><span class="checkmark"></span>Supply Chain</label>
