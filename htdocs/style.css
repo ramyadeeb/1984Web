@@ -35,7 +35,7 @@ body{
 	border-right:80px solid transparent;
 	border-bottom: 170px solid rgb(212,75,48);
 	background:rgba(255,255,255,0);*/
-	/*display:none; Toggle for mobile */
+	display:none; /*Toggle for mobile */
 }
 .newsletter-top-right:hover{
 	background:url("assets/foldArchiveBig.svg") no-repeat top right;
