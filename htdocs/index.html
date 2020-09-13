@@ -188,7 +188,7 @@
 		<div class="container">
 			<div class="header AtlasTypewriter-Regular-Web">PORTFOLIO</div>
 			<div class="title">
-				Since 2017, we have partnered with outstanding entreperneurs using software to fix antiquated industries.
+				Since 2017, we have partnered with outstanding entreperneurs using software to upend antiquated industries.
 			</div>
 			<div id="filters">
 				<label class="filter-label"><input type="radio" name="radio" checked="checked" id="all"><span class="first checkmark"></span>All</label>
@@ -341,24 +341,20 @@
 		/*//////////   Z-INDEX CONTROL   //////////*/
 		/*/////////////////////////////////////////*/
 		var zzz = 0;
-		var zzzN = 4;
 		$("#philosophy").hover(function() {
 			zzz = zzz+10;
 			$(this).css('z-index', zzz);
-			$("#archive").css('z-index', zzzN-1);
 		});
 		$("#portfolio").hover(function() {
 			zzz = zzz+10;
 			$(this).css('z-index', zzz);
-			$("#archive").css('z-index', zzzN-1);
 		});
 		$("#newsletter").hover(function() {
-			zzz = zzz+10;
+  		zzz = zzz+10;
+			$("#archive").css('z-index', zzz-5);    
 			$(this).css('z-index', zzz);
-			$("#archive").css('z-index', zzz-1);
-			zzzN = zzz
 		});
-		$("#archive").hover(function() {
+		$("#archive").click(function() {
 			$(this).css('z-index', zzz+2);
 			$("#newsletter").css('z-index', zzz);
 		});
