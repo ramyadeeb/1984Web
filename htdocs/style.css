@@ -65,7 +65,7 @@ body{
 	height:200px;
 	width:120px;
 	position:absolute;top:0px;right:0px;
-	display:block;
+	display:none;
 }
 .archive-top-right:hover;{
 	background:url("assets/foldNewsBig.svg") no-repeat top right;
@@ -197,7 +197,7 @@ input:checked ~ .checkmark:after {display:block;}
 	.newsletter-top-right{display:block;}
 	.archive-top-container{margin-right:120px;}    
 	.archive-top-right{display:block;}  
-  
+  ol li::before {content:  "0" counter(my-awesome-counter);padding:6px 30px 0px 0px;}  
 }
 @media only screen and (min-width: 1120px) and (max-width: 1160px) {
 	#philosophy{top:40px;left:200px;}
@@ -208,7 +208,8 @@ input:checked ~ .checkmark:after {display:block;}
 	.newsletter-top-container{background:#EB6649;padding:33px 0px 0px 40px;margin-right:120px;}
 	.newsletter-top-right{display:block;}
 	.archive-top-container{margin-right:120px;}    
-	.archive-top-right{display:block;}  
+	.archive-top-right{display:block;}
+  ol li::before {content:  "0" counter(my-awesome-counter);padding:6px 30px 0px 0px;}    
 }
 @media only screen and (min-width: 1080px) and (max-width: 1120px) {
 	#philosophy{top:80px;left:160px;}
@@ -219,7 +220,8 @@ input:checked ~ .checkmark:after {display:block;}
 	.newsletter-top-container{background:#EB6649;padding:33px 0px 0px 40px;margin-right:120px;}
 	.newsletter-top-right{display:block;}
 	.archive-top-container{margin-right:120px;}    
-	.archive-top-right{display:block;}    
+	.archive-top-right{display:block;}
+  ol li::before {content:  "0" counter(my-awesome-counter);padding:6px 30px 0px 0px;}    
 }
 @media only screen and (min-width: 1040px) and (max-width: 1080px){
 	#philosophy{top:80px;left:120px;}
@@ -230,7 +232,8 @@ input:checked ~ .checkmark:after {display:block;}
 	.newsletter-top-container{background:#EB6649;padding:33px 0px 0px 40px;margin-right:120px;}
 	.newsletter-top-right{display:block;}
 	.archive-top-container{margin-right:120px;}    
-	.archive-top-right{display:block;}  
+	.archive-top-right{display:block;}
+  ol li::before {content:  "0" counter(my-awesome-counter);padding:6px 30px 0px 0px;}    
 }
 @media only screen and (min-width: 1000px) and (max-width: 1040px){
 	#philosophy{top:80px;left:80px;}
@@ -241,7 +244,8 @@ input:checked ~ .checkmark:after {display:block;}
 	.newsletter-top-container{background:#EB6649;padding:33px 0px 0px 40px;margin-right:120px;}
 	.newsletter-top-right{display:block;}
 	.archive-top-container{margin-right:120px;}    
-	.archive-top-right{display:block;}  
+	.archive-top-right{display:block;}
+  ol li::before {content:  "0" counter(my-awesome-counter);padding:6px 30px 0px 0px;}    
 }
 @media only screen and (min-width: 700px) and (max-width: 1000px){
 	#philosophy{top:80px;left:80px;width:calc(100% - 80px);}
@@ -255,7 +259,8 @@ input:checked ~ .checkmark:after {display:block;}
 	.newsletter-top-container{background:#EB6649;padding:33px 0px 0px 40px;margin-right:120px;}
 	.newsletter-top-right{display:block;}
 	.archive-top-container{margin-right:120px;}    
-	.archive-top-right{display:block;}  
+	.archive-top-right{display:block;}
+  ol li::before {content:  "0" counter(my-awesome-counter);padding:6px 30px 0px 0px;}    
 }
 /*////////// PHILOSOPHY EXCEPTION //////////*/
 @media only screen and (max-width: 700px){
@@ -278,4 +283,6 @@ input:checked ~ .checkmark:after {display:block;}
 	#philosophy #teamInvest{width:100%;}
 	#philosophy #teamPartners{width:100%;margin-left:0px;}
 	.nameJob{width:100%;}
+
+  ol li::before {content:  "0" counter(my-awesome-counter);padding:6px 30px 0px 0px;}    
 }
