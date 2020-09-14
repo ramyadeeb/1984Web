@@ -87,7 +87,7 @@
 					<p>How we invest</p>
           <ol>
 				    <li>We focus on early-seed rounds. It’s what we know and love and where we provide the most value </li>
-				    <li>We are drawn to founders that are responsive, technical, and have grit</li>
+				    <li>We look for founder-market-fit. We are drawn to responsiveness and grit and always prefer a founding team with a CTO</li>
             <li>We are quick with our decisions and are flexible on whether we lead or participate in a round</li>
           </ol>
         </div>
@@ -209,7 +209,7 @@
       </div>
       -->
 
-   			<div id="filters">
+   		<div id="filters">
 				<label class="filter-label"><input type="radio" name="radio" checked="checked" id="all"><span class="first checkmark"></span>All</label>
 				<label class="filter-label"><input type="radio" name="radio" id="ecommerce"><span class="checkmark"></span>eCommerce</label>
 				<label class="filter-label"><input type="radio" name="radio" id="supplychain"><span class="checkmark"></span>Supply Chain</label>
@@ -331,7 +331,7 @@
 	</div>
 	<div id="archive">
 		<div class="archive-top-container">
-			<div class="header AtlasTypewriter-Regular-Web">ARCHIVE</div>
+			<div class="header AtlasTypewriter-Regular-Web">NEWSLETTER ARCHIVE</div>
 			<div class="archive-top-right"></div>
 		</div>
 		<div class="archive-bottom-container">
@@ -368,10 +368,10 @@
 			zzz = zzz+10;
 			$(this).css('z-index', zzz);
 		});
-		$("#newsletter").hover(function() {
+		$("#newsletter, #archive").hover(function() {
   		zzz = zzz+10;
 			$("#archive").css('z-index', zzz-5);    
-			$(this).css('z-index', zzz);
+			$("#newsletter").css('z-index', zzz);
 		});
 		$("#archive").click(function() {
 			$(this).css('z-index', zzz+2);
