@@ -17,8 +17,8 @@ body{
 #wrapper{position:absolute;display:block;width:1580px;}
 #philosophy{background:#3D4CE0;width:880px;position:absolute;z-index:4;top:120px;left:280px;}
 #portfolio{background:#BFD3ED;width:840px;position:absolute;z-index:3;top:40px;left:440px;}
-#newsletter{/*background:#EB6649;*/width:800px;position:absolute;z-index:2;top:360px;left:80px;}
-#archive{/*background:#C5543B*/;width:720px;position:absolute;z-index:1;top:280px;left:40px;}
+#newsletter{width:800px;position:absolute;z-index:2;top:360px;left:80px;}
+#archive{width:720px;position:absolute;z-index:1;top:280px;left:40px;}
 .container{padding:33px 40px 40px 40px;}
 
 
@@ -56,10 +56,12 @@ body{
 }
 /*.vertical-archive {transform:rotate(-90deg) translate(-113px, 30px);font-size:10px;letter-spacing:2px;}
 .vertical-newsletter {transform:rotate(-90deg) translate(-130px, 30px);font-size:10px;letter-spacing:2px;}*/
-.newsletter-bottom-container{background:#EB6649;padding:86px 40px 40px 40px;}
+.newsletter-bottom-container{background: #EB6649; padding: 33px 40px 40px 40px;} 
 .newsletter-top-container .title{font-size:32px;line-height:40px;margin:33px 0px 0px 0px;}
 
-.archive-top-container{background:#C5543B;padding:33px 0px 0px 40px;height:167px;cursor:pointer;}
+.archive-top-container {background:#C5543B;padding:33px 0px 0px 40px;height:167px;cursor:pointer;}
+
+.footer {margin-top:80px;font-weight:100;color:white}
 .archive-top-right{
 	background:url("assets/foldNewsSmall.svg") no-repeat top right;
 	height:200px;
@@ -74,9 +76,9 @@ body{
 	position:absolute;top:0px;right:0px;
 	display:block;
 }
-.archive-bottom-container{background:#C5543B;padding:0px 40px 0px 40px;margin-top:-55px}
-
-
+.archive-bottom-container{background:#C5543B;padding:0px 40px 40px 40px;}
+.archive-bottom-container ul {border-top: 1px solid rgba(39, 31, 35, 1)}
+.archive-bottom-container ul li {font-size:12px;font-weight:500;font-family:"Atlas Typewriter Medium"}
 
 .header{font-size:10px;letter-spacing:2px;}
 .title{font-size:32px;line-height:40px;margin:33px 0px 86px 0px;}
@@ -174,7 +176,7 @@ input:checked ~ .checkmark:after {display:block;}
 /* /// CHECKBOX .checkmark:after{margin-left:4px;margin-top:1px;width: 3px;height: 7px;border: solid #271F23;border-width: 0 1px 1px 0;-webkit-transform: rotate(45deg);-ms-transform: rotate(45deg);transform: rotate(45deg);}*/
 .checkmark:after{margin-top:4px;margin-left:4px;width:4px;height:4px;border-radius:50%;background:#271F23;}
 #newsletter img{display:none;position:fixed;z-index:100;}
-#archive .header{padding:0px 0px 86px 0px;border-bottom:1px solid rgba(39, 31, 35, 1);}
+#archive .header{padding:0px 0px 86px 0px;/*border-bottom:1px solid rgba(39, 31, 35, 1)*/;}
 
 .SVGcontainer{height:130px;width:130px;}
 #ramySVG{width:145px;height:143px;background:url("people/Ramy.svg") no-repeat bottom left;position:absolute;margin-left:-10px;margin-top:-30px;}
@@ -232,7 +234,8 @@ input:checked ~ .checkmark:after {display:block;}
 	.newsletter-top-right{display:block;}
 	.archive-top-container{margin-right:120px;}    
 	.archive-top-right{display:block;}  
-  ol li::before {content:  "0" counter(my-awesome-counter);padding:6px 30px 0px 0px;}  
+  ol li::before {content:  "0" counter(my-awesome-counter);padding:6px 30px 0px 0px;}
+  .footer {display:none;}
 }
 @media only screen and (min-width: 1120px) and (max-width: 1160px) {
 	#portfolio{top:40px;left:200px;}
@@ -245,6 +248,7 @@ input:checked ~ .checkmark:after {display:block;}
 	.archive-top-container{margin-right:120px;}    
 	.archive-top-right{display:block;}
   ol li::before {content:  "0" counter(my-awesome-counter);padding:6px 30px 0px 0px;}    
+  .footer {display:none;}
 }
 @media only screen and (min-width: 1080px) and (max-width: 1120px) {
 	#portfolio{top:80px;left:160px;}
@@ -257,6 +261,7 @@ input:checked ~ .checkmark:after {display:block;}
 	.archive-top-container{margin-right:120px;}    
 	.archive-top-right{display:block;}
   ol li::before {content:  "0" counter(my-awesome-counter);padding:6px 30px 0px 0px;}    
+  .footer {display:none;}
 }
 @media only screen and (min-width: 1040px) and (max-width: 1080px){
 	#portfolio{top:80px;left:120px;}
@@ -268,7 +273,8 @@ input:checked ~ .checkmark:after {display:block;}
 	.newsletter-top-right{display:block;}
 	.archive-top-container{margin-right:120px;}    
 	.archive-top-right{display:block;}
-  ol li::before {content:  "0" counter(my-awesome-counter);padding:6px 30px 0px 0px;}    
+  ol li::before {content:  "0" counter(my-awesome-counter);padding:6px 30px 0px 0px;}
+  .footer {display:none;}  
 }
 @media only screen and (min-width: 1000px) and (max-width: 1040px){
 	#portfolio{top:80px;left:80px;}
@@ -281,6 +287,7 @@ input:checked ~ .checkmark:after {display:block;}
 	.archive-top-container{margin-right:120px;}    
 	.archive-top-right{display:block;}
   ol li::before {content:  "0" counter(my-awesome-counter);padding:6px 30px 0px 0px;}    
+  .footer {display:none;}
 }
 @media only screen and (min-width: 700px) and (max-width: 1000px){
 	#portfolio{top:80px;left:80px;width:calc(100% - 80px);}
@@ -296,6 +303,7 @@ input:checked ~ .checkmark:after {display:block;}
 	.archive-top-container{margin-right:120px;}    
 	.archive-top-right{display:block;}
   ol li::before {content:  "0" counter(my-awesome-counter);padding:6px 30px 0px 0px;}    
+  .footer {display:none;}
 }
 /*////////// PHILOSOPHY EXCEPTION //////////*/
 @media only screen and (max-width: 700px){
@@ -320,4 +328,5 @@ input:checked ~ .checkmark:after {display:block;}
 	.nameJob{width:100%;}
 
   ol li::before {content:  "0" counter(my-awesome-counter);padding:6px 30px 0px 0px;}    
+  .footer {display:none;}
 }
