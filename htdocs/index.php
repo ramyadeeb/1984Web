@@ -15,8 +15,8 @@
 		$(document).ready(function() {
 			/* EXTRA WIDE CENTERING */
 			if(winW > 1360){
-				$("#philosophy").css("left", (winW/2) - 420 + "px");
-				$("#portfolio").css("left", (winW/2) - 240 + "px");
+				$("#philosophy").css("left", (winW/2) - 240 + "px");
+				$("#portfolio").css("left", (winW/2) - 420 + "px");
 				$("#newsletter").css("left", (winW/2) - 600 + "px");
 				$("#archive").css("left", (winW/2) - 640 + "px");
 			} else {
@@ -39,16 +39,16 @@
         /* Load the file from the src attribute of the li into the Newsletter tab */
         $("#newsletter_title")[0].innerHTML = this.getAttribute("title");
         $("#newsletter_date")[0].innerHTML = this.getAttribute("date");   
-        $("#newsletter_body").load("/newsletters/" + this.getAttribute("src"));
+        $("#newsletter_body").load("http://www.1984.vc/newsletters/" + this.getAttribute("src"));
         var mq = window.matchMedia( "(min-width: 1160px)");
- 		    if(mq.matches) {
-       		zzz = zzz+10;    
+  	    if(mq.matches) {
+      		zzz = zzz+10;    
  	        $("#newsletter").css("z-index", zzz);
  	        $("#archive").css("z-index", zzz - 5);
-         } else {
-           $("#newsletter").show();
-           $("#archive").hide();
-          }
+        } else {
+          $("#newsletter").show();
+          $("#archive").hide();
+        }
         event.stopPropagation();
       });
 		});
@@ -56,8 +56,8 @@
 			var winW 	= $(window).width();
 			/* EXTRA WIDE CENTERING */
 			if(winW > 1360){
-     		$("#philosophy").css("left", (winW/2) - 420 + "px");
-				$("#portfolio").css("left", (winW/2) - 240 + "px");
+     		$("#philosophy").css("left", (winW/2) - 240 + "px");
+				$("#portfolio").css("left", (winW/2) - 420 + "px");
 				$("#newsletter").css("left", (winW/2) - 600 + "px");
 				$("#archive").css("left", (winW/2) - 640 + "px");
 			} else {
@@ -87,8 +87,8 @@
 					<p>How we invest</p>
           <ol>
 				    <li>We focus on early-seed rounds. It’s what we know and love and where we provide the most value </li>
-				    <li>We are drawn to responsiveness and grit and always prefer a founding team with a CTO</li>
-            <li>We are quick with our decisions and are flexible on whether we lead or participate in a round</li>
+				    <li>We are drawn to fast moving founders with industry insight and strong engineering</li>
+            <li>We move quickly and are flexible on whether we lead or participate in a round</li>
           </ol>
         </div>
 				<div class="pillars MID">
@@ -223,29 +223,29 @@
 			</div>
 			<ul>
         <li class='filter-ecommerce filter-consumer '>Because Market, <span class='opacity'>Ecommerce site selling diapers to seniors</span></li>
-        <li class='filter-supplychain filter-saas '>Blue Cargo, <span class='opacity'>Predictive algorithms for port operations</span></li>
+        <li class='filter-supplychain filter-saas '>Bluecargo, <span class='opacity'>Optimizing container logistics</span></li>
         <li class='filter-proptech filter-fintech '>Brace, <span class='opacity'>Mortgage servicing for lenders</span></li>
-        <li class='filter-proptech filter-saas '>BuildOps, <span class='opacity'>House Service</span></li>
-        <li class='filter-healthcare '>Care Signal, <span class='opacity'>Patient engagment software</span></li>
-        <li class='filter-proptech filter-saas '>Convex, <span class='opacity'>Flexport for Commercial Contractors</span></li>
-        <li class='filter-ecommerce filter-consumer filter-marketplace '>Curtsy, <span class='opacity'>Buy & Sell cloth for Gen Z</span></li>
+        <li class='filter-proptech filter-saas '>BuildOps, <span class='opacity'>Driving operational efficiency for service contractors</span></li>
+        <li class='filter-healthcare '>CareSignal, <span class='opacity'>Patient engagment software</span></li>
+        <li class='filter-proptech filter-saas '>Convex, <span class='opacity'>Flexport for commercial contractors</span></li>
+        <li class='filter-ecommerce filter-consumer filter-marketplace '>Curtsy, <span class='opacity'>Marketplace for Gen Z to buy and sell clothing</span></li>
         <li class='filter-healthcare '>Deepscribe, <span class='opacity'>Medical note transcription</span></li>
         <li class='filter-fintech filter-consumer '>Dovly, <span class='opacity'>Automated credit repair</span></li>
         <li class='filter-ecommerce filter-consumer '>Duffl, <span class='opacity'>Delivery for college campuses</span></li>
-        <li class='filter-fintech filter-saas '>FairMarkIT, <span class='opacity'>Marketplace for tail spend procurement</span></li>
+        <li class='filter-fintech filter-saas filter-marketplace'>Fairmarkit, <span class='opacity'>Marketplace for procurement</span></li>
         <li class='filter-ecommerce filter-supplychain filter-marketplace '>Flowspace, <span class='opacity'>Airbnb for warehousing</span></li>
         <li class='filter-ecommerce filter-consumer '>Frey, <span class='opacity'>Clothing and personal care</span></li>
 <!--        <li class='filter-supplychain filter-saas '>GetSett, <span class='opacity'>Logistics Enhancment for Fleets</span></li>-->
         <li class='filter-healthcare '>Glidian, <span class='opacity'>Prior authorization software</span></li>
         <li class='filter-healthcare '>Health Note, <span class='opacity'>Automated note taking for healthcare</span></li>
-        <li class='filter-staffing '>Heroes Jobs, <span class='opacity'>Video recruiting platform for gen-z workers</span></li>
+        <li class='filter-staffing '>Heroes Jobs, <span class='opacity'>Video recruiting platform for Gen Z workers</span></li>
         <li class='filter-supplychain filter-consumer '>Kyte, <span class='opacity'>Rental cars on demand</span></li>
         <li class='filter-proptech '>Latchel, <span class='opacity'>Property management solution for landlords</span></li>
         <li class='filter-supplychain filter-consumer '>Nickson, <span class='opacity'>Furniture as a service</span></li>
         <li class='filter-fintech filter-consumer '>Oxygen, <span class='opacity'>Banking for freelancers</span></li>
         <li class='filter-proptech filter-consumer '>Padsplit, <span class='opacity'>Airbnb for affordable housing</span></li>
         <li class='filter-saas '>Posthog, <span class='opacity'>Onprem analytics platform</span></li>
-        <li class='filter-ecommerce filter-saas '>PostScript, <span class='opacity'>eCommerce SMS re-engagement</span></li>
+        <li class='filter-ecommerce filter-saas '>PostScript, <span class='opacity'>Ecommerce SMS re-engagement</span></li>
         <li class='filter-proptech filter-consumer '>Properly, <span class='opacity'>Opendoor for Canada</span></li>
         <li class='filter-proptech filter-saas '>Reggora, <span class='opacity'>Real estate appraisal software</span></li>
         <li class='filter-fintech filter-saas '>Routable, <span class='opacity'>Platform for scaling b2b payments</span></li>
@@ -255,8 +255,8 @@
         <li class='filter-ecommerce filter-supplychain filter-saas filter-marketplace '>Sourcify, <span class='opacity'>Connecting US merchants with Chinese factories</span></li>
         <li class='filter-proptech filter-marketplace filter-staffing '>Toolbox, <span class='opacity'>Staffing and payroll platform for construction workers</span></li>
         <li class='filter-healthcare filter-marketplace filter-staffing '>Trusted Health, <span class='opacity'>Marketplace for healthcare employment</span></li>
-        <li class='filter-supplychain filter-saas '>UnicoAero, <span class='opacity'>Baggage Management System for Airlines</span></li>
-        <li class='filter-supplychain filter-saas '>Union Crate, <span class='opacity'>Software for supply change management</span></li>
+        <li class='filter-supplychain filter-saas '>UnicoAero, <span class='opacity'>Baggage management system for airlines</span></li>
+        <li class='filter-supplychain filter-saas '>Unioncrate, <span class='opacity'>Software for supply change management</span></li>
         <li class='filter-saas filter-marketplace'>Vectrix, <span class='opacity'>Cloud security marketplace</span></li>
         <li class='filter-supplychain filter-saas '>Vizion, <span class='opacity'>API for logistics</span></li>
         <li class='filter-ecommerce filter-consumer '>Zero, <span class='opacity'>Zero waste groceries</span></li>
@@ -277,10 +277,104 @@
    <div class="newsletter-bottom-container">      
 			<div class="news-intro border-top">
 				<div id="newsletter_body">
+          <!--
+          <div class="text">
+					  As the TikTok drama unfolds, it's easy to write off the Trump administration's threat to shut off the video app as yet another episode in the US-China saga. But a deeper look reveals a broader trend. In June, following a border skirmish with next-door China, India retaliated in part by shutting off TikTok along with 58 other Chinese apps. And in July Slack decided to pursue antitrust action against Microsoft over the bundling of its Teams product not in the US, home to both companies, but rather in the European Union where regulators look more harshly on tech giants.
+				  </div>
+			    <div class="news-item border-top" id="one">
+				    <div>
+					    <div class="number">1.</div><h1 class="AtlasTypewriter-Regular-Web">India, Jio, and the Four Internets <span class="opacity">– stratechery.com</span></h1>
+				    </div>
+				    <div class="text">
+					    This thoughtful piece from Stratechery articulates the emergence of the four operating models for the internet and the pros and cons for each. The worry is not the US shutting off TikTok, a "response in kind" to China's 23 years of walled off internet. Rather it is the increased splintering in the non-China Internet, particularly the emergence of a European model that is "the worst of all possible outcomes”.
+					    <img src="https://media.npr.org/assets/img/2014/01/23/jobs-6a428e3467ddbc01d6d7ec8534d79016b8e0edb2-s800-c85.jpg" class="follow" id="img-one" height="200px"/>
+				    </div>
+			    </div>
+			    <div class="news-item border-top" id="two">
+				    <div id="name">
+					    <div class="number">2.</div><h1 class="AtlasTypewriter-Regular-Web">The TikTok war <span class="opacity"> - apple.com</span></h1>                        
+				    </div>
+				    <div class="text">
+					    This thoughtful piece from Stratechery articulates the emergence of the four operating models for the internet and the pros and cons for each. The worry is not the US shutting off TikTok, a "response in kind" to China's 23 years of walled off internet. Rather it is the increased splintering in the non-China Internet, particularly the emergence of a European model that is "the worst of all possible outcomes”.
+					    <img src="https://cdn.cultofmac.com/wp-content/uploads/2012/09/stevej1.jpg" class="follow" id="img-two" height="200px"/>
+				    </div>
+			    </div>
+			    <div class="news-item border-top" id="three">
+				    <div id="name">
+					    <div class="number">3.</div><h1 class="AtlasTypewriter-Regular-Web">Fusce eu malesuada est <span class="opacity">– work.co</span></h1>
+				    </div>
+				    <div class="text">
+					    Nam nulla lectus, maximus sed dignissim sed, consequat nec augue. Fusce eu malesuada est, nec molestie quam. Donec at mi quis lectus maximus facilisis quis at neque. Nulla tempus diam sed ullamcorper vehicula. Sed vitae luctus metus. Morbi euismod lectus sem, at pulvinar erat scelerisque vel. Fusce vehicula, orci a rhoncus luctus, ligula dui varius enim, ac feugiat est ex a velit. Mauris a varius orci. Praesent eu mi dui. Nam hendrerit purus libero, id sodales lacus vulputate quis.
+					    <img src="https://api.time.com/wp-content/uploads/2011/10/1110171300191.jpg" class="follow" id="img-three" height="200px"/>
+				    </div>
+			    </div>
+			    <div class="news-item border-top" id="four">
+				    <div id="name">
+					    <div class="number">4.</div><h1 class="AtlasTypewriter-Regular-Web">Nullam ut sagittis <span class="opacity">– reuters.com</span></h1>
+				    </div>
+				    <div class="text">
+					    Integer quis augue fringilla, finibus nibh non, sagittis lorem. Phasellus ullamcorper consectetur sapien, vehicula sagittis purus bibendum nec. Sed consequat eros ac euismod tristique. Nulla tellus leo, fermentum a nibh quis, suscipit auctor urna. Nullam ut sagittis eros, eget posuere magna. Nullam eros libero, rhoncus quis eros eget, vehicula commodo justo.
+					    <img src="https://techcrunch.com/wp-content/uploads/2014/11/fg_menuez_001-e1508806005836.jpg" class="follow" id="img-four" height="200px"/>
+				    </div>
+			    </div>
+			    <div class="news-item border-top" id="five">
+				    <div id="name">
+					    <div class="number">5.</div><h1 class="AtlasTypewriter-Regular-Web">Donec bibendum turpis eget <span class="opacity">– nymag.com</span></h1>
+				    </div>
+				    <div class="text">
+					    In arcu quam, molestie at vestibulum quis, lobortis vel nisi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec bibendum turpis eget lobortis porta. Curabitur porttitor felis vel dui tristique volutpat. Phasellus ullamcorper semper nibh, vel aliquam lectus sodales et. Integer rutrum at odio volutpat pellentesque.
+					    <img src="https://pyxis.nymag.com/v1/imgs/ce6/1f7/32552b811a3a2a25d2a9b2611d59332277-04-steve-jobs.rsquare.w700.jpg" class="follow" id="img-five" height="200px"/>
+				    </div>
+          </div>
+          
+          <p class="intro">Dear Investor,</p>
+          <p class="intro">  
+            The story of entrepreneurship is often reminiscent of David and Goliath: a small and nimble startup rises up to challenge the large, evil incumbent. But with time, David becomes Goliath. Courage is replaced with defenses, and innovation with brute-force. That's why the symbolism of Epic Games' attack on Apple is genius...
+  </p>                    
+          <p class="intro">  
+            In August, Apple removed the popular game Fortnite from the App Store after it introduced a direct payment option that circumvented Apple's 30% revenue cut policy. Immediately after,  Fortnite's maker Epic Games published a parody of the "1984" ad called "Nineteen Eighty-Fortnite." (In the unlikely event you have never heard us talk about the original ad, you can see it here.) In the Fortnite parody, the villain is an apple while the heroine is Fortnite. The parody ends with a call to action: "Apple is blocking Fortnite. Join the fight to stop 2020 from becoming '1984.'"
+          </p>                    
+          <p class="intro">  
+            Despite a $2 trillion market cap, Apple had thus far managed to maintain its David-like image. Epic Games has put a crack in that narrative. How this fight ends remains unclear, but the crack is here to stay. And so is the underlying message: Monopolies are bad for innovation. We tip our hat to Epic Games for its fight (and highly recommend watching the Fortnite commercial below).
+  </p>                    
+  <p class="intro">  
+    Fund News
+  </p>                    
+  <p class="intro">  
+    This month two of our companies announced their Series A rounds. Routable, which provides an API and B2B payment platform, announced a Series A led by Lee Fixel. And PadSplit, which  applies tech to the Gordian Knot of America's affordable housing challenges, announced a Series A led by Core. In other news, our portfolio company Properly has been featured in this front page story in Canada's Financial Times for its innovative solution for homebuying during the current economic crisis. And our startup Fairmarkit was named in CB Insights' list of fastest-growing fintech startups.
+  </p>                    
+  <p class="intro">  
+    Without further ado, here are your must-reads for September
+  </p>                    
+  <p class="title">1, Epic's Epic 1984 Video </p>
+  <p class="desc">
+    A brilliant parody. (If you have not seen the original from 1984, you should watch it first here.) 
+    <a href="https://www.youtube.com/watch?v=Nvr3rqsQcPY">Read Article &#8594;</a>
+  </p>        
+  <p class="title">2. Rethinking the App Store  </p>
+  <p class="desc">
+    In this thoughtful (and slightly philosophical) article, Stratechery's Ben Thompson chronicles the evolution of the App Store and how a 30% take from application revenue by Apple on the iPhone or by Google on Android has become the norm. (Compared with 0% on the desktop.)
+    <a href="https://stratechery.com/2020/rethinking-the-app-store/">Read Article &#8594;</a>
+  </p>        
+  <p class="title">3. Walmart+ will finally launch in September. Can it compete with Amazon Prime? </p>
+  <p class="desc">
+    Walmart is finally launching a response to Amazon Prime, Walmart+. But will Walmart+'s (we realize it does not roll off the tongue) offer of lower-priced grocery delivery, discount gas and a self-checkout experience at Walmart stores beat Amazon Prime's menu of benefits? It looks like an uphill climb for Walmart. But as we said above, monopolies are bad for innovation. We look forward to seeing how the entry of a new player benefits innovation and consumers.
+    <a href="https://www.vox.com/recode/2020/9/1/21409628/walmart-plus-benefits-free-grocery-delivery-amazon-prime-comparison">Read Article &#8594;</a>
+  </p>        
+  <p class="title">4. Five Things We Learned From the Surge of Cloud Software Filings </p>
+  <p class="desc">
+    It's a busy month for tech IPO filings, particularly Cloud Software.  This month Snowflake, Asana, Palantir, JFrog and Sumo Logic all filed to go public. This article summarizes some of the learnings from the filings.  Tl;dr: cloud software providers have amazing retention rates (in the case of Snowflake 158%), most have saved money during the pandemic due to the cancelation of business travel and the virtualization of company and sales events, and some cited "political influence" as a potential risk, a subtle reference to the Trump administration's unusual involvement in a recent cloud deal.
+    <a href="https://www.theinformation.com/articles/five-things-we-learned-from-the-surge-of-cloud-software-filings">Read Article &#8594;</a>
+  </p>        
+  <p class="title">5. This startup will teach your dog to talk </p>
+  <p class="desc">
+    Ever wondered what your dog is thinking? Now you can ask and get an answer - maybe. Check out this startup, and definitely watch the video on the homepage. 		
+    <a href="https://fluent.pet/">Read Article &#8594;</a>
+  </p>-->
           <?php include("newsletters/sep2020.html"); ?> 
-         </div>
-        </div> 
-     </div>
+  </div>
+      </div> 
+   </div>
 
     <div class="news_footer footer">
       1984 Ventures<br>

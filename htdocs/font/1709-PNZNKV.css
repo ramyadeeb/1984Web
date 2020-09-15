@@ -33,6 +33,21 @@
 
 @font-face {
   font-family: 'Atlas Typewriter Web';
+  src: url('AtlasTypewriter-Medium.otf');
+  font-weight:  500;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+.AtlasTypewriter-Medium-Web {
+  font-family: 'Atlas Typewriter Web';
+  font-weight:  500;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Atlas Typewriter Web';
   src: url('AtlasTypewriter-Regular-Web.eot');
   src: url('AtlasTypewriter-Regular-Web.eot?#iefix') format('embedded-opentype'),
        url('AtlasTypewriter-Regular-Web.woff2') format('woff2'),
@@ -48,6 +63,7 @@
   font-style:   normal;
   font-stretch: normal;
 }
+
 
 
 @font-face {
