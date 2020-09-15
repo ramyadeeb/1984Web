@@ -100,6 +100,11 @@ body{
 .MID{margin:0px 40px 0px 40px;padding:0;}
 .news-intro{padding:22px 0px 30px 0px;}
 .news-item{padding:22px 0px 30px 0px;}
+
+#newsletter_body .title {font-size:12px;font-weight:400;padding:0px 0px 16px 0px;width:100%;margin:0;display:inline-block;border-top:1px solid rgba(39, 31, 35, .2);}
+#newsletter_body .intro {line-height: 24px;padding: 0px 0px 0px 40px;}
+#newsletter_body .desc {line-height: 24px;padding: 0px 0px 0px 40px;}
+
 .border-top{border-top:1px solid rgba(39, 31, 35, .2);}
 .white{color:#FFF;}
 .number{width:40px;display:inline-block;vertical-align:top;}
