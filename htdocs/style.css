@@ -102,9 +102,9 @@ body{
 .news-item{padding:22px 0px 30px 0px;}
 
 
-#newsletter_body .title {font-size:12px;font-weight:500;padding:24px 0px 16px 40px;width:100%;margin:0;display:inline-block;border-top:1px solid rgba(39, 31, 35, .2);}
+#newsletter_body .title {font-size:12px;font-weight:500;padding:24px 0px 0px 40px;width:100%;margin:0;display:inline-block;border-top:1px solid rgba(39, 31, 35, .2);}
 #newsletter_body .intro {line-height: 24px;padding: 0px 0px 0px 40px;}
-#newsletter_body .intro b {font-weight:500;font-style:normal}
+#newsletter_body .intro b, #newsletter_body heading {font-weight:500;font-style:normal}
 #newsletter_body .intro a {font-weight:400; color:black}
 #newsletter_body .desc {line-height: 24px;padding: 0px 0px 24px 40px;}
 #newsletter_body .desc a {font-weight:400; color:black};
