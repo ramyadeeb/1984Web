@@ -372,7 +372,7 @@
     <a href="https://fluent.pet/">Read Article &#8594;</a>
   </p>-->
           <?php include("newsletters/sep2020.html"); ?> 
-  </div>
+         </div>
       </div> 
    </div>
 
