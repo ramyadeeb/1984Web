@@ -39,16 +39,17 @@
         /* Load the file from the src attribute of the li into the Newsletter tab */
         $("#newsletter_title")[0].innerHTML = this.getAttribute("title");
         $("#newsletter_date")[0].innerHTML = this.getAttribute("date");   
-        $("#newsletter_body").load("/newsletters/" + this.getAttribute("src"));    
-        var mq = window.matchMedia( "(min-width: 1160px)");
- 		    if(mq.matches) {
-      		zzz = zzz+10;    
-   	      $("#newsletter").css("z-index", zzz);
-   	      $("#archive").css("z-index", zzz - 5);
-        } else {
-          $("#newsletter").show();
-          $("#archive").hide();
-        }
+        $("#newsletter_body").load("/newsletters/" + this.getAttribute("src"), function () {
+          var mq = window.matchMedia( "(min-width: 1160px)");
+   		    if(mq.matches) {
+        		zzz = zzz+10;    
+   	        $("#newsletter").css("z-index", zzz);
+   	        $("#archive").css("z-index", zzz - 5);
+          } else {
+            $("#newsletter").show();
+            $("#archive").hide();
+          }
+        });
         event.stopPropagation();
     });
 		});
@@ -353,15 +354,15 @@
 			  <li src="mar2020.html" title="An epidemic of misinformataion" date="March 2020">An epidemic of misinformaation, March 2020</li>
 			  <li src="feb2020.html" title="The disruption issue" date="February 2020">The disruption issue, February 2020</li>
 			  <li src="jan2020.html" title="Our end of yeara letter" date="January 2020">Our end of year letter</li>
-			  <li src="dec2020.html" title="The fake news issue" date="December 2019">The fake news issue, December 2020</li>
-			  <li src="nov2020.html" title="" date="">November 2019</li>
-			  <li src="oct2020.html" title="" date="">October 2019</li>
-			  <li src="sep2020.html" title="" date="">September 2019</li>
-			  <li src="aug2020.html" title="" date="">August 2019</li>
-			  <li src="jul2020.html" title="" date="">July 2019</li>
-			  <li src="jun2020.html" title="" date="">June 2019</li>
-			  <li src="may2020.html" title="" date="">May 2019</li>
-			  <li src="apr2020.html" title="" date="">April 2019</li>
+			  <li src="dec2019.html" title="The fake news issue" date="December 2019">The fake news issue, December 2020</li>
+			  <li src="nov2019.html" title="The China culture clash" date="November 2019">The China culture clash, November 2019</li>
+			  <li src="oct2019.html" title="Q3 Update" date="October 2019">Q3 Update, October 2019</li>
+			  <li src="sep2019.html" title="The WeWork debacle" date="September 2019">The WeWork debacle, September 2019</li>
+			  <li src="aug2019.html" title="The rise of Shopify" date="August 2019">The rise of Shopify, August 2019</li>
+			  <li src="jul2019.html" title="Q2 Update" date="July 2019">Q2 Updatae, July 2019</li>
+<!--			  <li src="jun2019.html" title="" date="">June 2019</li>
+			  <li src="may2019.html" title="" date="">May 2019</li>
+			  <li src="apr2019.html" title="" date="">April 2019</li>-->
 
 			</ul>
 		</div>
