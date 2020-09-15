@@ -39,7 +39,7 @@
         /* Load the file from the src attribute of the li into the Newsletter tab */
         $("#newsletter_title")[0].innerHTML = this.getAttribute("title");
         $("#newsletter_date")[0].innerHTML = this.getAttribute("date");   
-        $("#newsletter_body").load("http://1984.vc/newsletters/" + this.getAttribute("src"));
+        $("#newsletter_body").load("/newsletters/" + this.getAttribute("src"));
         var mq = window.matchMedia( "(min-width: 1160px)");
  		    if(mq.matches) {
        		zzz = zzz+10;    
@@ -49,9 +49,8 @@
            $("#newsletter").show();
            $("#archive").hide();
           }
-        };
         event.stopPropagation();
-    });
+      });
 		});
 		$(window).resize(function() {
 			var winW 	= $(window).width();
