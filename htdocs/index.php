@@ -325,10 +325,11 @@
 				  <div class="text">
 					  In arcu quam, molestie at vestibulum quis, lobortis vel nisi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec bibendum turpis eget lobortis porta. Curabitur porttitor felis vel dui tristique volutpat. Phasellus ullamcorper semper nibh, vel aliquam lectus sodales et. Integer rutrum at odio volutpat pellentesque.
 					  <img src="https://pyxis.nymag.com/v1/imgs/ce6/1f7/32552b811a3a2a25d2a9b2611d59332277-04-steve-jobs.rsquare.w700.jpg" class="follow" id="img-five" height="200px"/>
-				  </div> 
-        </div> -->
+				  </div> -->
         <?php include("newsletters/sep2020.html"); ?> 
-      </div>
+         </div>
+        </div> 
+     </div>
    </div>
 
     <div class="news_footer footer">
