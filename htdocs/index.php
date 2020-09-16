@@ -75,6 +75,7 @@
 	</script>
 </head>
 <body class="AtlasTypewriter-Light-Web">
+  <div id="wrapper">
 	<div id="logo"></div>	
 	<div id="philosophy">
 		<div class="container">
@@ -185,7 +186,7 @@
 		<div class="container">
 			<div class="header AtlasTypewriter-Regular-Web">PORTFOLIO</div>
 			<div class="title">
-				Since 2017, we have partnered with outstanding entrepreneurs shaking up large, antiquated industries.
+				Since 2017, we have partnered with outstanding entrepreneurs shaking up many antiquated industries.
 			</div>
       <!--
       <div class="custom-radios">
@@ -412,7 +413,7 @@
 			</ul>
 		</div>
 	</div>
-	
+</div>
 	<script>
 		/*/////////////////////////////////////////*/
 		/*//////////   Z-INDEX CONTROL   //////////*/
@@ -443,7 +444,8 @@
 
         $("#philosophy").css("z-index", 2 - $("#philosophy").data("pos"));
         $("#portfolio").css("z-index", 2 - $("#portfolio").data("pos"));
-        $("#newsletter").css("z-index", 2 - $("#newsletter").data("pos"));    
+        $("#newsletter").css("z-index", 2 - $("#newsletter").data("pos"));
+        $("#archive").css("z-index", 2 - $("#newsletter").data("pos"));        
     /*
         if(currMiddle == clicked) {
           $(currMiddle).css("transform", "translate(-40px,40px)");
