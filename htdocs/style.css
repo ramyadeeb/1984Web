@@ -351,7 +351,7 @@ input:checked ~ .checkmark:after {display:block;}
 	.newsletter-top-container .title{font-size:24px;line-height:32px;}
 	.newsletter-top-container{background:#EB6649;padding:16px 0px 0px 20px;margin-right:120px;}
 	.newsletter-top-right{display:block;}
-	.archive-top-container{margin-right:120px;}  
+	.archive-top-container{padding:16px 0px 0px 20px;margin-right:120px;}
 	.archive-top-right{display:block;}
 
   .container{padding:16px 20px 20px 20px;}

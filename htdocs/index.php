@@ -422,8 +422,6 @@
 
 
     var currTop = "#philosophy";
-    var currMiddle = "#portfolio";
-    var currBottom = "#newsletter";
 
     $("#philosophy").data("pos",  0);
     $("#portfolio").data("pos", 1);    
@@ -433,32 +431,39 @@
     function updateMobile(clicked) {
       var mq = window.matchMedia( "(max-width: 700px)");
       if(mq.matches) {
-        $(currTop).data("pos", $(clicked).data("pos"));
-        $(clicked).data("pos", 0);
+        if(currTop == "#philosophy" && $(clicked).data("pos") == 2)  {
+          (clicked == "#portfolio") ? $("#newsletter").data("pos", 2) : $("#portfolio").data("pos",2);
+          $("#philosophy").data("pos", 1);          
+       } else {
+         $(currTop).data("pos", $(clicked ).data("pos"));
+       }
+       $(clicked).data("pos", 0);
         currTop = clicked;
     
+
+
+       if($("#portfolio").data("pos") == 0 || $("#portfolio").data("pos") == 1) {
+          $("#portfolio").css("transform", "translate(0px,0px)");
+        } else {
+         $("#portfolio").css("transform", "translate(40px,-40px)");
+        }
+        if($("#newsletter").data("pos") == 0 || $("#newsletter").data("pos") == 1) {
+          $("#newsletter, #archive").css("transform", "translate(-40px,40px)");
+        } else {
+         $("#newsletter, #archive").css("transform", "translate(0px,0px)");
+        }
+
+
+/*  Old Code
         $("#philosophy").css("transform", "translate(" + $("#philosophy").data("pos") * 40 + "px," + $("#philosophy").data("pos") * -40 + "px)");
         $("#portfolio").css("transform", "translate(" + (1 - $("#portfolio").data("pos")) * -40 + "px," + (1 - $("#portfolio").data("pos")) * 40 + "px)");    
         $("#newsletter").css("transform", "translate(" + (2 - $("#newsletter").data("pos")) * -40 + "px," + (2 - $("#newsletter").data("pos")) * 40 + "px)");
         $("#archive").css("transform", "translate(" + (2 - $("#newsletter").data("pos")) * -40 + "px," + (2 - $("#newsletter").data("pos")) * 40 + "px)");    
-
+*/
         $("#philosophy").css("z-index", 2 - $("#philosophy").data("pos"));
         $("#portfolio").css("z-index", 2 - $("#portfolio").data("pos"));
         $("#newsletter").css("z-index", 2 - $("#newsletter").data("pos"));
         $("#archive").css("z-index", 2 - $("#newsletter").data("pos"));        
-    /*
-        if(currMiddle == clicked) {
-          $(currMiddle).css("transform", "translate(-40px,40px)");
-          $(currTop).css("transform", "translate(40px,-40px)");
-          currMiddle = currTop;
-          currTop = clicked;
-        } else if(currBottom == clicked) {
-          $(currBottom).css("transform", "translate(-80px,80px)");
-          $(currTop).css("transform", "translate(80px,-80px)");
-          currBottom = currTop;
-          currTop = clicked;
-
-        }*/
         }
       }
     
@@ -471,7 +476,7 @@
       updateMobile("#portfolio");
       event.stopPropagation();
     });
-    $("#newsletter").click(function(event) {
+    $("#newsletter, #archive").click(function(event) {
       updateMobile("#newsletter");
       event.stopPropagation();
     });
