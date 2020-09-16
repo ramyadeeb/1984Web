@@ -418,12 +418,27 @@
 		/*//////////   Z-INDEX CONTROL   //////////*/
 		/*/////////////////////////////////////////*/
 		var zzz = 0;
+
     var currTop = "#philosophy";
     var currMiddle = "#portfolio";
     var currBottom = "#newsletter";
+
+    $("#philosophy").data("pos",  0);
+    $("#portfolio").data("pos", 1);    
+    $("#newsletter").data("pos", 2);    
+
+    currTop = "#philosophy";
     function updateMobile(clicked) {
       var mq = window.matchMedia( "(max-width: 700px)");
-    	if(mq.matches) {
+      if(mq.matches) {
+        $(currTop).data("pos", $(clicked).data("pos"));
+        $(clicked).data("pos", 0);
+        currTop = clicked;
+    
+        $("#philosophy").css("transform", "translate(" + $("#philosophy").data("pos") * 40 + "px," + $("#philosophy").data("pos") * -40 + "px)");
+        $("#newsletter").css("transform", "translate(" + (2 - $("#newsletter").data("pos")) * -40 + "px," + (2 - $("#newsletter").data("pos")) * 40 + "px)");
+        $("#portfolio").css("transform", "translate(" + (1 - $("#portfolio").data("pos")) * -40 + "px," + (1 - $("#portfolio").data("pos")) * 40 + "px)");    
+    /*
         if(currMiddle == clicked) {
           $(currMiddle).css("transform", "translate(-40px,40px)");
           $(currTop).css("transform", "translate(40px,-40px)");
@@ -434,20 +449,20 @@
           $(currTop).css("transform", "translate(80px,-80px)");
           currBottom = currTop;
           currTop = clicked;
-        }
+        }*/
       }
     }
     $("#philosophy").click(function(event) {
       updateMobile("#philosophy");
-      event.stopProbagation();
+      event.stopPropagation();
     });
     $("#portfolio").click(function(event) {
       updateMobile("#portfolio");
-      event.stopProbagation();
+      event.stopPropagation();
     });
     $("#newsletter").click(function(event) {
       updateMobile("#newsletter");
-      event.stopProbagation();
+      event.stopPropagation();
     });
 
 		$("#philosophy").hover(function() {
