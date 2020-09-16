@@ -341,8 +341,8 @@ input:checked ~ .checkmark:after {display:block;}
 @media only screen and (max-width: 700px){
   #portfolio{top:120px;left:40px;width:calc(100% - 40px);}
 	#philosophy{top:160px;left:0px;width:calc(100% - 40px);}
-	#newsletter{top:80px;left:80px;width:calc(100% - 80px);}
-	#archive{display:none;top:160px;left:0px;width:100%;}
+	#newsletter{top:80px;left:80px;width:calc(100% - 40px);}
+	#archive{display:none;top:80px;left:80px;width:calc(100% - 40px);}
 	#logo{width:62px;height:20px;background:url("assets/logoHS.svg") no-repeat top left;top:30px;}
 	.text{line-height:24px;padding:0px 20px 0px 20px;}
 	.title{font-size:24px;line-height:32px;margin:33px 0px 86px 0px;}	
