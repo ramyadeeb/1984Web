@@ -185,7 +185,7 @@
 		<div class="container">
 			<div class="header AtlasTypewriter-Regular-Web">PORTFOLIO</div>
 			<div class="title">
-				Since 2017, we have partnered with outstanding entreperneurs shaking up large, antiquated industries.
+				Since 2017, we have partnered with outstanding entrepreneurs shaking up large, antiquated industries.
 			</div>
       <!--
       <div class="custom-radios">
@@ -406,7 +406,7 @@
 			  <li src="oct2019.html" title="Q3 Update" date="October 2019">Q3 Update, October 2019</li>
 			  <li src="sep2019.html" title="The WeWork debacle" date="September 2019">The WeWork debacle, September 2019</li>
 			  <li src="aug2019.html" title="The rise of Shopify" date="August 2019">The rise of Shopify, August 2019</li>
-			  <li src="jul2019.html" title="Q2 Update" date="July 2019">Q2 Updatae, July 2019</li>
+			  <li src="jul2019.html" title="Q2 Update" date="July 2019">Q2 Update, July 2019</li>
 <!--			  <li src="jun2019.html" title="" date="">June 2019</li>
 			  <li src="may2019.html" title="" date="">May 2019</li>
 			  <li src="apr2019.html" title="" date="">April 2019</li>-->
