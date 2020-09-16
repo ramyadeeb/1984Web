@@ -22,6 +22,10 @@ body{
 .container{padding:33px 40px 40px 40px;}
 
 
+#philosophy, #portfolio, #newsletter, #archive {
+    transition: all 0.2s ease-in-out;
+}
+
 
 
 /* From 4.6 */
@@ -335,9 +339,9 @@ input:checked ~ .checkmark:after {display:block;}
 }
 /*////////// PHILOSOPHY EXCEPTION //////////*/
 @media only screen and (max-width: 700px){
-  #portfolio{top:80px;left:80px;width:calc(100% - 80px);}
-	#philosophy{top:120px;left:40px;width:calc(100% - 40px);}
-	#newsletter{top:160px;left:0px;width:100%}
+  #portfolio{top:120px;left:40px;width:calc(100% - 40px);}
+	#philosophy{top:160px;left:0px;width:calc(100% - 40px);}
+	#newsletter{top:80px;left:80px;width:calc(100% - 80px);}
 	#archive{display:none;top:160px;left:0px;width:100%;}
 	#logo{width:62px;height:20px;background:url("assets/logoHS.svg") no-repeat top left;top:30px;}
 	.text{line-height:24px;padding:0px 20px 0px 20px;}

@@ -418,18 +418,50 @@
 		/*//////////   Z-INDEX CONTROL   //////////*/
 		/*/////////////////////////////////////////*/
 		var zzz = 0;
+    var currTop = "#philosophy";
+    var currMiddle = "#portfolio";
+    var currBottom = "#newsletter";
+    function updateMobile(clicked) {
+      var mq = window.matchMedia( "(max-width: 700px)");
+    	if(mq.matches) {
+        if(currMiddle == clicked) {
+          $(currMiddle).css("transform", "translate(-40px,40px)");
+          $(currTop).css("transform", "translate(40px,-40px)");
+          currMiddle = currTop;
+          currTop = clicked;
+        } else if(currBottom == clicked) {
+          $(currBottom).css("transform", "translate(-80px,80px)");
+          $(currTop).css("transform", "translate(80px,-80px)");
+          currBottom = currTop;
+          currTop = clicked;
+        }
+      }
+    }
+    $("#philosophy").click(function(event) {
+      updateMobile("#philosophy");
+      event.stopProbagation();
+    });
+    $("#portfolio").click(function(event) {
+      updateMobile("#portfolio");
+      event.stopProbagation();
+    });
+    $("#newsletter").click(function(event) {
+      updateMobile("#newsletter");
+      event.stopProbagation();
+    });
+
 		$("#philosophy").hover(function() {
 			zzz = zzz+10;
-			$(this).css('z-index', zzz);
+		  $(this).css('z-index', zzz);
 		});
 		$("#portfolio").hover(function() {
 			zzz = zzz+10;
-			$(this).css('z-index', zzz);
+  		$(this).css('z-index', zzz);
 		});
 		$("#newsletter, #archive").hover(function() {
   		zzz = zzz+10;
 			$("#archive").css('z-index', zzz-5);    
-			$("#newsletter").css('z-index', zzz);
+  		$("#newsletter").css('z-index', zzz);
 		});
 		$("#archive").click(function() {
 			$(this).css('z-index', zzz+2);
