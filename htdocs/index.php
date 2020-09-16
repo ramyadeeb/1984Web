@@ -39,7 +39,7 @@
         /* Load the file from the src attribute of the li into the Newsletter tab */
         $("#newsletter_title")[0].innerHTML = this.getAttribute("title");
         $("#newsletter_date")[0].innerHTML = this.getAttribute("date");   
-        $("#newsletter_body").load("http://www.1984.vc/newsletters/" + this.getAttribute("src"));
+        $("#newsletter_body").load("/newsletters/" + this.getAttribute("src"));
         var mq = window.matchMedia( "(min-width: 1160px)");
   	    if(mq.matches) {
       		zzz = zzz+10;    
@@ -438,7 +438,7 @@
         $("#philosophy").css("transform", "translate(" + $("#philosophy").data("pos") * 40 + "px," + $("#philosophy").data("pos") * -40 + "px)");
         $("#newsletter").css("transform", "translate(" + (2 - $("#newsletter").data("pos")) * -40 + "px," + (2 - $("#newsletter").data("pos")) * 40 + "px)");
         $("#portfolio").css("transform", "translate(" + (1 - $("#portfolio").data("pos")) * -40 + "px," + (1 - $("#portfolio").data("pos")) * 40 + "px)");    
-    /*
+   /*
         if(currMiddle == clicked) {
           $(currMiddle).css("transform", "translate(-40px,40px)");
           $(currTop).css("transform", "translate(40px,-40px)");
