@@ -87,8 +87,8 @@
 					<p>How we invest</p>
           <ol>
 				    <li>We focus on early-seed rounds. It’s what we know and love and where we provide the most value </li>
-				    <li>We are drawn to founders with industry insights and a strong engineering culture</li>
-            <li>We can lead or participate. We are comfortable with a priced round or a SAFE plus pro-rata</li>
+				    <li>We are drawn to fast-moving founders with industry insights and a strong engineering culture</li>
+            <li>We are comfortable with a SAFE plus pro-rata or a priced round and can lead or participate.</li>
           </ol>
         </div>
 				<div class="pillars MID">
@@ -96,7 +96,7 @@
           <ol>
             <li>We don't take board seats.  We prefer to be in your speed dial and get the late-night call</li>
             <li>We help you recruit an A+ team </li>
-            <li>We make intros that matter, and put our hearts and soul into getting you to your next round</li>
+            <li>We make intros that matter, and particularly help with fundraising.
           </ol>
         </div>
 			</div>
