@@ -286,7 +286,7 @@
 					    <div class="number">1.</div><h1 class="AtlasTypewriter-Regular-Web">India, Jio, and the Four Internets <span class="opacity">– stratechery.com</span></h1>
 				    </div>
 				    <div class="text">
-					    This thoughtful piece from Stratechery articulates the emergence of the four operating models for the internet and the pros and cons for each. The worry is not the US shutting off TikTok, a "response in kind" to China's 23 years of walled off internet. Rather it is the increased splintering in the non-China Internet, particularly the emergence of a European model that is "the worst of all possible outcomes”.
+					    This thoughtful piece from Stratechery articulates the emergence of the four operating models for the interne and the pros and cons for each. The worry is not the US shutting off TikTok, a "response in kind" to China's 23 years of walled off internet. Rather it is the increased splintering in the non-China Internet, particularly the emergence of a European model that is "the worst of all possible outcomes”.
 					    <img src="https://media.npr.org/assets/img/2014/01/23/jobs-6a428e3467ddbc01d6d7ec8534d79016b8e0edb2-s800-c85.jpg" class="follow" id="img-one" height="200px"/>
 				    </div>
 			    </div>
@@ -437,8 +437,9 @@
         currTop = clicked;
     
         $("#philosophy").css("transform", "translate(" + $("#philosophy").data("pos") * 40 + "px," + $("#philosophy").data("pos") * -40 + "px)");
-        $("#newsletter").css("transform", "translate(" + (2 - $("#newsletter").data("pos")) * -40 + "px," + (2 - $("#newsletter").data("pos")) * 40 + "px)");
         $("#portfolio").css("transform", "translate(" + (1 - $("#portfolio").data("pos")) * -40 + "px," + (1 - $("#portfolio").data("pos")) * 40 + "px)");    
+        $("#newsletter").css("transform", "translate(" + (2 - $("#newsletter").data("pos")) * -40 + "px," + (2 - $("#newsletter").data("pos")) * 40 + "px)");
+        $("#archive").css("transform", "translate(" + (2 - $("#newsletter").data("pos")) * -40 + "px," + (2 - $("#newsletter").data("pos")) * 40 + "px)");    
    /*
         if(currMiddle == clicked) {
           $(currMiddle).css("transform", "translate(-40px,40px)");
@@ -456,14 +457,21 @@
       }
     
     $("#philosophy").click(function(event) {
+			zzz = zzz+10;
+		  $(this).css('z-index', zzz);
       updateMobile("#philosophy");
       event.stopProbagation();
+    
     });
     $("#portfolio").click(function(event) {
+			zzz = zzz+10;
+		  $(this).css('z-index', zzz);
       updateMobile("#portfolio");
       event.stopProbagation();
     });
     $("#newsletter").click(function(event) {
+			zzz = zzz+10;
+		  $(this).css('z-index', zzz);
       updateMobile("#newsletter");
       event.stopProbagation();
     });

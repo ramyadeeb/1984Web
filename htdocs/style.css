@@ -174,7 +174,7 @@ ol li::before {
 }
 .custom-radios input[type="radio"] + label span img {
     opacity: 0;
-    transition: all 0.3s ease;
+    transition: all 0.1s ease;
 }
 
 .custom-radios input[type="radio"]:checked + label span img {
