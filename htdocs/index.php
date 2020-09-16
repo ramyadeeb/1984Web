@@ -368,9 +368,7 @@
   </p>        
   <p class="title">5. This startup will teach your dog to talk </p>
   <p class="desc">
-    Ever wondered what your dog is thinking? Now you can ask and get an answer - maybe. Check out this startup, and definitely watch the video on the homepage. 		
-    <a href="https://fluent.pet/">Read Article &#8594;</a>
-  </p>-->
+    Ever wondered what your dog is thinking? Now you can ask and get an answer - maybe. Check out this startup, and definitely watch the video on the homepage. 		-->
           <?php include("newsletters/sep2020.html"); ?> 
          </div>
       </div> 
@@ -398,9 +396,9 @@
 			  <li src="jun2020.html" title="How did we get here" date="June 2020">How did we get here, June 2020</li>
 			  <li src="may2020.html" title="Operating during a pandemic" date="May 2020">Operating during a pandemic, May 2020</li>
 			  <li src="apr2020.html" title="An update from 1984 Ventures" date="April 2020">An update, April 2020</li>
-			  <li src="mar2020.html" title="An epidemic of misinformataion" date="March 2020">An epidemic of misinformaation, March 2020</li>
+			  <li src="mar2020.html" title="An epidemic of misinformation" date="March 2020">An epidemic of misinformaation, March 2020</li>
 			  <li src="feb2020.html" title="The disruption issue" date="February 2020">The disruption issue, February 2020</li>
-			  <li src="jan2020.html" title="Our end of yeara letter" date="January 2020">Our end of year letter</li>
+			  <li src="jan2020.html" title="Our end of year letter" date="January 2020">Our end of year letter</li>
 			  <li src="dec2019.html" title="The fake news issue" date="December 2019">The fake news issue, December 2020</li>
 			  <li src="nov2019.html" title="The China culture clash" date="November 2019">The China culture clash, November 2019</li>
 			  <li src="oct2019.html" title="Q3 Update" date="October 2019">Q3 Update, October 2019</li>

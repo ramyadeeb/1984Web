@@ -101,14 +101,17 @@ body{
 .news-intro{padding:22px 0px 30px 0px;}
 .news-item{padding:22px 0px 30px 0px;}
 
-
-#newsletter_body .title {font-size:12px;font-weight:500;padding:24px 0px 0px 40px;width:100%;margin:0;display:inline-block;border-top:1px solid rgba(39, 31, 35, .2);}
-#newsletter_body .intro {line-height: 24px;padding: 0px 0px 0px 40px;}
+#newsletter_body {padding:0px 0px 0px 40px;} 
+#newsletter_body .title {font-size:12px;font-weight:500;padding:24px 0px 0px 40px;margin:0px 0px 0px -40px;width:100%;;display:inline-block;border-top:1px solid rgba(39, 31, 35, .2);}
+#newsletter_body .heading {font-size:12px;font-weight:500;padding:24px 0px 0px 0px;width:100%;margin:0;}
+#newsletter_body .subheading {line-height: 24px;padding: 0px 0px 0px 0px;}
+#newsletter_body .intro {line-height: 24px;padding: 0px 0px 0px 0px;}
 #newsletter_body .intro b, #newsletter_body heading {font-weight:500;font-style:normal}
-#newsletter_body .intro a {font-weight:400; color:black}
-#newsletter_body .desc {line-height: 24px;padding: 0px 0px 24px 40px;}
-#newsletter_body .desc a {font-weight:400; color:black};
+#newsletter_body a {font-weight:400; color:black}
+#newsletter_body .desc {line-height: 24px;padding: 0px 0px 24px 0px;}
 #newsletter_body table {border:none;}
+#newsletter_body .quote {font-size:12px;font-weight:400;padding:24px 0px 0px 0px;width:100%;margin:0;}
+#newsletter_body .subquote {font-size:12px;font-weight:500;padding:0px 0px 0px 10px;width:100%;margin:0;display:block}
 
 
 .border-top{border-top:1px solid rgba(39, 31, 35, .2);}
@@ -332,9 +335,9 @@ input:checked ~ .checkmark:after {display:block;}
 }
 /*////////// PHILOSOPHY EXCEPTION //////////*/
 @media only screen and (max-width: 700px){
-  #portfolio{top:80px;left:80px;width:calc(100% - 80px);}
-	#philosophy{top:120px;left:40px;width:calc(100% - 40px);}
-	#newsletter{top:160px;left:0px;width:100%}
+  #portfolio{top:80px;left:40px;width:calc(100% - 40px);}
+	#philosophy{top:100px;left:20px;width:calc(100% - 20px);}
+	#newsletter{top:120px;left:0px;width:100%}
 	#archive{display:none;top:160px;left:0px;width:100%;}
 	#logo{width:62px;height:20px;background:url("assets/logoHS.svg") no-repeat top left;top:30px;}
 	.text{line-height:24px;padding:0px 40px 0px 40px;}
