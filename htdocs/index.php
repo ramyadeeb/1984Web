@@ -271,7 +271,7 @@
         <li class='filter-supplychain filter-saas '>UnicoAero, <span class='opacity'>Baggage management system for airlines</span></li>
         <li class='filter-supplychain filter-saas '>Unioncrate, <span class='opacity'>Software for supply change management</span></li>
         <li class='filter-saas filter-marketplace'>Vectrix, <span class='opacity'>Cloud security marketplace</span></li>
-        <li class='filter-supplychain filter-saas '>Vizion, <span class='opacity'>API for logistics</span></li>
+<!--        <li class='filter-supplychain filter-saas '>Vizion, <span class='opacity'>API for logistics</span></li>-->
         <li class='filter-ecommerce filter-consumer '>Zero, <span class='opacity'>Zero waste groceries</span></li>
 			</ul>
 		</div>
