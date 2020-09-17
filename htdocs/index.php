@@ -437,18 +437,33 @@
     function updateMobile(clicked) {
       var mq = window.matchMedia( "(max-width: 700px)");
       if(mq.matches) {
-        if(currTop == "#philosophy" && $(clicked).data("pos") == 2)  {
+        if(clicked == "#philosophy") {
+          $("#philosophy").data("pos", 0);          
+          $("#portfolio").data("pos", 1);              
+          $("#newsletter").data("pos", 2);
+        } else if(clicked == "#newsletter") {
+          $("#philosophy").data("pos", 1);          
+          $("#portfolio").data("pos", 2);              
+          $("#newsletter").data("pos", 0);
+        } else if(clicked == "#portfolio") {
+          $("#philosophy").data("pos", 2);          
+          $("#portfolio").data("pos", 0);              
+          $("#newsletter").data("pos", 1);
+     
+      }
+
+    /*
+      $(clicked).data("pos", 0);
+       currTop = clicked;
+    
+      if(currTop == "#philosophy" && $(clicked).data("pos") == 2)  {
           (clicked == "#portfolio") ? $("#newsletter").data("pos", 2) : $("#portfolio").data("pos",2);
           $("#philosophy").data("pos", 1);          
        } else {
          $(currTop).data("pos", $(clicked ).data("pos"));
        }
-       $(clicked).data("pos", 0);
-        currTop = clicked;
-    
 
-
-       if($("#portfolio").data("pos") == 0 || $("#portfolio").data("pos") == 1) {
+      if($("#portfolio").data("pos") == 0 || $("#portfolio").data("pos") == 1) {
           $("#portfolio").css("transform", "translate(0px,0px)");
         } else {
          $("#portfolio").css("transform", "translate(40px,-40px)");
@@ -458,14 +473,13 @@
         } else {
          $("#newsletter, #archive").css("transform", "translate(0px,0px)");
         }
+*/
 
-
-/*  Old Code
         $("#philosophy").css("transform", "translate(" + $("#philosophy").data("pos") * 40 + "px," + $("#philosophy").data("pos") * -40 + "px)");
         $("#portfolio").css("transform", "translate(" + (1 - $("#portfolio").data("pos")) * -40 + "px," + (1 - $("#portfolio").data("pos")) * 40 + "px)");    
         $("#newsletter").css("transform", "translate(" + (2 - $("#newsletter").data("pos")) * -40 + "px," + (2 - $("#newsletter").data("pos")) * 40 + "px)");
         $("#archive").css("transform", "translate(" + (2 - $("#newsletter").data("pos")) * -40 + "px," + (2 - $("#newsletter").data("pos")) * 40 + "px)");    
-*/
+
         $("#philosophy").css("z-index", 2 - $("#philosophy").data("pos"));
         $("#portfolio").css("z-index", 2 - $("#portfolio").data("pos"));
         $("#newsletter").css("z-index", 2 - $("#newsletter").data("pos"));
