@@ -1,10 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-178383975-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-178383975-1');
+  </script>
+  <meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	
+  <meta name="title" content="1984 Ventures">
+  <meta name="description" content="Seed Stage Venture Capital"> 
+  
 	<link rel="stylesheet" type="text/css" href="font/1709-PNZNKV.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>1984 Ventures</title>
