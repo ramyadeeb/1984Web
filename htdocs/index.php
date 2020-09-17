@@ -36,6 +36,7 @@
 		  });
       /* Load Newsletter */
       $("li").click(function(event) {
+        $("#archive").addClass("clickable");
         /* Load the file from the src attribute of the li into the Newsletter tab */
         $("#newsletter_title")[0].innerHTML = this.getAttribute("title");
         $("#newsletter_date")[0].innerHTML = this.getAttribute("date");   
@@ -183,7 +184,7 @@
     </div>
 	</div>
 	<div id="portfolio">
-		<div class="container">
+		<div class="container portfolio_container">
 			<div class="header AtlasTypewriter-Regular-Web">PORTFOLIO</div>
 			<div class="title">
 				Since 2017, we have partnered with outstanding entrepreneurs shaking up many antiquated industries.
@@ -263,6 +264,12 @@
         <li class='filter-ecommerce filter-consumer '>Zero, <span class='opacity'>Zero waste groceries</span></li>
 			</ul>
 		</div>
+    <div class="portfolio_footer footer">
+      <p>Designed & built by the 1984 team on Emacs (vim users can still apply)</p>
+      <p>44 Tehama Street, San Francisco, CA</p>
+      <p>Contact us:<br>
+      <span class="opacity">team@1984.vc</span></p>
+    </div>
 	</div>
 	<div id="newsletter">
 		<div class="newsletter-top-container"> 
@@ -374,17 +381,16 @@
          </div>
       </div> 
    </div>
-
-    <div class="news_footer footer">
-      1984 Ventures<br>
-      44 Tehama Street <br>
-      San Francisco, CA<br>
-      <br><br>
-      Contact us:<br>
-      <span class="opacity">team@1984.vc</span>
-    </div>
-  </div>
-	<div id="archive">
+   
+   <div class="news_footer footer">
+     <p>Designed & built by the 1984 team on Emacs (vim users can still apply)</p>
+     <p>44 Tehama Street, San Francisco, CA</p>
+     <p>Contact us:<br>
+       <span class="opacity">team@1984.vc</span>
+     </p>
+   </div>
+   </div>
+	<div id="archive" class="clickable">
 		<div class="archive-top-container">
 			<div class="header AtlasTypewriter-Regular-Web">NEWSLETTER ARCHIVE</div>
 			<div class="archive-top-right"></div>
@@ -495,7 +501,8 @@
   		$("#newsletter").css('z-index', zzz);
 		});
 		$("#archive").click(function() {
-			$(this).css('z-index', zzz+2);
+      $(this).removeClass("clickable");
+		  $(this).css('z-index', zzz+2);
 			$("#newsletter").css('z-index', zzz);
 		});
 		
