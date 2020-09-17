@@ -26,7 +26,7 @@ body{
 .portfolio_container{background:#BFD3ED;}
 
 #philosophy, #portfolio, #newsletter, #archive {
-    transition: transform 0.2s ease-in-out;
+    transition: transform 0.05s linear;
 }
 
 
@@ -60,7 +60,7 @@ body{
 	border-bottom: 170px solid rgb(212,75,48);
 	background:rgba(255,255,255,0);*/
 	/*display:none; Toggle for mobile */
-}
+v}
 /*.vertical-archive {transform:rotate(-90deg) translate(-113px, 30px);font-size:10px;letter-spacing:2px;}
 .vertical-newsletter {transform:rotate(-90deg) translate(-130px, 30px);font-size:10px;letter-spacing:2px;}*/
 .newsletter-bottom-container{background: #EB6649; padding: 33px 40px 40px 40px;} 
@@ -343,7 +343,7 @@ input:checked ~ .checkmark:after {display:block;}
   .news_footer {display:none;}
   .portfolio_footer {display:block;}
 }
-/*////////// PHILOSOPHY EXCEPTION //////////*/
+/*////////// MOBILE /////////*/
 @media only screen and (max-width: 700px){
   #portfolio{top:120px;left:40px;width:calc(100% - 40px);}
 	#philosophy{top:160px;left:0px;width:calc(100% - 40px);}
@@ -351,17 +351,18 @@ input:checked ~ .checkmark:after {display:block;}
 	#archive{display:none;top:80px;left:80px;width:calc(100% - 40px);}
 	#logo{width:62px;height:20px;background:url("assets/logoHS.svg") no-repeat top left;top:30px;}
 	.text{line-height:24px;padding:0px 20px 0px 20px;}
-	.title{font-size:24px;line-height:32px;margin:33px 0px 86px 0px;}	
+	.title{font-size:24px;line-height:32px;margin:33px 0px 43px 0px;}	
 	.newsletter-top-container .title{font-size:24px;line-height:32px;}
 	.newsletter-top-container{background:#EB6649;padding:16px 0px 0px 20px;margin-right:120px;}
 	.newsletter-top-right{display:block;}
+  #newsletter_body {padding:0px 0px 0px 20px;} 
 	.archive-top-container{padding:16px 0px 0px 20px;margin-right:120px;}
 	.archive-top-right{display:block;}
   
   .container{padding:16px 20px 20px 20px;}
-	
+
 	#philosophy .text{line-height:24px;padding:0px 0px 0px 0px;}
-	#philosophy .pillars{width:100%;display:inline-block;line-height:24px;color:#FFF;vertical-align:top;font-size:12px;}
+	#philosophy .pillars{width:100%;display:inline-block;line-height:24px;color:#FFF;vertical-align:top;font-size:14px;}
 	.MID{margin:16px 0px 16px 0px;}
 	#philosophy #teamInvest{width:100%;}
 	#philosophy #teamPartners{width:100%;margin-left:0px;}
