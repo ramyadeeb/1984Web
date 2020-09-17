@@ -265,7 +265,7 @@
 			</ul>
 		</div>
     <div class="portfolio_footer footer">
-      <p>Designed & built by the 1984 team on Emacs (vim users can still apply)</p>
+      <p>Designed & built by the 1984 team using Emacs (vim users can still apply)</p>
       <p>44 Tehama Street, San Francisco, CA</p>
       <p>Contact us:<br>
       <span class="opacity">team@1984.vc</span></p>
@@ -383,7 +383,7 @@
    </div>
    
    <div class="news_footer footer">
-     <p>Designed & built by the 1984 team on Emacs (vim users can still apply)</p>
+     <p>Designed & built by the 1984 team using Emacs (vim users can still apply)</p>
      <p>44 Tehama Street, San Francisco, CA</p>
      <p>Contact us:<br>
        <span class="opacity">team@1984.vc</span>
