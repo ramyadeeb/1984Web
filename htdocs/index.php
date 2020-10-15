@@ -236,6 +236,7 @@
 			</div>
 			<ul>
         <li class='filter-ecommerce filter-consumer '>Because Market, <span class='opacity'>Ecommerce site selling diapers to seniors</span></li>
+        <li class='filter-healthcare '>Biocogniv, <span class='opacity'>AI for medical diagnostics</span></li>
         <li class='filter-supplychain filter-saas '>Bluecargo, <span class='opacity'>Optimizing container logistics</span></li>
         <li class='filter-proptech filter-fintech '>Brace, <span class='opacity'>Mortgage servicing for lenders</span></li>
         <li class='filter-proptech filter-saas '>BuildOps, <span class='opacity'>Driving operational efficiency for service contractors</span></li>
