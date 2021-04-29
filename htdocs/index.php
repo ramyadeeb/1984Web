@@ -159,7 +159,7 @@
 						<p class="job">Principal</p>
 					</div>
 					<div class="bio">
-Growing up in Sydney, Samit cut his teeth in startups and investment banking, before moving to San Francisco in 2017 to pursue a career in technology. Since then, he has spent time in operating roles at AngelList and as a seed investor at Bain Capital Ventures. While at Bain, Samit ran the firm's early-stage fund program which generated 15 seed investments, including Compound Finance ($2B market cap). He holds a double degree in Business and Law (First Class Honors) from the University of Sydney.
+Growing up in Sydney, Samit cut his teeth in startups and investment banking, before moving to San Francisco in 2017 to pursue a career in technology. Since then, he has spent time in operating roles at AngelList and as a seed investor at Bain Capital Ventures. While at Bain, Samit ran the firm's early-stage fund program which generated 15 seed investments, including Compound Finance ($3B market cap). He holds a double degree in Business and Law (First Class Honors) from the University of Sydney.
 					</div>
 
 				</div>
