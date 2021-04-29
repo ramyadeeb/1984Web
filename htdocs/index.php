@@ -100,8 +100,8 @@
 					<p>How we invest</p>
           <ol>
 				    <li>We focus on seed rounds. It’s what we know and love and where we provide the most value </li>
-				    <li>We are drawn to founders with industry insights and a strong engineering culture</li>
-            <li>We are flexible on the mechanics. We can use a SAFE plus pro-rata or a priced round, and can lead or participate.</li>
+				    <li>We are drawn to founders with grit, industry insights and a strong engineering culture</li>
+            <li>We are flexible on the mechanics. We can invest in a SAFE or a priced round, and can lead or participate.</li>
           </ol>
         </div>
 				<div class="pillars MID">
@@ -149,6 +149,19 @@
 					<div class="bio">
 						A VC by day and an ER physician by night, Farzad has over 15 years of experience at the intersection of healthcare and entrepreneurship. He is the founder of eTherapi, a pioneering telemedicine company, and the founding co-director of the Texas Medical Center Biodesign Innovation Program. Farzad started his investing career at Mohr Davidow Ventures, completed his residency training at Baylor and earned his MBA, MD, MS, and BS from Stanford University. He is on faculty at Baylor Medical School, Rice Business School, and Rice Bioengineering Department.
 					</div>
+
+					<!---------------------------->
+					<!--- Samit                 -->
+					<!---------------------------->
+					<div class="SVGcontainer"><div id="samitSVG"></div></div>
+					<div class="nameJob">
+						<p>Samit Kalra</p>
+						<p class="job">Principal</p>
+					</div>
+					<div class="bio">
+Growing up in Sydney, Samit cut his teeth in startups and investment banking, before moving to San Francisco in 2017 to pursue a career in technology. Since then, he has spent time in operating roles at AngelList and as a seed investor at Bain Capital Ventures. While at Bain, Samit ran the firm's early-stage fund program which generated 15 seed investments, including Compound Finance ($2B market cap). He holds a double degree in Business and Law (First Class Honors) from the University of Sydney.
+					</div>
+
 				</div>
 				<div id="teamPartners">
 					<div class="header AtlasTypewriter-Regular-Web" id="advisorsHeader">SENIOR ADVISORS</div>
@@ -289,7 +302,7 @@
 			<div class="title">
 				<span id="newsletter_title">The Monopoly Issue</span><br/>
 			  <spn class="white" id="newsletter_date">
-          September 2020</span>
+          December 2020</span>
       </div>
 	    <div class="newsletter-top-right"> 
 	    </div> 														
@@ -389,7 +402,7 @@
   <p class="title">5. This startup will teach your dog to talk </p>
   <p class="desc">
     Ever wondered what your dog is thinking? Now you can ask and get an answer - maybe. Check out this startup, and definitely watch the video on the homepage. 		-->
-          <?php include("newsletters/sep2020.html"); ?> 
+          <?php include("newsletters/dec2020.html"); ?> 
          </div>
       </div> 
    </div>
@@ -409,6 +422,12 @@
 		</div>
 		<div class="archive-bottom-container">
 			<ul>
+			  <li src="dec2020.html" title="VC Trends" date="December 2020">VC Trends, December 2020</li>
+        
+			  <li src="nov2020.html" title="The election issue" date="November 2020">The election issue, November 2020</li>
+        
+			  <li src="oct2020.html" title="Our Q3 Update" date="October 2020">Our Q3 Update, October 2020</li>
+        
 			  <li src="sep2020.html" title="The monopoly issue" date="September 2020">The monopoly issue, September 2020</li>
 			  <li src="aug2020.html" title="The splintering of the Internet" date="August 2020">The splintering of the Internet, August 2020</li>
 			  <li src="jul2020.html" title="Our Q2 Update" date="July 2020">Our Q2 Update, July 2020</li>

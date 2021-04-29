@@ -116,6 +116,7 @@ v}
 #newsletter_body .heading {font-size:12px;font-weight:500;padding:24px 0px 0px 0px;width:100%;margin:0;}
 #newsletter_body .subheading {line-height: 24px;padding: 0px 0px 0px 0px;}
 #newsletter_body .intro {line-height: 24px;padding: 0px 0px 0px 0px;}
+#newsletter_body li {font-size:15;line-height:22px;font-weight:200;}
 #newsletter_body .intro b, #newsletter_body heading {font-weight:500;font-style:normal}
 #newsletter_body a {font-weight:400; color:#271F23;}
 #newsletter_body .desc {line-height: 24px;padding: 0px 0px 24px 0px;}
