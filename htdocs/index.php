@@ -93,7 +93,7 @@
 		<div class="container">
 			<div class="header AtlasTypewriter-Regular-Web">PHILOSOPHY</div>
 			<div class="title white">
-				No buzzwords. No hype. We invest in founders using software to solve real world problems.
+				No buzzwords. No hype. We invest in founders using software to solve real &#x1f30e; problems.
 			</div>
 			<div id="pillarContainer">
 				<div class="pillars">
@@ -101,7 +101,7 @@
           <ol>
 				    <li>We focus on seed rounds. It’s what we know and love and where we provide the most value </li>
 				    <li>We are drawn to founders with grit, industry insights and a strong engineering culture</li>
-            <li>We are flexible on the mechanics. We can invest in a SAFE or a priced round, and can lead or participate.</li>
+            <li>We invest via SAFE or equity, and can lead or participate.</li>
           </ol>
         </div>
 				<div class="pillars MID">
@@ -109,7 +109,7 @@
           <ol>
             <li>We don't take board seats.  We prefer to be in your speed dial and get the late-night call</li>
             <li>We make intros that matter</li>
-            <li>We help you recruit an A+ team and assist with fundraising</li>
+            <li>We help with recruiting, fund raising, and founder therapy</li>	    
           </ol>
         </div>
 			</div>
@@ -182,14 +182,26 @@ Growing up in Sydney, Samit cut his teeth in startups and investment banking, be
 						<p class="job">Chairman of Mansour Group, a global conglomerate and GM's largest distributor globally</p>
 					</div>
           
+					<div class="header AtlasTypewriter-Regular-Web" id="partnersHeader">TECHNOLOGY PARTNERS</div>
+					<div class="nameJob">
+					  <p>Kyle Oppenheim</p>
+					  <p class="job">VP of Engineering at Groupon, director of eng at Facebook</p>
+					</div>
+					<div class="nameJob">
+					  <p>Mark Percival</p>
+					  <p class="job">First mobile engineer at Twitter, Co-founder and CTO at Snipit, Architect at Yahoo</p>
+					</div>
+					<div class="nameJob">
+					  <p>Karim Wahba</p>
+					  <p class="job">Data Science manager at Stitch Fix, Uber and Ginger.io</p>
+					</div>
+
+
+
 					<div class="header AtlasTypewriter-Regular-Web" id="partnersHeader">VENTURE PARTNERS</div>
 					<div class="nameJob">
 						<p>Drew Uher</p>
 						<p class="job">Founder and CEO at Homelight</p>
-					</div>
-					<div class="nameJob">
-						<p>Kyle Oppenheim</p>
-						<p class="job">VP of Engineering at Groupon and Director of eng at Facebook</p>
 					</div>
 					<div class="nameJob">
 						<p>Jennifer Pollock</p>
