@@ -88,40 +88,40 @@
 </head>
 <body class="AtlasTypewriter-Light-Web">
   <div id="wrapper">
-	<div id="logo"></div>	
-	<div id="philosophy">
-		<div class="philosophy_container container">
-			<div class="header AtlasTypewriter-Regular-Web">PHILOSOPHY</div>
+    <div id="logo"></div>	
+    <div id="philosophy">
+      <div class="philosophy_container container">
+	<div class="header AtlasTypewriter-Regular-Web">PHILOSOPHY</div>
 			<div class="title white">
-				No buzzwords. No hype. We invest in founders using software to solve real &#x1f30e; problems.
+			  No buzzwords. No hype. We invest in founders using software to solve real &#x1f30e; problems.
 			</div>
 			<div id="pillarContainer">
-				<div class="pillars">
+			  <div class="pillars">
 					<p>How we invest</p>
-          <ol>
-				    <li>We focus on seed &#127793; rounds. It’s what we know and love and where we provide the most value </li>
-				    <li>We are drawn to founders with grit, industry insights and a strong engineering culture &#128105;&#8205;&#128187;</li>
-            <li>We invest via SAFE or equity, and can lead or participate.</li>
+					<ol>
+					  <li>We focus on seed &#127793; rounds. It’s what we know and love and where we provide the most value </li>
+					  <li>We are drawn to founders with grit, industry insights and a strong engineering culture &#128105;&#8205;&#128187;</li>
+					  <li>We invest via SAFE or equity, and can lead or participate.</li>
           </ol>
         </div>
-				<div class="pillars MID">
-          <p>How we operate</p>
+			  <div class="pillars MID">
+			    <p>How we operate</p>
           <ol>
             <li>We don't take board seats.  We prefer to be in your speed dial and get the late-night call &#129305;</li>
             <li>We help with recruiting, fund raising &#128176;, and founder therapy &#128553;</li>	    
             <li>We will work with you to ensure you're set up for an outstanding Series A &#127942;</li>
           </ol>
-        </div>
+			  </div>
 			</div>
 			<div id="teamContainer">
-				<div id="teamInvest">
-					<div class="header AtlasTypewriter-Regular-Web"  id="investHeader">INVESTMENT TEAM</div>
-					<!---------------------------->
-					<!------ RAMY RAMY RAMY ------>
-					<!---------------------------->
-					<div class="SVGcontainer"><div id="ramySVG"></div></div>
-					<div class="nameJob">
-						<p>Ramy Adeeb</p>
+			  <div id="teamInvest">
+			    <div class="header AtlasTypewriter-Regular-Web"  id="investHeader">INVESTMENT TEAM</div>
+			    <!---------------------------->
+			    <!------ RAMY RAMY RAMY ------>
+			    <!---------------------------->
+			    <div class="SVGcontainer"><div id="ramySVG"></div></div>
+			    <div class="nameJob">
+			      <p>Ramy Adeeb</p>
 						<p class="job">General Partner</p>
 					</div>
 					<div class="bio">
@@ -218,22 +218,22 @@ Growing up in Sydney, Samit cut his teeth in startups and investment banking, be
 				</div>
 			</div>
 		</div>
-		
-		<div class="philosophy_footer footer">
-		  <p>Built by the 1984 team using Emacs (vim users can still apply)</p>
-		  <p>44 Tehama Street, San Francisco, CA</p>
-		  <p>Contact us:<br>
-		    <span class="opacity">team@1984.vc</span></p>
-		</div>
+      
+      <div class="philosophy_footer footer">
+	<p>Built by the 1984 team using Emacs (vim users can still apply)</p>
+	<p>44 Tehama Street, San Francisco, CA</p>
+	<p>Contact us:<br>
+	  <span class="opacity">team@1984.vc</span></p>
+      </div>
+    </div>
+    <div id="portfolio">
+      <div class="container portfolio_container">
+	<div class="header AtlasTypewriter-Regular-Web">PORTFOLIO</div>
+	<div class="title">
+	  Since 2017, we have partnered with outstanding entrepreneurs shaking up many antiquated industries.
 	</div>
-	<div id="portfolio">
-		<div class="container portfolio_container">
-			<div class="header AtlasTypewriter-Regular-Web">PORTFOLIO</div>
-			<div class="title">
-				Since 2017, we have partnered with outstanding entrepreneurs shaking up many antiquated industries.
-			</div>
-      <!--
-      <div class="custom-radios">
+	<!--
+	    <div class="custom-radios">
         <div>
           <input type="radio" id="color-3" name="color" value="color-3">
           <label for="color-3">
@@ -311,13 +311,13 @@ Growing up in Sydney, Samit cut his teeth in startups and investment banking, be
 <!--        <li class='filter-supplychain filter-saas '>Vizion, <span class='opacity'>API for logistics</span></li>-->
         <li class='filter-ecommerce filter-consumer '>Zero, <span class='opacity'>Zero waste groceries</span></li>
 			</ul>
-		</div>
-    <div class="portfolio_footer footer">
-      <p>Built by the 1984 team using Emacs (vim users can still apply)</p>
-      <p>44 Tehama Street, San Francisco, CA</p>
-      <p>Contact us:<br>
-      <span class="opacity">team@1984.vc</span></p>
-    </div>
+      </div>
+      <div class="portfolio_footer footer">
+	<p>Built by the 1984 team using Emacs (vim users can still apply)</p>
+	<p>44 Tehama Street, San Francisco, CA</p>
+	<p>Contact us:<br>
+	  <span class="opacity">team@1984.vc</span></p>
+      </div>
 	</div>
 	<div id="newsletter">
 		<div class="newsletter-top-container"> 
