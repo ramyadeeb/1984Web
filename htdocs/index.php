@@ -90,7 +90,7 @@
   <div id="wrapper">
 	<div id="logo"></div>	
 	<div id="philosophy">
-		<div class="container">
+		<div class="philosophy_container container">
 			<div class="header AtlasTypewriter-Regular-Web">PHILOSOPHY</div>
 			<div class="title white">
 				No buzzwords. No hype. We invest in founders using software to solve real &#x1f30e; problems.
@@ -99,17 +99,17 @@
 				<div class="pillars">
 					<p>How we invest</p>
           <ol>
-				    <li>We focus on seed rounds. It’s what we know and love and where we provide the most value </li>
-				    <li>We are drawn to founders with grit, industry insights and a strong engineering culture</li>
+				    <li>We focus on seed &#127793; rounds. It’s what we know and love and where we provide the most value </li>
+				    <li>We are drawn to founders with grit, industry insights and a strong engineering culture &#128105;&#8205;&#128187;</li>
             <li>We invest via SAFE or equity, and can lead or participate.</li>
           </ol>
         </div>
 				<div class="pillars MID">
           <p>How we operate</p>
           <ol>
-            <li>We don't take board seats.  We prefer to be in your speed dial and get the late-night call</li>
-            <li>We make intros that matter</li>
-            <li>We help with recruiting, fund raising, and founder therapy</li>	    
+            <li>We don't take board seats.  We prefer to be in your speed dial and get the late-night call &#129305;</li>
+            <li>We help with recruiting, fund raising &#128176;, and founder therapy &#128553;</li>	    
+            <li>We will work with you to ensure you're set up for an outstanding Series A &#127942;</li>
           </ol>
         </div>
 			</div>
@@ -217,7 +217,14 @@ Growing up in Sydney, Samit cut his teeth in startups and investment banking, be
 					</div>
 				</div>
 			</div>
-    </div>
+		</div>
+		
+		<div class="philosophy_footer footer">
+		  <p>Built by the 1984 team using Emacs (vim users can still apply)</p>
+		  <p>44 Tehama Street, San Francisco, CA</p>
+		  <p>Contact us:<br>
+		    <span class="opacity">team@1984.vc</span></p>
+		</div>
 	</div>
 	<div id="portfolio">
 		<div class="container portfolio_container">
@@ -278,6 +285,7 @@ Growing up in Sydney, Samit cut his teeth in startups and investment banking, be
         <li class='filter-healthcare '>Glidian, <span class='opacity'>Prior authorization software</span></li>
         <li class='filter-healthcare '>Health Note, <span class='opacity'>Automated note taking for healthcare</span></li>
         <li class='filter-staffing '>Heroes Jobs, <span class='opacity'>Video recruiting platform for Gen Z workers</span></li>
+        <li class='filter-healthcare '>House RX, <span class='opacity'>Making specialty medication more accessible and affordable</span></li>	
         <li class='filter-supplychain filter-consumer '>Kyte, <span class='opacity'>Rental cars on demand</span></li>
         <li class='filter-proptech '>Latchel, <span class='opacity'>Property management solution for landlords</span></li>
         <li class='filter-supplychain filter-consumer '>Nickson, <span class='opacity'>Furniture as a service</span></li>
@@ -292,7 +300,10 @@ Growing up in Sydney, Samit cut his teeth in startups and investment banking, be
         <li class='filter-supplychain filter-fintech filter-saas filter-marketplace '>Shelf Engine, <span class='opacity'>Marketplace connecting grocery stores with vendors</span></li>
         <li class='filter-healthcare filter-staffing '>Sling Health, <span class='opacity'>Virtual care teams for medical practices</span></li>
         <li class='filter-ecommerce filter-supplychain filter-saas filter-marketplace '>Sourcify, <span class='opacity'>Connecting US merchants with Chinese factories</span></li>
-        <li class='filter-proptech filter-marketplace filter-staffing '>Toolbox, <span class='opacity'>Staffing and payroll platform for construction workers</span></li>
+        <li class='filter-ecommerce filter-saas filter-marketplace '>Statusphere, <span class='opacity'>Platform for word-of-mouth marketing</span></li>		
+        <li class='filter-ecommerce filter-supplychain filter-saas '>Syrup, <span class='opacity'>Predictive analytics for retailers</span></li>	
+        <li class='filter-healthcare filter-marketplace '>Terapify, <span class='opacity'>E-therapy for Latam</span></li>
+        <li class='filter-proptech filter-marketplace filter-staffing '>Toolbox, <span class='opacity'>Staffing and payroll platform for construction workers</span></li>	
         <li class='filter-healthcare filter-marketplace filter-staffing '>Trusted Health, <span class='opacity'>Marketplace for healthcare employment</span></li>
         <li class='filter-supplychain filter-saas '>UnicoAero, <span class='opacity'>Baggage management system for airlines</span></li>
         <li class='filter-supplychain filter-saas '>Unioncrate, <span class='opacity'>Software for supply change management</span></li>
@@ -302,7 +313,7 @@ Growing up in Sydney, Samit cut his teeth in startups and investment banking, be
 			</ul>
 		</div>
     <div class="portfolio_footer footer">
-      <p>Designed & built by the 1984 team using Emacs (vim users can still apply)</p>
+      <p>Built by the 1984 team using Emacs (vim users can still apply)</p>
       <p>44 Tehama Street, San Francisco, CA</p>
       <p>Contact us:<br>
       <span class="opacity">team@1984.vc</span></p>
@@ -420,7 +431,7 @@ Growing up in Sydney, Samit cut his teeth in startups and investment banking, be
    </div>
    
    <div class="news_footer footer">
-     <p>Designed & built by the 1984 team using Emacs (vim users can still apply)</p>
+      <p>Built by the 1984 team using Emacs (vim users can still apply)</p>
      <p>44 Tehama Street, San Francisco, CA</p>
      <p>Contact us:<br>
        <span class="opacity">team@1984.vc</span>
