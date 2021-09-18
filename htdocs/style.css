@@ -116,7 +116,10 @@ v}
 .news-intro{padding:22px 0px 30px 0px;}
 .news-item{padding:22px 0px 30px 0px;}
 
-#newsletter_body {padding:0px 0px 0px 40px;} 
+#newsletter_title {font-size:20px;line-height:28px;}
+#newsletter_date {font-size:20px;line-height:48px;}
+
+#newsletter_body {padding:0px 0px 0px 0px;} 
 #newsletter_body .title {font-size:12px;font-weight:500;padding:24px 0px 0px 40px;margin:0px 0px 0px -40px;width:100%;;display:inline-block;border-top:1px solid rgba(39, 31, 35, .2);}
 #newsletter_body .heading {font-size:12px;font-weight:500;padding:24px 0px 0px 0px;width:100%;margin:0;}
 #newsletter_body .subheading {line-height: 24px;padding: 0px 0px 0px 0px;}
@@ -372,7 +375,9 @@ input:checked ~ .checkmark:after {display:block;}
 	.newsletter-top-container .title{font-size:24px;line-height:32px;}
 	.newsletter-top-container{background:#EB6649;padding:15px 0px 0px 40px;margin-right:120px}
 	.newsletter-top-right{display:block;}
-  #newsletter_body {padding:0px 0px 0px 20px;} 
+        #newsletter_body {padding:0px 0px 0px 0px;}
+	#newsletter_title {font-size:16px;line-height:24px;}
+	#newsletter_date {font-size:16px;line-height:36px;}	
 	.archive-top-container{padding:16px 0px 0px 20px;margin-right:120px;}
 	.archive-top-right{display:block; }
   

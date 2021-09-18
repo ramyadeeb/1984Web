@@ -99,7 +99,7 @@
 			  <div class="pillars">
 					<p>How we invest</p>
 					<ol>
-					  <li>We focus on seed &#127793; rounds. It’s what we know and love and where we provide the most value </li>
+					  <li>We only invest in seed &#127793;. It’s what we know and love and where we provide the most value </li>
 					  <li>We are drawn to founders with grit, industry insights and a strong engineering culture &#128105;&#8205;&#128187;</li>
 					  <li>We invest via SAFE or equity, and can lead or participate.</li>
           </ol>
@@ -108,7 +108,7 @@
 			    <p>How we operate</p>
           <ol>
             <li>We don't take board seats.  We prefer to be in your speed dial and get the late-night call &#129305;</li>
-            <li>We help with recruiting, fund raising &#128176;, and founder therapy &#128553;</li>	    
+            <li>We help with recruiting, &#128176; raising, and founder therapy &#128553;</li>	    
             <li>We will work with you to ensure you're set up for an outstanding Series A &#127942;</li>
           </ol>
 			  </div>
@@ -318,117 +318,103 @@ Growing up in Sydney, Samit cut his teeth in startups and investment banking, be
 	<p>Contact us:<br>
 	  <span class="opacity">team@1984.vc</span></p>
       </div>
+    </div>
+    <div id="newsletter">
+      <div class="newsletter-top-container"> 
+	<div class="header AtlasTypewriter-Regular-Web">RESOURCES FOR ENTREPERNEURS</div>
+
+	<div class="title">
+	  <div id="newsletter_title">"Knowing whose advice to take and on what topic is the single most important decision an entrepreneur can make."</div>
+	  <div id="newsletter_date" class="white">
+	    &mdash; Vinod Khosla</div>
 	</div>
-	<div id="newsletter">
-		<div class="newsletter-top-container"> 
-			<div class="header AtlasTypewriter-Regular-Web">NEWSLETTER</div>
-			<div class="title">
-				<span id="newsletter_title">The Monopoly Issue</span><br/>
-			  <spn class="white" id="newsletter_date">
-          December 2020</span>
+
+
+	
+	<div class="newsletter-top-right">
+	  
+	</div> 														
+      </div> 															
+      <div class="newsletter-bottom-container">      
+	<div class="news-intro">
+	  <div id="newsletter_body">
+	    On Company Founding
+	    <div class="news-item border-top" id="one">
+	      <div>
+		<a href="http://www.paulgraham.com/relres.html" target="_new">
+		  <div class="number">1.</div><h1 class="AtlasTypewriter-Regular-Web">Want to start a comapny? be relentlessly resourceful <span class="opacity">– Paul Graham</span></h1>
+		</a>
+	      </div>
+	      <div>
+		<a href="http://www.paulgraham.com/ds.html" target="_new">
+		  <div class="number">2.</div><h1 class="AtlasTypewriter-Regular-Web">Do Things that Don’t Scale <span class="opacity">– Paul Graham</span></h1>
+		</a>
+	      </div>
+	      <div>
+		<a href="https://www.geekwire.com/2011/wrong-answer-5050-calculating-cofounder-equity-split/" target="_new">
+		  <div class="number">3.</div><h1 class="AtlasTypewriter-Regular-Web">The only wrong answer is 50/50: Calculating the co-founder equity split<span class="opacity">– Dan Shapiro</span></h1>
+		</a>
+	      </div>
+	    </div>
+	    
+	    On Fundraising
+	    <div class="news-item border-top" id="two">
+
+	      <div>
+		<a href="https://abovethecrowd.com/2015/07/07/in-defense-of-the-deck/" target="_new">
+		  <div class="number">1.</div><h1 class="AtlasTypewriter-Regular-Web">In Defense of the Deck <span class="opacity">- Above the Crowd</span></h1>
+		</a>
+	      </div>
+	      
+	      <div>
+		<a href="https://blog.initialized.com/2021/06/the-metrics-you-need-to-raise-a-series-a/" target="_new">
+		  <div class="number">2.</div><h1 class="AtlasTypewriter-Regular-Web">Metrics to raise a Series A <span class="opacity">- initialized.com</span></h1>
+		</a>
+	      </div>
+	      <div>
+		<a href="https://www.lennysnewsletter.com/p/what-is-good-retention-issue-29" target="_new">
+		  <div class="number">3.</div><h1 class="AtlasTypewriter-Regular-Web">Retention metrics for founders <span class="opacity">- Lenny's Newsletter</span></h1>
+		</a>
+	      </div>
+	    </div>
+
+	    On Recruiting
+	    <div class="news-item border-top" id="two">	    
+	      <div>
+		<a href="https://www.khoslaventures.com/gene-pool-engineering-for-entrepreneurs" target="_new">
+		  <div class="number">1.</div><h1 class="AtlasTypewriter-Regular-Web">Gene Pool Engineering <span class="opacity">- Vinod Khosla</span></h1>
+		</a>
+	      </div>
+	    </div>
+
+	    On Operating
+	    <div class="news-item border-top" id="two">	    	    
+	      <div>
+		<a href="https://www.lennysnewsletter.com/p/saas-pricing-strategy" target="_new">
+		  <div class="number">1.</div><h1 class="AtlasTypewriter-Regular-Web">Pricing framework for SaaS companies <span class="opacity">- Lenny's Newsletter</span></h1>
+		</a>
+	      </div>
+
+	      <div>
+		<a href="https://sarahtavel.medium.com/the-hierarchy-of-marketplaces-introduction-and-level-1-983995aa218e"  target="_new">
+		  <div class="number">2.</div><h1 class="AtlasTypewriter-Regular-Web">Framework for launching and scaling a marketplace business <span class="opacity">- Sarah Tavel</span></h1>
+		</a>
+		
+	      </div>
+	      <div>
+		<a href="https://christophjanz.blogspot.com/2014/10/five-ways-to-build-100-million-business.html"  target="_new">
+		  <div class="number">3.</div><h1 class="AtlasTypewriter-Regular-Web">5 ways to build a $100M revenue business <span class="opacity">- The Angel VC</span></h1>
+		</a>
+	      </div>
+	      <div>
+		<a href="https://abovethecrowd.com/2012/09/04/the-dangerous-seduction-of-the-lifetime-value-ltv-formula/" target="_new">
+		  <div class="number">4.</div><h1 class="AtlasTypewriter-Regular-Web">The Dangerous Seduction of the Lifetime Value (LTV) Formula<span class="opacity"> - Bill Gurley</span></h1>
+		</a>
+	      </div>
+	    </div>
+	  </div> 
+	</div>
       </div>
-	    <div class="newsletter-top-right"> 
-	    </div> 														
-		</div> 															
-   <div class="newsletter-bottom-container">      
-			<div class="news-intro border-top">
-				<div id="newsletter_body">
-          <!--
-          <div class="text">
-					  As the TikTok drama unfolds, it's easy to write off the Trump administration's threat to shut off the video app as yet another episode in the US-China saga. But a deeper look reveals a broader trend. In June, following a border skirmish with next-door China, India retaliated in part by shutting off TikTok along with 58 other Chinese apps. And in July Slack decided to pursue antitrust action against Microsoft over the bundling of its Teams product not in the US, home to both companies, but rather in the European Union where regulators look more harshly on tech giants.
-				  </div>
-			    <div class="news-item border-top" id="one">
-				    <div>
-					    <div class="number">1.</div><h1 class="AtlasTypewriter-Regular-Web">India, Jio, and the Four Internets <span class="opacity">– stratechery.com</span></h1>
-				    </div>
-				    <div class="text">
-					    This thoughtful piece from Stratechery articulates the emergence of the four operating models for the interne and the pros and cons for each. The worry is not the US shutting off TikTok, a "response in kind" to China's 23 years of walled off internet. Rather it is the increased splintering in the non-China Internet, particularly the emergence of a European model that is "the worst of all possible outcomes”.
-					    <img src="https://media.npr.org/assets/img/2014/01/23/jobs-6a428e3467ddbc01d6d7ec8534d79016b8e0edb2-s800-c85.jpg" class="follow" id="img-one" height="200px"/>
-				    </div>
-			    </div>
-			    <div class="news-item border-top" id="two">
-				    <div id="name">
-					    <div class="number">2.</div><h1 class="AtlasTypewriter-Regular-Web">The TikTok war <span class="opacity"> - apple.com</span></h1>                        
-				    </div>
-				    <div class="text">
-					    This thoughtful piece from Stratechery articulates the emergence of the four operating models for the internet and the pros and cons for each. The worry is not the US shutting off TikTok, a "response in kind" to China's 23 years of walled off internet. Rather it is the increased splintering in the non-China Internet, particularly the emergence of a European model that is "the worst of all possible outcomes”.
-					    <img src="https://cdn.cultofmac.com/wp-content/uploads/2012/09/stevej1.jpg" class="follow" id="img-two" height="200px"/>
-				    </div>
-			    </div>
-			    <div class="news-item border-top" id="three">
-				    <div id="name">
-					    <div class="number">3.</div><h1 class="AtlasTypewriter-Regular-Web">Fusce eu malesuada est <span class="opacity">– work.co</span></h1>
-				    </div>
-				    <div class="text">
-					    Nam nulla lectus, maximus sed dignissim sed, consequat nec augue. Fusce eu malesuada est, nec molestie quam. Donec at mi quis lectus maximus facilisis quis at neque. Nulla tempus diam sed ullamcorper vehicula. Sed vitae luctus metus. Morbi euismod lectus sem, at pulvinar erat scelerisque vel. Fusce vehicula, orci a rhoncus luctus, ligula dui varius enim, ac feugiat est ex a velit. Mauris a varius orci. Praesent eu mi dui. Nam hendrerit purus libero, id sodales lacus vulputate quis.
-					    <img src="https://api.time.com/wp-content/uploads/2011/10/1110171300191.jpg" class="follow" id="img-three" height="200px"/>
-				    </div>
-			    </div>
-			    <div class="news-item border-top" id="four">
-				    <div id="name">
-					    <div class="number">4.</div><h1 class="AtlasTypewriter-Regular-Web">Nullam ut sagittis <span class="opacity">– reuters.com</span></h1>
-				    </div>
-				    <div class="text">
-					    Integer quis augue fringilla, finibus nibh non, sagittis lorem. Phasellus ullamcorper consectetur sapien, vehicula sagittis purus bibendum nec. Sed consequat eros ac euismod tristique. Nulla tellus leo, fermentum a nibh quis, suscipit auctor urna. Nullam ut sagittis eros, eget posuere magna. Nullam eros libero, rhoncus quis eros eget, vehicula commodo justo.
-					    <img src="https://techcrunch.com/wp-content/uploads/2014/11/fg_menuez_001-e1508806005836.jpg" class="follow" id="img-four" height="200px"/>
-				    </div>
-			    </div>
-			    <div class="news-item border-top" id="five">
-				    <div id="name">
-					    <div class="number">5.</div><h1 class="AtlasTypewriter-Regular-Web">Donec bibendum turpis eget <span class="opacity">– nymag.com</span></h1>
-				    </div>
-				    <div class="text">
-					    In arcu quam, molestie at vestibulum quis, lobortis vel nisi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec bibendum turpis eget lobortis porta. Curabitur porttitor felis vel dui tristique volutpat. Phasellus ullamcorper semper nibh, vel aliquam lectus sodales et. Integer rutrum at odio volutpat pellentesque.
-					    <img src="https://pyxis.nymag.com/v1/imgs/ce6/1f7/32552b811a3a2a25d2a9b2611d59332277-04-steve-jobs.rsquare.w700.jpg" class="follow" id="img-five" height="200px"/>
-				    </div>
-          </div>
-          
-          <p class="intro">Dear Investor,</p>
-          <p class="intro">  
-            The story of entrepreneurship is often reminiscent of David and Goliath: a small and nimble startup rises up to challenge the large, evil incumbent. But with time, David becomes Goliath. Courage is replaced with defenses, and innovation with brute-force. That's why the symbolism of Epic Games' attack on Apple is genius...
-  </p>                    
-          <p class="intro">  
-            In August, Apple removed the popular game Fortnite from the App Store after it introduced a direct payment option that circumvented Apple's 30% revenue cut policy. Immediately after,  Fortnite's maker Epic Games published a parody of the "1984" ad called "Nineteen Eighty-Fortnite." (In the unlikely event you have never heard us talk about the original ad, you can see it here.) In the Fortnite parody, the villain is an apple while the heroine is Fortnite. The parody ends with a call to action: "Apple is blocking Fortnite. Join the fight to stop 2020 from becoming '1984.'"
-          </p>                    
-          <p class="intro">  
-            Despite a $2 trillion market cap, Apple had thus far managed to maintain its David-like image. Epic Games has put a crack in that narrative. How this fight ends remains unclear, but the crack is here to stay. And so is the underlying message: Monopolies are bad for innovation. We tip our hat to Epic Games for its fight (and highly recommend watching the Fortnite commercial below).
-  </p>                    
-  <p class="intro">  
-    Fund News
-  </p>                    
-  <p class="intro">  
-    This month two of our companies announced their Series A rounds. Routable, which provides an API and B2B payment platform, announced a Series A led by Lee Fixel. And PadSplit, which  applies tech to the Gordian Knot of America's affordable housing challenges, announced a Series A led by Core. In other news, our portfolio company Properly has been featured in this front page story in Canada's Financial Times for its innovative solution for homebuying during the current economic crisis. And our startup Fairmarkit was named in CB Insights' list of fastest-growing fintech startups.
-  </p>                    
-  <p class="intro">  
-    Without further ado, here are your must-reads for September
-  </p>                    
-  <p class="title">1, Epic's Epic 1984 Video </p>
-  <p class="desc">
-    A brilliant parody. (If you have not seen the original from 1984, you should watch it first here.) 
-    <a href="https://www.youtube.com/watch?v=Nvr3rqsQcPY">Read Article &#8594;</a>
-  </p>        
-  <p class="title">2. Rethinking the App Store  </p>
-  <p class="desc">
-    In this thoughtful (and slightly philosophical) article, Stratechery's Ben Thompson chronicles the evolution of the App Store and how a 30% take from application revenue by Apple on the iPhone or by Google on Android has become the norm. (Compared with 0% on the desktop.)
-    <a href="https://stratechery.com/2020/rethinking-the-app-store/">Read Article &#8594;</a>
-  </p>        
-  <p class="title">3. Walmart+ will finally launch in September. Can it compete with Amazon Prime? </p>
-  <p class="desc">
-    Walmart is finally launching a response to Amazon Prime, Walmart+. But will Walmart+'s (we realize it does not roll off the tongue) offer of lower-priced grocery delivery, discount gas and a self-checkout experience at Walmart stores beat Amazon Prime's menu of benefits? It looks like an uphill climb for Walmart. But as we said above, monopolies are bad for innovation. We look forward to seeing how the entry of a new player benefits innovation and consumers.
-    <a href="https://www.vox.com/recode/2020/9/1/21409628/walmart-plus-benefits-free-grocery-delivery-amazon-prime-comparison">Read Article &#8594;</a>
-  </p>        
-  <p class="title">4. Five Things We Learned From the Surge of Cloud Software Filings </p>
-  <p class="desc">
-    It's a busy month for tech IPO filings, particularly Cloud Software.  This month Snowflake, Asana, Palantir, JFrog and Sumo Logic all filed to go public. This article summarizes some of the learnings from the filings.  Tl;dr: cloud software providers have amazing retention rates (in the case of Snowflake 158%), most have saved money during the pandemic due to the cancelation of business travel and the virtualization of company and sales events, and some cited "political influence" as a potential risk, a subtle reference to the Trump administration's unusual involvement in a recent cloud deal.
-    <a href="https://www.theinformation.com/articles/five-things-we-learned-from-the-surge-of-cloud-software-filings">Read Article &#8594;</a>
-  </p>        
-  <p class="title">5. This startup will teach your dog to talk </p>
-  <p class="desc">
-    Ever wondered what your dog is thinking? Now you can ask and get an answer - maybe. Check out this startup, and definitely watch the video on the homepage. 		-->
-          <?php include("newsletters/dec2020.html"); ?> 
-         </div>
-      </div> 
-   </div>
    
    <div class="news_footer footer">
       <p>Built by the 1984 team using Emacs (vim users can still apply)</p>
@@ -439,37 +425,33 @@ Growing up in Sydney, Samit cut his teeth in startups and investment banking, be
    </div>
    </div>
 	<div id="archive" class="clickable">
-		<div class="archive-top-container">
-			<div class="header AtlasTypewriter-Regular-Web">NEWSLETTER ARCHIVE</div>
-			<div class="archive-top-right"></div>
-		</div>
-		<div class="archive-bottom-container">
-			<ul>
-			  <li src="dec2020.html" title="VC Trends" date="December 2020">VC Trends, December 2020</li>
-        
-			  <li src="nov2020.html" title="The election issue" date="November 2020">The election issue, November 2020</li>
-        
-			  <li src="oct2020.html" title="Our Q3 Update" date="October 2020">Our Q3 Update, October 2020</li>
-        
-			  <li src="sep2020.html" title="The monopoly issue" date="September 2020">The monopoly issue, September 2020</li>
-			  <li src="aug2020.html" title="The splintering of the Internet" date="August 2020">The splintering of the Internet, August 2020</li>
-			  <li src="jul2020.html" title="Our Q2 Update" date="July 2020">Our Q2 Update, July 2020</li>
-			  <li src="jun2020.html" title="How did we get here" date="June 2020">How did we get here, June 2020</li>
-			  <li src="may2020.html" title="Operating during a pandemic" date="May 2020">Operating during a pandemic, May 2020</li>
-			  <li src="apr2020.html" title="An update from 1984 Ventures" date="April 2020">An update, April 2020</li>
-			  <li src="mar2020.html" title="An epidemic of misinformation" date="March 2020">An epidemic of misinformaation, March 2020</li>
-			  <li src="feb2020.html" title="The disruption issue" date="February 2020">The disruption issue, February 2020</li>
-			  <li src="jan2020.html" title="Our end of year letter" date="January 2020">Our end of year letter</li>
-			  <li src="dec2019.html" title="The fake news issue" date="December 2019">The fake news issue, December 2020</li>
-			  <li src="nov2019.html" title="The China culture clash" date="November 2019">The China culture clash, November 2019</li>
-			  <li src="oct2019.html" title="Q3 Update" date="October 2019">Q3 Update, October 2019</li>
-			  <li src="sep2019.html" title="The WeWork debacle" date="September 2019">The WeWork debacle, September 2019</li>
-			  <li src="aug2019.html" title="The rise of Shopify" date="August 2019">The rise of Shopify, August 2019</li>
-			  <li src="jul2019.html" title="Q2 Update" date="July 2019">Q2 Update, July 2019</li>
-<!--			  <li src="jun2019.html" title="" date="">June 2019</li>
-			  <li src="may2019.html" title="" date="">May 2019</li>
-			  <li src="apr2019.html" title="" date="">April 2019</li>-->
-
+	  <div class="archive-top-container">
+	    <div class="header AtlasTypewriter-Regular-Web">ON INVESTING</div>
+	    <div class="archive-top-right"></div>
+	  </div>
+	  <div class="archive-bottom-container">
+	    <br/>
+	    <br/>
+	    <br/>
+	    <br/>
+	    <br/>
+	    <br/>
+	    <br/>
+	    <br/>
+	    <br/>
+	    <br/>
+	    <br/>
+	    <br/>
+	    <br/>	    
+	    <br/>
+	    <br/>
+	    <br/>
+	    <br/>	    
+	    <br/>
+	    <br/>
+	    <br/>	    
+	    <ul>
+	      <li>Coming Soon</li>
 			</ul>
 		</div>
 	</div>
