@@ -45,30 +45,12 @@
 				$("#newsletter").show();
 				$("#archive").hide();
 		  });
-      /* Load Newsletter */
-      $("li").click(function(event) {
-        $("#archive").addClass("clickable");
-        /* Load the file from the src attribute of the li into the Newsletter tab */
-        $("#newsletter_title")[0].innerHTML = this.getAttribute("title");
-        $("#newsletter_date")[0].innerHTML = this.getAttribute("date");   
-        $("#newsletter_body").load("/newsletters/" + this.getAttribute("src"));
-        var mq = window.matchMedia( "(min-width: 1160px)");
-  	    if(mq.matches) {
-      		zzz = zzz+10;    
- 	        $("#newsletter").css("z-index", zzz);
- 	        $("#archive").css("z-index", zzz - 5);
-        } else {
-          $("#newsletter").show();
-          $("#archive").hide();
-        }
-        event.stopPropagation();
-      });
 		});
 		$(window).resize(function() {
 			var winW 	= $(window).width();
 			/* EXTRA WIDE CENTERING */
 			if(winW > 1360){
-     		$("#philosophy").css("left", (winW/2) - 240 + "px");
+     		            $("#philosophy").css("left", (winW/2) - 240 + "px");
 				$("#portfolio").css("left", (winW/2) - 420 + "px");
 				$("#newsletter").css("left", (winW/2) - 600 + "px");
 				$("#archive").css("left", (winW/2) - 640 + "px");
@@ -321,7 +303,7 @@ Growing up in Sydney, Samit cut his teeth in startups and investment banking, be
     </div>
     <div id="newsletter">
       <div class="newsletter-top-container"> 
-	<div class="header AtlasTypewriter-Regular-Web">RESOURCES FOR ENTREPERNEURS</div>
+	<div class="header AtlasTypewriter-Regular-Web">RESOURCES</div>
 
 	<div class="title">
 	  <div id="newsletter_title">"Knowing whose advice to take and on what topic is the single most important decision an entrepreneur can make."</div>
@@ -511,12 +493,12 @@ Growing up in Sydney, Samit cut his teeth in startups and investment banking, be
          $("#newsletter, #archive").css("transform", "translate(0px,0px)");
         }
 */
-
+/*
         $("#philosophy").css("transform", "translate(" + $("#philosophy").data("pos") * 40 + "px," + $("#philosophy").data("pos") * -40 + "px)");
         $("#portfolio").css("transform", "translate(" + (1 - $("#portfolio").data("pos")) * -40 + "px," + (1 - $("#portfolio").data("pos")) * 40 + "px)");    
         $("#newsletter").css("transform", "translate(" + (2 - $("#newsletter").data("pos")) * -40 + "px," + (2 - $("#newsletter").data("pos")) * 40 + "px)");
         $("#archive").css("transform", "translate(" + (2 - $("#newsletter").data("pos")) * -40 + "px," + (2 - $("#newsletter").data("pos")) * 40 + "px)");    
-
+*/
         $("#philosophy").css("z-index", 2 - $("#philosophy").data("pos"));
         $("#portfolio").css("z-index", 2 - $("#portfolio").data("pos"));
         $("#newsletter").css("z-index", 2 - $("#newsletter").data("pos"));
@@ -582,63 +564,6 @@ Growing up in Sydney, Samit cut his teeth in startups and investment banking, be
     }
 		
 		
-		/*/////////////////////////////////////////*/
-		/*/////////   NEWSLETTER IMAGES   /////////*/
-		/*/////////////////////////////////////////*/
-		$("#one").mouseover(function(e){
-			$("#one").mousemove(function(e){
-				$("#img-one").show();
-				$(".follow").css({'top': e.clientY + 16, 'left': e.clientX + 16});
-			 }); 
-		});
-		$("#one").mouseout(function(e){
-			$("#img-one").hide();
-			$(".follow").css({'top': e.clientY + 16, 'left': e.clientX + 16});
-		});
-		
-		$("#two").mouseover(function(e){
-			$("#two").mousemove(function(e){
-				$("#img-two").show();
-				$(".follow").css({'top': e.clientY + 16, 'left': e.clientX + 16});
-			 }); 
-		});
-		$("#two").mouseout(function(e){
-			$("#img-two").hide();
-			$(".follow").css({'top': e.clientY + 16, 'left': e.clientX + 16});
-		});
-		
-		$("#three").mouseover(function(e){
-			$("#three").mousemove(function(e){
-				$("#img-three").show();
-				$(".follow").css({'top': e.clientY + 16, 'left': e.clientX + 16});
-			 }); 
-		});
-		$("#three").mouseout(function(e){
-			$("#img-three").hide();
-			$(".follow").css({'top': e.clientY + 16, 'left': e.clientX + 16});
-		});
-		
-		$("#four").mouseover(function(e){
-			$("#four").mousemove(function(e){
-				$("#img-four").show();
-				$(".follow").css({'top': e.clientY + 16, 'left': e.clientX + 16});
-			 }); 
-		});
-		$("#four").mouseout(function(e){
-			$("#img-four").hide();
-			$(".follow").css({'top': e.clientY + 16, 'left': e.clientX + 16});
-		});
-		
-		$("#five").mouseover(function(e){
-			$("#five").mousemove(function(e){
-				$("#img-five").show();
-				$(".follow").css({'top': e.clientY + 16, 'left': e.clientX + 16});
-			 }); 
-		});
-		$("#five").mouseout(function(e){
-			$("#img-five").hide();
-			$(".follow").css({'top': e.clientY + 16, 'left': e.clientX + 16});
-		});
 	</script>
 </body>
 </html>
