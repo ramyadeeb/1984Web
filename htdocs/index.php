@@ -453,9 +453,10 @@ Growing up in Sydney, Samit cut his teeth in startups and investment banking, be
 
     currTop = "#philosophy";
     function updateMobile(clicked) {
-      var mq = window.matchMedia( "(max-width: 700px)");
-      if(mq.matches) {
-        $(currTop).data("pos", $(clicked ).data("pos"));
+	var mq = window.matchMedia( "(max-width: 700px)");
+        if(mq.matches) {
+	    
+        $(currTop).data("pos", 1);
         $(clicked).data("pos", 0);
         currTop = clicked;
     
@@ -474,7 +475,7 @@ Growing up in Sydney, Samit cut his teeth in startups and investment banking, be
           $("#newsletter").data("pos", 1);
      
       }
-
+      
       if(currTop == "#philosophy" && $(clicked).data("pos") == 2)  {
           (clicked == "#portfolio") ? $("#newsletter").data("pos", 2) : $("#portfolio").data("pos",2);
           $("#philosophy").data("pos", 1);          
