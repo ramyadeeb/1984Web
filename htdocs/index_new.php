@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -247,63 +246,52 @@ Growing up in Sydney, Samit cut his teeth in startups and investment banking, be
 				<label class="filter-label"><input type="radio" name="radio" id="saas"><span class="checkmark"></span>SaaS</label>
 				<label class="filter-label"><input type="radio" name="radio" id="consumer"><span class="checkmark"></span>Consumer</label>
 				<label class="filter-label"><input type="radio" name="radio" id="marketplace"><span class="checkmark"></span>Marketplace</label>
-				<label class="filter-label"><input type="radio" name="radio" id="staffing"><span class="checkmark"></span>Staffing</label>
-				<label class="filter-label"><input type="radio" name="radio" id="infrastructure"><span class="checkmark"></span>Infrastructure</label>	                  				
-		</div>
-		<ul>
-		  <li class='filter-healthcare '>Alaffia Health, <span class='opacity'>AI for medical payment fraud detection</span></li>		  
-			  <li class='filter-healthcare '>Biocogniv, <span class='opacity'>AI for medical diagnostics</span></li>
-			  <li class='filter-ecommerce filter-consumer '>Because Market, <span class='opacity'>Ecommerce site selling diapers to seniors</span></li>
-			  <li class='filter-healthcare '>Biocogniv, <span class='opacity'>AI for medical diagnostics</span></li>
-			  <li class='filter-supplychain filter-saas '>Bluecargo, <span class='opacity'>Optimizing container logistics</span></li>
-			  <li class='filter-proptech filter-fintech '>Brace, <span class='opacity'>Mortgage servicing for lenders</span></li>
-			  <li class='filter-proptech filter-saas '>BuildOps, <span class='opacity'>Driving operational efficiency for service contractors</span></li>
-			  <li class='filter-healthcare '>CareSignal (Acquired), <span class='opacity'>Patient engagment software</span></li>
-			  <li class='filter-proptech filter-saas '>Convex, <span class='opacity'>Flexport for commercial contractors</span></li>
-			  <li class='filter-ecommerce filter-consumer filter-marketplace '>Curtsy, <span class='opacity'>Marketplace for Gen Z to buy and sell clothing</span></li>
-			  <li class='filter-healthcare '>Deepscribe, <span class='opacity'>Medical note transcription</span></li>
-		  <li class='filter-proptech filter-consumer '>Dobby, <span class='opacity'>Property management for your home</span></li>
-			  <li class='filter-fintech filter-consumer '>Dovly, <span class='opacity'>Automated credit repair</span></li>		  
-			  <li class='filter-ecommerce filter-consumer '>Duffl, <span class='opacity'>Delivery for college campuses</span></li>
-			  <li class='filter-supplychain filter-marketplace '>EXO Freight, <span class='opacity'>Marketplace connecting open deck carriers and shippers</span></li>	
-		  <li class='filter-fintech filter-saas filter-marketplace'>Fairmarkit, <span class='opacity'>Marketplace for procurement</span></li>
-			  <li class='filter-infrastructure filter-saas'>Firezone, <span class='opacity'>Opensource VPN based on Wireguard</span></li>		  
-			  <li class='filter-ecommerce filter-supplychain filter-marketplace '>Flowspace, <span class='opacity'>Airbnb for warehousing</span></li>
-			  <li class='filter-proptech '>Freemodel, <span class='opacity'>Presale home renovation</span></li>
-			  <li class='filter-ecommerce filter-consumer '>Frey, <span class='opacity'>Clothing and personal care</span></li>
-			  <!--        <li class='filter-supplychain filter-saas '>GetSett, <span class='opacity'>Logistics Enhancment for Fleets</span></li>-->
-			  <li class='filter-healthcare '>Glidian, <span class='opacity'>Prior authorization software</span></li>
-			  <li class='filter-staffing '>Heroes Jobs, <span class='opacity'>Video recruiting platform for Gen Z workers</span></li>
-		  <li class='filter-healthcare '>House RX, <span class='opacity'>Making specialty medication more accessible and affordable</span></li>
-			  <li class='filter-proptech filter-marketplace filter-fintech'>Homeroom, <span class='opacity'>Marketplace for investing in rental properties</span></li>		  
-			  <li class='filter-supplychain filter-consumer '>Kyte, <span class='opacity'>Rental cars on demand</span></li>
-			  <li class='filter-proptech filter-saas'>Latchel, <span class='opacity'>Property management solution for landlords</span></li>
-		  <li class='filter-proptech filter-saas'>Marble, <span class='opacity'>Virtual property management </span></li>
-		  <li class='filter-infrastructure filter-saas'>Massdriver, <span class='opacity'>Automating devops </span></li>			  
-			  <li class='filter-supplychain filter-consumer '>Nickson, <span class='opacity'>Furniture as a service</span></li>
-		  <li class='filter-fintech filter-consumer '>Oxygen, <span class='opacity'>Banking for freelancers</span></li>
-			  <li class='filter-marketplace filter-fintech '>Ozon, <span class='opacity'>Motorcycle leasing and financing in Latam</span></li>		  
-			  <li class='filter-proptech filter-consumer '>Padsplit, <span class='opacity'>Airbnb for affordable housing</span></li>
-			  <li class='filter-saas filter-infrastructure'>Posthog, <span class='opacity'>Onprem analytics platform</span></li>
-			  <li class='filter-ecommerce filter-saas '>PostScript, <span class='opacity'>Ecommerce SMS re-engagement</span></li>
-			  <li class='filter-proptech filter-consumer '>Properly, <span class='opacity'>Opendoor for Canada</span></li>	
-			  <li class='filter-proptech filter-saas '>Reggora, <span class='opacity'>Real estate appraisal software</span></li>
-			  <li class='filter-marketplace filter-supplychain '>Rendalo Maq, <span class='opacity'>Heavy equipment marketplace in Latam</span></li>	
-			  <li class='filter-saas '>Relevize, <span class='opacity'>Turns partners into effective digital marketing channels</span></li>	
-			  <li class='filter-fintech filter-saas filter-infrastructure'>Routable, <span class='opacity'>Platform for scaling b2b payments</span></li>
-			  <li class='filter-supplychain filter-marketplace filter-staffing '>Seso, <span class='opacity'>Labor marketplace for the agriculture industry</span></li>
-			  <li class='filter-supplychain filter-fintech filter-saas filter-marketplace '>Shelf Engine, <span class='opacity'>Marketplace connecting grocery stores with vendors</span></li>
-			  <li class='filter-healthcare filter-staffing '>Sling Health, <span class='opacity'>Virtual care teams for medical practices</span></li>
-			  <li class='filter-ecommerce filter-supplychain filter-saas filter-marketplace '>Sourcify, <span class='opacity'>Connecting US merchants with Chinese factories</span></li>
-			  <li class='filter-ecommerce filter-saas filter-marketplace '>Statusphere, <span class='opacity'>Platform for word-of-mouth marketing</span></li>		
-			  <li class='filter-ecommerce filter-supplychain filter-saas '>Syrup, <span class='opacity'>Predictive analytics for retailers</span></li>	
-			  <li class='filter-healthcare filter-marketplace '>Terapify, <span class='opacity'>E-therapy for Latam</span></li>
-			  <li class='filter-proptech filter-marketplace filter-staffing '>Toolbox, <span class='opacity'>Staffing and payroll platform for construction workers</span></li>	
-			  <li class='filter-healthcare filter-marketplace filter-staffing '>Trusted Health, <span class='opacity'>Marketplace for healthcare employment</span></li>
-			  <li class='filter-supplychain filter-saas '>UnicoAero, <span class='opacity'>Baggage management system for airlines</span></li>
-			  <li class='filter-supplychain filter-saas '>Unioncrate, <span class='opacity'>Software for supply change management</span></li>
-			  <li class='filter-saas filter-marketplace'>Vectrix (Acquired by Cloudflare), <span class='opacity'>Cloud security marketplace</span></li>
-			  <li class='filter-supplychain filter-saas '>Vizion, <span class='opacity'>API for ocean freight</span></li>
+				<label class="filter-label"><input type="radio" name="radio" id="staffing"><span class="checkmark"></span>Staffing</label>	                  
+			</div>
+			<ul>
+        <li class='filter-ecommerce filter-consumer '>Because Market, <span class='opacity'>Ecommerce site selling diapers to seniors</span></li>
+        <li class='filter-healthcare '>Biocogniv, <span class='opacity'>AI for medical diagnostics</span></li>
+        <li class='filter-supplychain filter-saas '>Bluecargo, <span class='opacity'>Optimizing container logistics</span></li>
+        <li class='filter-proptech filter-fintech '>Brace, <span class='opacity'>Mortgage servicing for lenders</span></li>
+        <li class='filter-proptech filter-saas '>BuildOps, <span class='opacity'>Driving operational efficiency for service contractors</span></li>
+        <li class='filter-healthcare '>CareSignal, <span class='opacity'>Patient engagment software</span></li>
+        <li class='filter-proptech filter-saas '>Convex, <span class='opacity'>Flexport for commercial contractors</span></li>
+        <li class='filter-ecommerce filter-consumer filter-marketplace '>Curtsy, <span class='opacity'>Marketplace for Gen Z to buy and sell clothing</span></li>
+        <li class='filter-healthcare '>Deepscribe, <span class='opacity'>Medical note transcription</span></li>
+        <li class='filter-fintech filter-consumer '>Dovly, <span class='opacity'>Automated credit repair</span></li>
+        <li class='filter-ecommerce filter-consumer '>Duffl, <span class='opacity'>Delivery for college campuses</span></li>
+        <li class='filter-fintech filter-saas filter-marketplace'>Fairmarkit, <span class='opacity'>Marketplace for procurement</span></li>
+        <li class='filter-ecommerce filter-supplychain filter-marketplace '>Flowspace, <span class='opacity'>Airbnb for warehousing</span></li>
+        <li class='filter-ecommerce filter-consumer '>Frey, <span class='opacity'>Clothing and personal care</span></li>
+<!--        <li class='filter-supplychain filter-saas '>GetSett, <span class='opacity'>Logistics Enhancment for Fleets</span></li>-->
+        <li class='filter-healthcare '>Glidian, <span class='opacity'>Prior authorization software</span></li>
+        <li class='filter-healthcare '>Health Note, <span class='opacity'>Automated note taking for healthcare</span></li>
+        <li class='filter-staffing '>Heroes Jobs, <span class='opacity'>Video recruiting platform for Gen Z workers</span></li>
+        <li class='filter-healthcare '>House RX, <span class='opacity'>Making specialty medication more accessible and affordable</span></li>	
+        <li class='filter-supplychain filter-consumer '>Kyte, <span class='opacity'>Rental cars on demand</span></li>
+        <li class='filter-proptech '>Latchel, <span class='opacity'>Property management solution for landlords</span></li>
+        <li class='filter-supplychain filter-consumer '>Nickson, <span class='opacity'>Furniture as a service</span></li>
+        <li class='filter-fintech filter-consumer '>Oxygen, <span class='opacity'>Banking for freelancers</span></li>
+        <li class='filter-proptech filter-consumer '>Padsplit, <span class='opacity'>Airbnb for affordable housing</span></li>
+        <li class='filter-saas '>Posthog, <span class='opacity'>Onprem analytics platform</span></li>
+        <li class='filter-ecommerce filter-saas '>PostScript, <span class='opacity'>Ecommerce SMS re-engagement</span></li>
+        <li class='filter-proptech filter-consumer '>Properly, <span class='opacity'>Opendoor for Canada</span></li>
+        <li class='filter-proptech filter-saas '>Reggora, <span class='opacity'>Real estate appraisal software</span></li>
+        <li class='filter-fintech filter-saas '>Routable, <span class='opacity'>Platform for scaling b2b payments</span></li>
+        <li class='filter-supplychain filter-marketplace filter-staffing '>Seso, <span class='opacity'>Labor marketplace for the agriculture industry</span></li>
+        <li class='filter-supplychain filter-fintech filter-saas filter-marketplace '>Shelf Engine, <span class='opacity'>Marketplace connecting grocery stores with vendors</span></li>
+        <li class='filter-healthcare filter-staffing '>Sling Health, <span class='opacity'>Virtual care teams for medical practices</span></li>
+        <li class='filter-ecommerce filter-supplychain filter-saas filter-marketplace '>Sourcify, <span class='opacity'>Connecting US merchants with Chinese factories</span></li>
+        <li class='filter-ecommerce filter-saas filter-marketplace '>Statusphere, <span class='opacity'>Platform for word-of-mouth marketing</span></li>		
+        <li class='filter-ecommerce filter-supplychain filter-saas '>Syrup, <span class='opacity'>Predictive analytics for retailers</span></li>	
+        <li class='filter-healthcare filter-marketplace '>Terapify, <span class='opacity'>E-therapy for Latam</span></li>
+        <li class='filter-proptech filter-marketplace filter-staffing '>Toolbox, <span class='opacity'>Staffing and payroll platform for construction workers</span></li>	
+        <li class='filter-healthcare filter-marketplace filter-staffing '>Trusted Health, <span class='opacity'>Marketplace for healthcare employment</span></li>
+        <li class='filter-supplychain filter-saas '>UnicoAero, <span class='opacity'>Baggage management system for airlines</span></li>
+        <li class='filter-supplychain filter-saas '>Unioncrate, <span class='opacity'>Software for supply change management</span></li>
+        <li class='filter-saas filter-marketplace'>Vectrix, <span class='opacity'>Cloud security marketplace</span></li>
+        <li class='filter-supplychain filter-saas '>Vizion, <span class='opacity'>API for ocean freight</span></li>
+        <li class='filter-ecommerce filter-consumer '>Zero, <span class='opacity'>Zero waste groceries</span></li>
 			</ul>
       </div>
       <div class="portfolio_footer footer">
@@ -318,10 +306,12 @@ Growing up in Sydney, Samit cut his teeth in startups and investment banking, be
 	<div class="header AtlasTypewriter-Regular-Web">RESOURCES</div>
 
 	<div class="title">
-	  <div id="newsletter_title">"Knowing whose advice to take and on what topic is the single most important decision an entrepreneur can make."</div></div>
-	
-	  <div class="newsletter_item" >
+	  <div id="newsletter_title">"Knowing whose advice to take and on what topic is the single most important decision an entrepreneur can make."</div>
+	  <div id="newsletter_date" class="white">
 	    &mdash; Vinod Khosla</div>
+	</div>
+
+
 	
 	<div class="newsletter-top-right">
 	  
@@ -334,7 +324,7 @@ Growing up in Sydney, Samit cut his teeth in startups and investment banking, be
 	    <div class="news-item border-top" id="one">
 	      <div>
 		<a href="http://www.paulgraham.com/relres.html" target="_new">
-		  <div class="number">1.</div><h1 class="AtlasTypewriter-Regular-Web">Want to start a company? be relentlessly resourceful <span class="opacity">– Paul Graham</span></h1>
+		  <div class="number">1.</div><h1 class="AtlasTypewriter-Regular-Web">Want to start a comapny? be relentlessly resourceful <span class="opacity">– Paul Graham</span></h1>
 		</a>
 	      </div>
 	      <div>
@@ -368,11 +358,6 @@ Growing up in Sydney, Samit cut his teeth in startups and investment banking, be
 		  <div class="number">3.</div><h1 class="AtlasTypewriter-Regular-Web">Retention metrics for founders <span class="opacity">- Lenny's Newsletter</span></h1>
 		</a>
 	      </div>
-	      <div>
-		<a href="https://kwokchain.com/2021/09/29/narrative-distillation-1/" target="_new">
-		  <div class="number">4.</div><h1 class="AtlasTypewriter-Regular-Web">Narrative Distillation (Or how to tell great narrative)<span class="opacity">- Kevin Kwok</span></h1>
-		</a>
-	      </div>	      
 	    </div>
 
 	    On Recruiting
@@ -561,7 +546,7 @@ Growing up in Sydney, Samit cut his teeth in startups and investment banking, be
 		/*/////////////////////////////////////////*/
 		/*/////////   PORTFOLIO FILTERS   /////////*/
 		/*/////////////////////////////////////////*/
-	  filters_list = ["ecommerce", "supplychain", "proptech", "fintech", "healthcare", "saas", "consumer", "marketplace", "staffing", "infrastructure"]
+    filters_list = ["ecommerce", "supplychain", "proptech", "fintech", "healthcare", "saas", "consumer", "marketplace", "staffing"]
 		$("#all").click(function() {
 		  if ($(this).is(':checked')) {
         for (let i = 0; i <filters_list.length; i++) {
