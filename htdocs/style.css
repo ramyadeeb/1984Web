@@ -394,6 +394,6 @@ input:checked ~ .checkmark:after {display:block;}
   .news_footer {display:none;}
   .portfolio_footer {display:none;}
   .philosophy_footer {display:block;}      
-  .filter-label{display:inline-block;padding:0;margin-right:8px;margin-left:-4px;width:105px;text-transform:uppercase;font-size:10px}
+  .filter-label{display:inline-block;padding:0;margin-right:8px;margin-left:-4px;width:115px;text-transform:uppercase;font-size:10px}
 }
 
