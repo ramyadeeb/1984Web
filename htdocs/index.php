@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -254,11 +253,11 @@ Growing up in Sydney, Samit cut his teeth in startups and investment banking, be
 		  <li class='filter-healthcare '>Alaffia Health, <span class='opacity'>AI for medical payment fraud detection</span></li>		  
 			  <li class='filter-healthcare '>Biocogniv, <span class='opacity'>AI for medical diagnostics</span></li>
 			  <li class='filter-ecommerce filter-consumer '>Because Market, <span class='opacity'>Ecommerce site selling diapers to seniors</span></li>
-			  <li class='filter-healthcare '>Biocogniv, <span class='opacity'>AI for medical diagnostics</span></li>
 			  <li class='filter-supplychain filter-saas '>Bluecargo, <span class='opacity'>Optimizing container logistics</span></li>
 			  <li class='filter-proptech filter-fintech '>Brace, <span class='opacity'>Mortgage servicing for lenders</span></li>
 			  <li class='filter-proptech filter-saas '>BuildOps, <span class='opacity'>Driving operational efficiency for service contractors</span></li>
 			  <li class='filter-healthcare '>CareSignal (Acquired), <span class='opacity'>Patient engagment software</span></li>
+			  <li class='filter-healthcare filter-saas'>Clarium, <span class='opacity'>Supply chain automation for hospitals</span></li>
 			  <li class='filter-proptech filter-saas '>Convex, <span class='opacity'>Flexport for commercial contractors</span></li>
 			  <li class='filter-ecommerce filter-consumer filter-marketplace '>Curtsy, <span class='opacity'>Marketplace for Gen Z to buy and sell clothing</span></li>
 			  <li class='filter-healthcare '>Deepscribe, <span class='opacity'>Medical note transcription</span></li>
@@ -291,7 +290,9 @@ Growing up in Sydney, Samit cut his teeth in startups and investment banking, be
 			  <li class='filter-marketplace filter-supplychain '>Rendalo Maq, <span class='opacity'>Heavy equipment marketplace in Latam</span></li>	
 			  <li class='filter-saas '>Relevize, <span class='opacity'>Turns partners into effective digital marketing channels</span></li>	
 			  <li class='filter-fintech filter-saas filter-infrastructure'>Routable, <span class='opacity'>Platform for scaling b2b payments</span></li>
-			  <li class='filter-supplychain filter-marketplace filter-staffing '>Seso, <span class='opacity'>Labor marketplace for the agriculture industry</span></li>
+		  <li class='filter-supplychain filter-marketplace filter-staffing '>Seso, <span class='opacity'>Labor marketplace for the agriculture industry</span></li>
+		  <li class='filter-healthcare filter-consumer '>Signos, <span class='opacity'>Weight loss via continuous glucose monitoring</span></li>
+		  
 			  <li class='filter-supplychain filter-fintech filter-saas filter-marketplace '>Shelf Engine, <span class='opacity'>Marketplace connecting grocery stores with vendors</span></li>
 			  <li class='filter-healthcare filter-staffing '>Sling Health, <span class='opacity'>Virtual care teams for medical practices</span></li>
 			  <li class='filter-ecommerce filter-supplychain filter-saas filter-marketplace '>Sourcify, <span class='opacity'>Connecting US merchants with Chinese factories</span></li>
