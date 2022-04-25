@@ -373,7 +373,12 @@ Growing up in Sydney, Samit cut his teeth in startups and investment banking, be
 		<a href="https://kwokchain.com/2021/09/29/narrative-distillation-1/" target="_new">
 		  <div class="number">4.</div><h1 class="AtlasTypewriter-Regular-Web">Narrative Distillation (Or how to tell great narrative)<span class="opacity">- Kevin Kwok</span></h1>
 		</a>
-	      </div>	      
+	      </div>
+	      <div>
+		<a href-"https://a16z.com/2022/04/15/16-things-to-know-about-raising-debt-for-startups/" target="_new">
+		  <div clas="number">5.</div><h1 class="AtlasTypewriter-Regular-Web">Raising Debt for Startups<span class="opacity">- a16Z</span></h1>
+		</a>
+	      </div>
 	    </div>
 
 	    On Recruiting
