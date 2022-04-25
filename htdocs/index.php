@@ -375,7 +375,7 @@ Growing up in Sydney, Samit cut his teeth in startups and investment banking, be
 		</a>
 	      </div>
 	      <div>
-		<a href-"https://a16z.com/2022/04/15/16-things-to-know-about-raising-debt-for-startups/" target="_new">
+		<a href="https://a16z.com/2022/04/15/16-things-to-know-about-raising-debt-for-startups/" target="_new">
 		  <div clas="number">5.</div><h1 class="AtlasTypewriter-Regular-Web">Raising Debt for Startups<span class="opacity">- a16Z</span></h1>
 		</a>
 	      </div>
