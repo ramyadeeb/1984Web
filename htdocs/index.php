@@ -237,7 +237,8 @@ Growing up in Sydney, Samit cut his teeth in startups and investment banking, be
       -->
 
    		<div id="filters">
-				<label class="filter-label"><input type="radio" name="radio" checked="checked" id="all"><span class="first checkmark"></span>All</label>
+		  <label class="filter-label"><input type="radio" name="radio" checked="checked" id="all"><span class="first checkmark"></span>All</label>
+				<label class="filter-label"><input type="radio" name="radio" id="ai"><span class="checkmark"></span>AI/ML</label>		  
 				<label class="filter-label"><input type="radio" name="radio" id="ecommerce"><span class="checkmark"></span>eCommerce</label>
 				<label class="filter-label"><input type="radio" name="radio" id="supplychain"><span class="checkmark"></span>Supply Chain</label>
 				<label class="filter-label"><input type="radio" name="radio" id="proptech"><span class="checkmark"></span>Proptech</label>
@@ -250,8 +251,8 @@ Growing up in Sydney, Samit cut his teeth in startups and investment banking, be
 				<label class="filter-label"><input type="radio" name="radio" id="infrastructure"><span class="checkmark"></span>Infrastructure</label>	                  				
 		</div>
 		<ul>
-		  <li class='filter-healthcare '>Alaffia Health, <span class='opacity'>AI for medical payment fraud detection</span></li>		  
-			  <li class='filter-healthcare '>Biocogniv, <span class='opacity'>AI for medical diagnostics</span></li>
+		  <li class='filter-healthcare filter-ai'>Alaffia Health, <span class='opacity'>AI for medical payment fraud detection</span></li>		  
+			  <li class='filter-healthcare filter-ai'>Biocogniv, <span class='opacity'>AI for medical diagnostics</span></li>
 			  <li class='filter-ecommerce filter-consumer '>Because Market, <span class='opacity'>Ecommerce site selling diapers to seniors</span></li>
 			  <li class='filter-supplychain filter-saas '>Bluecargo, <span class='opacity'>Optimizing container logistics</span></li>
 			  <li class='filter-proptech filter-fintech '>Brace, <span class='opacity'>Mortgage servicing for lenders</span></li>
@@ -260,7 +261,7 @@ Growing up in Sydney, Samit cut his teeth in startups and investment banking, be
 			  <li class='filter-healthcare filter-saas'>Clarium, <span class='opacity'>Supply chain automation for hospitals</span></li>
 			  <li class='filter-proptech filter-saas '>Convex, <span class='opacity'>Flexport for commercial contractors</span></li>
 			  <li class='filter-ecommerce filter-consumer filter-marketplace '>Curtsy, <span class='opacity'>Marketplace for Gen Z to buy and sell clothing</span></li>
-			  <li class='filter-healthcare '>Deepscribe, <span class='opacity'>Medical note transcription</span></li>
+			  <li class='filter-healthcare filter-ai'>Deepscribe, <span class='opacity'>AI-based scribe technology for healthcare </span></li>
 		  <li class='filter-proptech filter-consumer '>Dobby, <span class='opacity'>Property management for your home</span></li>
 			  <li class='filter-fintech filter-consumer '>Dovly, <span class='opacity'>Automated credit repair</span></li>		  
 			  <li class='filter-ecommerce filter-consumer '>Duffl, <span class='opacity'>Delivery for college campuses</span></li>
@@ -293,11 +294,11 @@ Growing up in Sydney, Samit cut his teeth in startups and investment banking, be
 		  <li class='filter-supplychain filter-marketplace filter-staffing '>Seso, <span class='opacity'>Labor marketplace for the agriculture industry</span></li>
 		  <li class='filter-healthcare filter-consumer '>Signos, <span class='opacity'>Weight loss via continuous glucose monitoring</span></li>
 		  
-			  <li class='filter-supplychain filter-fintech filter-saas filter-marketplace '>Shelf Engine, <span class='opacity'>Marketplace connecting grocery stores with vendors</span></li>
+			  <li class='filter-supplychain filter-fintech filter-saas filter-marketplace filter-ai'>Shelf Engine, <span class='opacity'>AI for predicting grocery orders</span></li>
 			  <li class='filter-healthcare filter-staffing '>Sling Health, <span class='opacity'>Virtual care teams for medical practices</span></li>
 			  <li class='filter-ecommerce filter-supplychain filter-saas filter-marketplace '>Sourcify, <span class='opacity'>Connecting US merchants with Chinese factories</span></li>
 			  <li class='filter-ecommerce filter-saas filter-marketplace '>Statusphere, <span class='opacity'>Platform for word-of-mouth marketing</span></li>		
-			  <li class='filter-ecommerce filter-supplychain filter-saas '>Syrup, <span class='opacity'>Predictive analytics for retailers</span></li>	
+			  <li class='filter-ecommerce filter-supplychain filter-saas filter-ai'>Syrup, <span class='opacity'>Predictive analytics for retailers</span></li>	
 			  <li class='filter-healthcare filter-marketplace '>Terapify, <span class='opacity'>E-therapy for Latam</span></li>
 			  <li class='filter-proptech filter-marketplace filter-staffing '>Toolbox, <span class='opacity'>Staffing and payroll platform for construction workers</span></li>	
 			  <li class='filter-healthcare filter-marketplace filter-staffing '>Trusted Health, <span class='opacity'>Marketplace for healthcare employment</span></li>
@@ -567,7 +568,7 @@ Growing up in Sydney, Samit cut his teeth in startups and investment banking, be
 		/*/////////////////////////////////////////*/
 		/*/////////   PORTFOLIO FILTERS   /////////*/
 		/*/////////////////////////////////////////*/
-	  filters_list = ["ecommerce", "supplychain", "proptech", "fintech", "healthcare", "saas", "consumer", "marketplace", "staffing", "infrastructure"]
+	  filters_list = ["ai", "ecommerce", "supplychain", "proptech", "fintech", "healthcare", "saas", "consumer", "marketplace", "staffing", "infrastructure"]
 		$("#all").click(function() {
 		  if ($(this).is(':checked')) {
         for (let i = 0; i <filters_list.length; i++) {
