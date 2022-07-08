@@ -247,7 +247,6 @@ Growing up in Sydney, Samit cut his teeth in startups and investment banking, be
 				<label class="filter-label"><input type="radio" name="radio" id="saas"><span class="checkmark"></span>SaaS</label>
 				<label class="filter-label"><input type="radio" name="radio" id="consumer"><span class="checkmark"></span>Consumer</label>
 				<label class="filter-label"><input type="radio" name="radio" id="marketplace"><span class="checkmark"></span>Marketplace</label>
-				<label class="filter-label"><input type="radio" name="radio" id="staffing"><span class="checkmark"></span>Staffing</label>
 				<label class="filter-label"><input type="radio" name="radio" id="infrastructure"><span class="checkmark"></span>Infrastructure</label>	                  				
 		</div>
 		<ul>
@@ -568,7 +567,7 @@ Growing up in Sydney, Samit cut his teeth in startups and investment banking, be
 		/*/////////////////////////////////////////*/
 		/*/////////   PORTFOLIO FILTERS   /////////*/
 		/*/////////////////////////////////////////*/
-	  filters_list = ["ai", "ecommerce", "supplychain", "proptech", "fintech", "healthcare", "saas", "consumer", "marketplace", "staffing", "infrastructure"]
+	  filters_list = ["ai", "ecommerce", "supplychain", "proptech", "fintech", "healthcare", "saas", "consumer", "marketplace", "infrastructure"]
 		$("#all").click(function() {
 		  if ($(this).is(':checked')) {
         for (let i = 0; i <filters_list.length; i++) {
