@@ -251,7 +251,8 @@ Growing up in Sydney, Samit cut his teeth in startups and investment banking, be
 		</div>
 		<ul>
 		  <li class='filter-healthcare filter-ai'>Alaffia Health, <span class='opacity'>AI for medical payment fraud detection</span></li>		  
-			  <li class='filter-healthcare filter-ai'>Biocogniv, <span class='opacity'>AI for medical diagnostics</span></li>
+	                  <li class='filter-supplychain filter-saas '>Bigger Picture, <span class='opacity'>Real time resolution of supply chain disruptions</span></li>
+		          <li class='filter-healthcare filter-ai'>Biocogniv, <span class='opacity'>AI for medical diagnostics</span></li>
 			  <li class='filter-ecommerce filter-consumer '>Because Market, <span class='opacity'>Ecommerce site selling diapers to seniors</span></li>
 			  <li class='filter-supplychain filter-saas '>Bluecargo, <span class='opacity'>Optimizing container logistics</span></li>
 			  <li class='filter-proptech filter-fintech '>Brace, <span class='opacity'>Mortgage servicing for lenders</span></li>
@@ -270,7 +271,6 @@ Growing up in Sydney, Samit cut his teeth in startups and investment banking, be
 			  <li class='filter-ecommerce filter-supplychain filter-marketplace '>Flowspace, <span class='opacity'>Airbnb for warehousing</span></li>
 			  <li class='filter-proptech '>Freemodel, <span class='opacity'>Presale home renovation</span></li>
 			  <li class='filter-ecommerce filter-consumer '>Frey, <span class='opacity'>Clothing and personal care</span></li>
-			  <!--        <li class='filter-supplychain filter-saas '>GetSett, <span class='opacity'>Logistics Enhancment for Fleets</span></li>-->
 			  <li class='filter-healthcare '>Glidian, <span class='opacity'>Prior authorization software</span></li>
 			  <li class='filter-staffing '>Heroes Jobs, <span class='opacity'>Video recruiting platform for Gen Z workers</span></li>
 		  <li class='filter-healthcare '>House RX, <span class='opacity'>Making specialty medication more accessible and affordable</span></li>
