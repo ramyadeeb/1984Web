@@ -76,6 +76,7 @@ v}
 .portfolio_footer{display:none;width:300px;}
 .philosophy_footer {display:none;width:300px;}
 
+.portfolio_container ul li {font-size:12px;cursor:pointer;}
 .archive-top-right{
 	background:url("assets/foldNewsSmall.svg") no-repeat top right;
 	height:200px;

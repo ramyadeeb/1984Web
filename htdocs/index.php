@@ -250,61 +250,61 @@ Growing up in Sydney, Samit cut his teeth in startups and investment banking, be
 				<label class="filter-label"><input type="radio" name="radio" id="infrastructure"><span class="checkmark"></span>Infrastructure</label>	                  				
 		</div>
 		<ul>
-		  <li class='filter-healthcare filter-ai'>Alaffia Health, <span class='opacity'>AI for medical payment fraud detection</span></li>		  
-	                  <li class='filter-supplychain filter-saas '>Bigger Picture, <span class='opacity'>Real time resolution of supply chain disruptions</span></li>
-		          <li class='filter-healthcare filter-ai'>Biocogniv, <span class='opacity'>AI for medical diagnostics</span></li>
-			  <li class='filter-ecommerce filter-consumer '>Because Market, <span class='opacity'>Ecommerce site selling diapers to seniors</span></li>
-			  <li class='filter-supplychain filter-saas '>Bluecargo, <span class='opacity'>Optimizing container logistics</span></li>
-			  <li class='filter-proptech filter-fintech '>Brace, <span class='opacity'>Mortgage servicing for lenders</span></li>
-			  <li class='filter-proptech filter-saas '>BuildOps, <span class='opacity'>Driving operational efficiency for service contractors</span></li>
-			  <li class='filter-healthcare '>CareSignal (Acquired), <span class='opacity'>Patient engagment software</span></li>
-			  <li class='filter-healthcare filter-saas'>Clarium, <span class='opacity'>Supply chain automation for hospitals</span></li>
-			  <li class='filter-proptech filter-saas '>Convex, <span class='opacity'>Flexport for commercial contractors</span></li>
-			  <li class='filter-ecommerce filter-consumer filter-marketplace '>Curtsy, <span class='opacity'>Marketplace for Gen Z to buy and sell clothing</span></li>
-			  <li class='filter-healthcare filter-ai'>Deepscribe, <span class='opacity'>AI-based scribe technology for healthcare </span></li>
-		  <li class='filter-proptech filter-consumer '>Dobby, <span class='opacity'>Property management for your home</span></li>
-			  <li class='filter-fintech filter-consumer '>Dovly, <span class='opacity'>Automated credit repair</span></li>		  
-			  <li class='filter-ecommerce filter-consumer '>Duffl, <span class='opacity'>Delivery for college campuses</span></li>
-			  <li class='filter-supplychain filter-marketplace '>EXO Freight, <span class='opacity'>Marketplace connecting open deck carriers and shippers</span></li>	
-		  <li class='filter-fintech filter-saas filter-marketplace'>Fairmarkit, <span class='opacity'>Marketplace for procurement</span></li>
-			  <li class='filter-infrastructure filter-saas'>Firezone, <span class='opacity'>Opensource VPN based on Wireguard</span></li>		  
-			  <li class='filter-ecommerce filter-supplychain filter-marketplace '>Flowspace, <span class='opacity'>Airbnb for warehousing</span></li>
-			  <li class='filter-proptech '>Freemodel, <span class='opacity'>Presale home renovation</span></li>
-			  <li class='filter-ecommerce filter-consumer '>Frey, <span class='opacity'>Clothing and personal care</span></li>
-			  <li class='filter-healthcare '>Glidian, <span class='opacity'>Prior authorization software</span></li>
-			  <li class='filter-staffing '>Heroes Jobs, <span class='opacity'>Video recruiting platform for Gen Z workers</span></li>
-		  <li class='filter-healthcare '>House RX, <span class='opacity'>Making specialty medication more accessible and affordable</span></li>
-			  <li class='filter-proptech filter-marketplace filter-fintech'>Homeroom, <span class='opacity'>Marketplace for investing in rental properties</span></li>		  
-			  <li class='filter-supplychain filter-consumer '>Kyte, <span class='opacity'>Rental cars on demand</span></li>
-			  <li class='filter-proptech filter-saas'>Latchel, <span class='opacity'>Property management solution for landlords</span></li>
-		  <li class='filter-proptech filter-saas'>Marble, <span class='opacity'>Virtual property management </span></li>
-		  <li class='filter-infrastructure filter-saas'>Massdriver, <span class='opacity'>Automating devops </span></li>			  
-			  <li class='filter-supplychain filter-consumer '>Nickson, <span class='opacity'>Furniture as a service</span></li>
-		  <li class='filter-fintech filter-consumer '>Oxygen, <span class='opacity'>Banking for freelancers</span></li>
-			  <li class='filter-marketplace filter-fintech '>Ozon, <span class='opacity'>Motorcycle leasing and financing in Latam</span></li>		  
-			  <li class='filter-proptech filter-consumer '>Padsplit, <span class='opacity'>Airbnb for affordable housing</span></li>
-			  <li class='filter-saas filter-infrastructure'>Posthog, <span class='opacity'>Onprem analytics platform</span></li>
-			  <li class='filter-ecommerce filter-saas '>PostScript, <span class='opacity'>Ecommerce SMS re-engagement</span></li>
-			  <li class='filter-proptech filter-consumer '>Properly, <span class='opacity'>Opendoor for Canada</span></li>	
-			  <li class='filter-proptech filter-saas '>Reggora, <span class='opacity'>Real estate appraisal software</span></li>
-			  <li class='filter-marketplace filter-supplychain '>Rendalo Maq, <span class='opacity'>Heavy equipment marketplace in Latam</span></li>	
-			  <li class='filter-saas '>Relevize, <span class='opacity'>Turns partners into effective digital marketing channels</span></li>	
-			  <li class='filter-fintech filter-saas filter-infrastructure'>Routable, <span class='opacity'>Platform for scaling b2b payments</span></li>
-		  <li class='filter-supplychain filter-marketplace filter-staffing '>Seso, <span class='opacity'>Labor marketplace for the agriculture industry</span></li>
-		  <li class='filter-healthcare filter-consumer '>Signos, <span class='opacity'>Weight loss via continuous glucose monitoring</span></li>
+		    <li class='company filter-healthcare filter-ai' data-url="alaffiahealth.com">Alaffia Health, <span class='opacity'>AI for medical payment fraud detection</span></li>
 		  
-			  <li class='filter-supplychain filter-fintech filter-saas filter-marketplace filter-ai'>Shelf Engine, <span class='opacity'>AI for predicting grocery orders</span></li>
-			  <li class='filter-healthcare filter-staffing '>Sling Health, <span class='opacity'>Virtual care teams for medical practices</span></li>
-			  <li class='filter-ecommerce filter-supplychain filter-saas filter-marketplace '>Sourcify, <span class='opacity'>Connecting US merchants with Chinese factories</span></li>
-			  <li class='filter-ecommerce filter-saas filter-marketplace '>Statusphere, <span class='opacity'>Platform for word-of-mouth marketing</span></li>		
-			  <li class='filter-ecommerce filter-supplychain filter-saas filter-ai'>Syrup, <span class='opacity'>Predictive analytics for retailers</span></li>	
-			  <li class='filter-healthcare filter-marketplace '>Terapify, <span class='opacity'>E-therapy for Latam</span></li>
-			  <li class='filter-proptech filter-marketplace filter-staffing '>Toolbox, <span class='opacity'>Staffing and payroll platform for construction workers</span></li>	
-			  <li class='filter-healthcare filter-marketplace filter-staffing '>Trusted Health, <span class='opacity'>Marketplace for healthcare employment</span></li>
-			  <li class='filter-supplychain filter-saas '>UnicoAero, <span class='opacity'>Baggage management system for airlines</span></li>
-			  <li class='filter-supplychain filter-saas '>Unioncrate, <span class='opacity'>Software for supply change management</span></li>
-			  <li class='filter-saas filter-marketplace'>Vectrix (Acquired by Cloudflare), <span class='opacity'>Cloud security marketplace</span></li>
-			  <li class='filter-supplychain filter-saas '>Vizion, <span class='opacity'>API for ocean freight</span></li>
+	                  <li class='company filter-supplychain filter-saas' data-url="biggerpicture.com">Bigger Picture, <span class='opacity'>Real time resolution of supply chain disruptions</span></li>
+		          <li class='company filter-healthcare filter-ai' data-url="biocogniv.com">Biocogniv, <span class='opacity'>AI for medical diagnostics</span></li>
+			  <li class='company filter-ecommerce filter-consumer ' data-url="becausemarket.com">Because Market, <span class='opacity'>Ecommerce site selling diapers to seniors</span></li>
+			  <li class='company filter-supplychain filter-saas ' data-url="bluecargo.io">Bluecargo, <span class='opacity'>Optimizing container logistics</span></li>
+			  <li class='company filter-proptech filter-fintech ' data-url="brace.ai">Brace, <span class='opacity'>Mortgage servicing for lenders</span></li>
+			  <li class='company filter-proptech filter-saas ' data-url="buildops.com">BuildOps, <span class='opacity'>Driving operational efficiency for service contractors</span></li>
+			  <li class='company filter-healthcare ' data-url="caresignal.health">CareSignal (Acquired), <span class='opacity'>Patient engagment software</span></li>
+			  <li class='company filter-healthcare filter-saas' data-url="clariumhealth.com">Clarium, <span class='opacity'>Supply chain automation for hospitals</span></li>
+			  <li class='company filter-proptech filter-saas ' data-url="convex.com">Convex, <span class='opacity'>Flexport for commercial contractors</span></li>
+			  <li class='company filter-ecommerce filter-consumer filter-marketplace ' data-url="curtsyapp.com">Curtsy, <span class='opacity'>Marketplace for Gen Z to buy and sell clothing</span></li>
+			  <li class='company filter-healthcare filter-ai' data-url="deepscribe.ai">Deepscribe, <span class='opacity'>AI-based scribe technology for healthcare </span></li>
+		  <li class='company filter-proptech filter-consumer ' data-url="hellodobby.com">Dobby, <span class='opacity'>Property management for your home</span></li>
+			  <li class='company filter-fintech filter-consumer ' data-url="dovly.com">Dovly, <span class='opacity'>Automated credit repair</span></li>		  
+			  <li class='company filter-ecommerce filter-consumer ' data-url="duffl.com">Duffl, <span class='opacity'>Delivery for college campuses</span></li>
+			  <li class='company filter-supplychain filter-marketplace ' data-url="exofreight.com">EXO Freight, <span class='opacity'>Marketplace connecting open deck carriers and shippers</span></li>	
+		    <li class='company filter-fintech filter-saas filter-marketplace' data-url="fairmarkit.com">Fairmarkit, <span class='opacity'>Marketplace for procurement</span></li>
+		    <li class='company filter-infrastructure filter-saas' data-url="firezone.dev">Firezone, <span class='opacity'>Opensource VPN based on Wireguard</span></li>		  
+		    <li class='company filter-ecommerce filter-supplychain filter-marketplace ' data-url="flow.space">Flowspace, <span class='opacity'>Airbnb for warehousing</span></li>
+		    <li class='company filter-proptech ' data-url="freemodel.com">Freemodel, <span class='opacity'>Presale home renovation</span></li>
+		    <li class='company filter-ecommerce filter-consumer ' data-url="frey.com">Frey, <span class='opacity'>Clothing and personal care</span></li>
+			  <li class='company filter-healthcare ' data-url="glidian.com">Glidian, <span class='opacity'>Prior authorization software</span></li>
+			  <li class='company filter-staffing ' data-url="heroes.jobs">Heroes Jobs, <span class='opacity'>Video recruiting platform for Gen Z workers</span></li>
+		    <li class='company filter-healthcare ' data-url="houserx.com">House RX, <span class='opacity'>Making specialty medication more accessible and affordable</span></li>
+			  <li class='company filter-proptech filter-marketplace filter-fintech' data-url="homeroom.com">Homeroom, <span class='opacity'>Marketplace for investing in rental properties</span></li>		  
+			  <li class='company filter-supplychain filter-consumer ' data-url="drivekyte.com">Kyte, <span class='opacity'>Rental cars on demand</span></li>
+			  <li class='company filter-proptech filter-saas' data-url="latchel.com">Latchel, <span class='opacity'>Property management solution for landlords</span></li>
+		  <li class='company filter-proptech filter-saas' data-url="rentmarble.com">Marble, <span class='opacity'>Virtual property management </span></li>
+		    <li class='company filter-infrastructure filter-saas' data-url="massdriver.cloud">Massdriver, <span class='opacity'>Automating devops </span></li>			  
+			  <li class='company filter-supplychain filter-consumer ' data-url="nicksonliving.com">Nickson, <span class='opacity'>Furniture as a service</span></li>
+		  <li class='company filter-fintech filter-consumer ' data-url="oxygen.us">Oxygen, <span class='opacity'>Banking for freelancers</span></li>
+		    <li class='company filter-marketplace filter-fintech ' data-url="ozon.mobi">Ozon, <span class='opacity'>Motorcycle leasing and financing in Latam</span></li>		  
+		    <li class='company filter-proptech filter-consumer ' data-url="padsplit.com">Padsplit, <span class='opacity'>Airbnb for affordable housing</span></li>
+		    <li class='company filter-healthcare filter-staffing ' data-url="pairteam.com">Pair Team, <span class='opacity'>Virtual care teams for medical practices</span></li>
+		    <li class='company filter-saas filter-infrastructure' data-url="posthog.com">Posthog, <span class='opacity'>Onprem analytics platform</span></li>
+		    <li class='company filter-ecommerce filter-saas ' data-url="postscript.io">PostScript, <span class='opacity'>Ecommerce SMS re-engagement</span></li>
+		    <li class='company filter-proptech filter-consumer ' data-url="properly.ca">Properly, <span class='opacity'>Opendoor for Canada</span></li>	
+		    <li class='company filter-proptech filter-saas ' data-url="reggora.com">Reggora, <span class='opacity'>Real estate appraisal software</span></li>
+		    <li class='company filter-marketplace filter-supplychain ' data-url="rendalomaq.com">Rendalo Maq, <span class='opacity'>Heavy equipment marketplace in Latam</span></li>	
+		    <li class='company filter-saas ' data-url="relevize.com">Relevize, <span class='opacity'>Turns partners into effective digital marketing channels</span></li>	
+		    <li class='company filter-fintech filter-saas filter-infrastructure' data-url="routable.com">Routable, <span class='opacity'>Platform for scaling b2b payments</span></li>
+		    <li class='company filter-supplychain filter-marketplace filter-staffing ' data-url="sesolabor.com">Seso, <span class='opacity'>Labor marketplace for the agriculture industry</span></li>
+		    <li class='company filter-healthcare filter-consumer ' data-url="signos.com">Signos, <span class='opacity'>Weight loss via continuous glucose monitoring</span></li>
+		    
+		    <li class='company filter-supplychain filter-fintech filter-saas filter-marketplace filter-ai' data-url="shelfengine.com">Shelf Engine, <span class='opacity'>AI for predicting grocery orders</span></li>
+		    <li class='company filter-ecommerce filter-supplychain filter-saas filter-marketplace ' data-url="sourcify.com">Sourcify, <span class='opacity'>Connecting US merchants with Chinese factories</span></li>
+		    <li class='company filter-ecommerce filter-saas filter-marketplace ' data-url="joinstatus.com">Statusphere, <span class='opacity'>Platform for word-of-mouth marketing</span></li>		
+		    <li class='company filter-ecommerce filter-supplychain filter-saas filter-ai' data-url="syrup.tech">Syrup, <span class='opacity'>Predictive analytics for retailers</span></li>	
+		    <li class='company filter-healthcare filter-marketplace ' data-url="terapify.com">Terapify, <span class='opacity'>E-therapy for Latam</span></li>
+		    <li class='company filter-proptech filter-marketplace filter-staffing ' data-url="trytoolbox.com">Toolbox, <span class='opacity'>Staffing and payroll platform for construction workers</span></li>	
+		    <li class='company filter-healthcare filter-marketplace filter-staffing ' data-url="trustedhealth.com">Trusted Health, <span class='opacity'>Marketplace for healthcare employment</span></li>
+		    <li class='company filter-supplychain filter-saas ' data-url="unico.aero">UnicoAero, <span class='opacity'>Baggage management system for airlines</span></li>
+		    <li class='company filter-saas filter-marketplace' data-url="vectrix.com">Vectrix (Acquired by Cloudflare), <span class='opacity'>Cloud security marketplace</span></li>
+			  <li class='company filter-supplychain filter-saas ' data-url="vizionapi.com">Vizion, <span class='opacity'>API for ocean freight</span></li>
 			</ul>
       </div>
       <div class="portfolio_footer footer">
@@ -528,8 +528,11 @@ Growing up in Sydney, Samit cut his teeth in startups and investment banking, be
         $("#newsletter").css("z-index", 2 - $("#newsletter").data("pos"));
         $("#archive").css("z-index", 2 - $("#newsletter").data("pos"));        
         }
-      }
-    
+    }
+	  $(".company").click(function(event) {
+	      window.location = "http://" + $(this).data('url');
+	  });
+	  
     $("#philosophy").click(function(event) {
       updateMobile("#philosophy");
       event.stopPropagation();
