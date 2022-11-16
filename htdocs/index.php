@@ -15,6 +15,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="title" content="1984 Ventures">
   <meta name="description" content="Seed Stage Venture Capital"> 
+  <meta name="keywords" content="seed stage, venture capital, startup, entreperneurship">
   
 	<link rel="stylesheet" type="text/css" href="font/1709-PNZNKV.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
