@@ -276,7 +276,7 @@ Growing up in Sydney, Samit cut his teeth in startups and investment banking, be
 			  <li class='company filter-healthcare ' data-url="glidian.com">Glidian, <span class='opacity'>Prior authorization software</span></li>
 			  <li class='company filter-saas' data-url="heroes.jobs">Heroes Jobs, <span class='opacity'>Video recruiting platform for Gen Z workers</span></li>
 		    <li class='company filter-healthcare ' data-url="houserx.com">House RX, <span class='opacity'>Making specialty medication more accessible and affordable</span></li>
-			  <li class='company filter-proptech filter-marketplace filter-fintech' data-url="homeroom.com">Homeroom, <span class='opacity'>Marketplace for investing in rental properties</span></li>		  
+			  <li class='company filter-proptech filter-marketplace filter-fintech' data-url="livehomeroom.com">Homeroom, <span class='opacity'>Marketplace for investing in rental properties</span></li>		  
 			  <li class='company filter-supplychain filter-consumer ' data-url="drivekyte.com">Kyte, <span class='opacity'>Rental cars on demand</span></li>
 			  <li class='company filter-proptech filter-saas' data-url="latchel.com">Latchel, <span class='opacity'>Property management solution for landlords</span></li>
 		  <li class='company filter-proptech filter-saas' data-url="rentmarble.com">Marble, <span class='opacity'>Virtual property management </span></li>
