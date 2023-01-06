@@ -113,6 +113,7 @@ v}
 .nameJob p, .nameJobLast p{margin:0;padding:0;}
 .job{color:#9EA5EF;}
 .bio{float:none;margin:0px 0px 86px 0px;color:#FFF;}
+.bio a{color:#9EA5EF;}
 .MID{margin:0px 40px 0px 40px;padding:0;}
 .news-intro{padding:22px 0px 30px 0px;}
 .news-item{padding:22px 0px 30px 0px;}
