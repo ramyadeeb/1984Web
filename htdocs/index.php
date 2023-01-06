@@ -142,7 +142,8 @@
 						<p class="job">Partner</p>
 					</div>
 					<div class="bio">
-Growing up in Sydney, Samit cut his teeth in startups and investment banking, before moving to San Francisco in 2017 to pursue a career in technology. Since then, he has spent time in operating roles at AngelList and as a seed investor at Bain Capital Ventures. While at Bain, Samit ran the firm's early-stage fund program which generated 15 seed investments, including Compound Finance ($3B market cap). He holds a double degree in Business and Law (First Class Honors) from the University of Sydney.
+Samit was working as an investment banker in Australia when he first heard about the venture capital industry. It resonated with him so much that in 2017, he packed up his bags and moved to San Francisco. He began his investing career at AngelList, helping over 150 founders close early funding rounds. From there, he joined the investing team at Bain Capital Ventures where he ran the firm's early-stage fund program which generated 15 seed investments. Samit is a keen student of the industry and blogs about his learnings (see his investment framework and blog posts <a href="https://samit-kalra.com/blog">here</a>).
+
 					</div>
 
 				</div>
