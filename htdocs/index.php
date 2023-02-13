@@ -122,18 +122,6 @@
 						Named to venture capital’s 40 Under 40 by VC Journal in 2020, Aaron is the co-founder of PathSource, an edtech startup that rose to be the top career app in the App Store until its acquisition in 2017. Aaron also created the online game Fantasy Politics for the 2012 election. Inducted into the annual Innovation Rockstar list by the Boston Business Journal, Aaron has written for Entrepreneur Magazine, Fast Company and a range of business outlets. He holds an MBA from Harvard Business School and an MPA from Harvard Kennedy School of Government.
 					</div>
 					<!---------------------------->
-					<!--- FARZAD FARZAD FARZAD --->
-					<!---------------------------->
-					<div class="SVGcontainer"><div id="farzadSVG"></div></div>
-					<div class="nameJob">
-						<p>Farzad Soleimani</p>
-						<p class="job">Healthcare Partner</p>
-					</div>
-					<div class="bio">
-						A VC by day and an ER physician by night, Farzad has over 15 years of experience at the intersection of healthcare and entrepreneurship. He is the founder of eTherapi, a pioneering telemedicine company, and the founding co-director of the Texas Medical Center Biodesign Innovation Program. Farzad started his investing career at Mohr Davidow Ventures, completed his residency training at Baylor and earned his MBA, MD, MS, and BS from Stanford University. He is on faculty at Baylor Medical School, Rice Business School, and Rice Bioengineering Department.
-					</div>
-
-					<!---------------------------->
 					<!--- Samit                 -->
 					<!---------------------------->
 					<div class="SVGcontainer"><div id="samitSVG"></div></div>
@@ -145,6 +133,18 @@
 Samit was working as an investment banker in Australia when he first heard about the venture capital industry. It resonated with him so much that in 2017, he packed up his bags and moved to San Francisco. He began his investing career at AngelList, helping over 150 founders close early funding rounds. From there, he joined the investing team at Bain Capital Ventures where he ran the firm's early-stage fund program which generated 15 seed investments. Samit is a keen student of the industry and blogs about his learnings (see his investment framework and blog posts <a href="https://samit-kalra.com/blog">here</a>).
 
 					</div>
+					<!---------------------------->
+					<!--- FARZAD FARZAD FARZAD --->
+					<!---------------------------->
+					<div class="SVGcontainer"><div id="farzadSVG"></div></div>
+					<div class="nameJob">
+						<p>Farzad Soleimani</p>
+						<p class="job">Healthcare Partner</p>
+					</div>
+					<div class="bio">
+						A VC by day and an ER physician by night, Farzad has over 15 years of experience at the intersection of healthcare and entrepreneurship. He is the founder of eTherapi, a pioneering telemedicine company, and the founding co-director of the Texas Medical Center Biodesign Innovation Program. Farzad started his investing career at Mohr Davidow Ventures, completed his residency training at Baylor and earned his MBA, MD, MS, and BS from Stanford University. He is on faculty at Baylor Medical School, Rice Business School, and Rice Bioengineering Department.
+					</div>
+
 
 				</div>
 				<div id="teamPartners">
